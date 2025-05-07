@@ -1469,10 +1469,10 @@ function downloadGrades() {
         return;
     }
 
-    const notesFilePath = `notas/${username}.pdf`; // Ruta donde están los PDFs
+    const FilePath = `notas/${username}.pdf`; // Ruta donde están los PDFs
 
     // Abrir el PDF en una nueva pestaña, sin descargar automáticamente
-    window.open(notesFilePath, '_blank');
+    window.open(FilePath, '_blank');
 }
 
 
