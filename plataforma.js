@@ -1461,8 +1461,7 @@ function loadGrades() {
     }
 }
 
-
-// Función para descargar las notas
+// Función para ver las notas (sin forzar descarga)
 function downloadGrades() {
     const username = localStorage.getItem("loggedUser");
     if (!username) {
@@ -1472,12 +1471,8 @@ function downloadGrades() {
 
     const notesFilePath = `notas/${username}.pdf`; // Ruta donde guardaste los PDFs
 
-    const link = document.createElement('a');
-    link.href = notesFilePath;
-    link.download = `${username}_notas.pdf`;
-    document.body.appendChild(link); // Necesario para Firefox
-    link.click();
-    document.body.removeChild(link);
+    // Abrir el PDF en una nueva pestaña
+    window.open(notesFilePath, '_blank');
 }
 
 // Función para cerrar sesión
