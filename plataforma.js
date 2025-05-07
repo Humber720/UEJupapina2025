@@ -1357,11 +1357,11 @@ const studentsData = {
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
     },
-    "": { //Usuario
-        password: "",  // Contraseña
+    "JOSE MIGUEL: { //Usuario
+        password: "12398700",  // Contraseña
         curso: "6to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "53", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
