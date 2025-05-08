@@ -1476,23 +1476,30 @@ function openReport() {
 }
 
 // Función para cerrar sesión
+// Función para cerrar sesión de forma segura
 function logout() {
-    localStorage.removeItem("loggedUser");  // Elimina la sesión
-    window.location.replace("index.html");  // Reemplaza la página actual en el historial
+    localStorage.removeItem("loggedUser");  // Elimina el usuario de la sesión
+    window.location.replace("index.html");  // Redirige a la página de inicio y evita volver a la plataforma con el botón "Atrás"
 }
 
-// Llama a loadGrades solo si estamos en plataforma.html
+// Llama a loadGrades solo si estamos en plataforma.html y hay un usuario autenticado
 if (window.location.pathname.includes("plataforma.html")) {
-    loadGrades();
+    const username = localStorage.getItem("loggedUser");
+    if (username) {
+        loadGrades();  // Carga las calificaciones solo si el usuario está autenticado
+    } else {
+        window.location.replace("index.html");  // Redirige a la página de inicio si no hay sesión activa
+    }
 }
 
-// Protege la plataforma si no hay sesión
+// Protege la plataforma cuando se recarga o se accede directamente a la página
 window.addEventListener("pageshow", function () {
     const username = localStorage.getItem("loggedUser");
     if (!username) {
-        window.location.replace("index.html");  // Redirige si no hay sesión
+        window.location.replace("index.html");  // Redirige si no hay sesión activa
     }
 });
+
 
 
 
