@@ -1490,8 +1490,3 @@ window.addEventListener("pageshow", function () {
     }
 });
 
-
-// Llama a loadGrades solo si estamos en plataforma.html
-if (window.location.pathname.includes("plataforma.html")) {
-    loadGrades();
-}
