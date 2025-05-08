@@ -1477,9 +1477,13 @@ function openReport() {
 
 // Función para cerrar sesión
 function logout() {
-    console.log("Sesión cerrada");
     localStorage.removeItem("loggedUser");
-    window.location.replace("index.html");
+    window.location.replace("index.html");  // Usa replace para evitar que el usuario regrese
+}
+
+// Llama a loadGrades solo si estamos en plataforma.html
+if (window.location.pathname.includes("plataforma.html")) {
+    loadGrades();
 }
 
 
