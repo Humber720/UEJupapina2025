@@ -1478,12 +1478,25 @@ function openReport() {
 // Función para cerrar sesión
 function logout() {
     localStorage.removeItem("loggedUser");
-    window.location.href = "index.html";
+    window.location.replace("index.html"); // Esto previene que se quede en el historial
 }
 
 // Llama a loadGrades solo si estamos en plataforma.html
 if (window.location.pathname.includes("plataforma.html")) {
-    loadGrades();
+    const username = localStorage.getItem("loggedUser");
+    if (username) {
+        loadGrades(); // Solo si hay sesión activa
+    } else {
+        window.location.replace("index.html"); // Redirige si no hay sesión
+    }
 }
+
+// Protege plataforma.html si se vuelve desde caché
+window.addEventListener("pageshow", function () {
+    const username = localStorage.getItem("loggedUser");
+    if (!username) {
+        window.location.replace("index.html"); // Redirige si no hay sesión
+    }
+});
 
 
