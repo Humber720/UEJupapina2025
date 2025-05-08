@@ -1482,18 +1482,9 @@ function logout() {
     localStorage.removeItem("loggedUser");
 
     // Redirige a la página de inicio (index.html)
-    window.location.replace("index.html");
+    window.location.href = "index.html";  // Redirige sin reemplazar el historial
 }
 
-// Protege el acceso a la plataforma
-window.addEventListener("pageshow", function(event) {
-    const username = localStorage.getItem("loggedUser");
-    
-    // Si no hay sesión, redirige al usuario a index.html
-    if (!username && !window.location.pathname.includes("index.html")) {
-        window.location.replace("index.html");
-    }
-});
 
 
 
