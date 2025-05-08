@@ -1476,7 +1476,6 @@ function openReport() {
 }
 
 // Función para cerrar sesión
-// Función para cerrar sesión
 function logout() {
     localStorage.removeItem("loggedUser");
     window.location.href = "index.html";
@@ -1486,7 +1485,6 @@ function logout() {
 if (window.location.pathname.includes("plataforma.html")) {
     loadGrades();
 }
-
 
 
 
