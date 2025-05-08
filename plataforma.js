@@ -1481,20 +1481,17 @@ function logout() {
     // Elimina al usuario de la sesión
     localStorage.removeItem("loggedUser");
 
-    // Redirige al usuario a la página de inicio (index.html) y reemplaza el historial de navegación
+    // Redirige a la página de inicio (index.html)
     window.location.replace("index.html");
-
-    // Opcional: Limpiar el historial de navegación de modo que no pueda usar el botón "Atrás"
-    history.pushState(null, "", location.href); 
-    history.back();  // Esto hace que el navegador regrese una página hacia atrás.
-    history.forward(); // Luego empuja al navegador hacia adelante, eliminando la página anterior.
 }
 
-// Protege el acceso a la página de plataforma
+// Protege el acceso a la plataforma
 window.addEventListener("pageshow", function(event) {
     const username = localStorage.getItem("loggedUser");
+    
+    // Si no hay sesión, redirige al usuario a index.html
     if (!username && !window.location.pathname.includes("index.html")) {
-        window.location.replace("index.html"); // Redirige a index.html si no hay sesión activa
+        window.location.replace("index.html");
     }
 });
 
