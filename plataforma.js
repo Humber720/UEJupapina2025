@@ -1477,11 +1477,19 @@ function openReport() {
 
 
 // Función para cerrar sesión
-window.onload = function () {
-    if (!localStorage.getItem("loggedUser")) {
-        window.location.href = "index.html"; // Redirige si no hay sesión
+function logout() {
+    localStorage.removeItem("loggedUser");
+    window.location.replace("index.html");
+}
+
+// Proteger plataforma.html incluso si vuelve con botón atrás
+window.addEventListener("pageshow", function () {
+    const username = localStorage.getItem("loggedUser");
+    if (!username) {
+        window.location.replace("index.html");
     }
-};
+});
+
 
 // Llama a loadGrades solo si estamos en plataforma.html
 if (window.location.pathname.includes("plataforma.html")) {
