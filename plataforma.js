@@ -1462,7 +1462,7 @@ function loadGrades() {
 }
 
 // Función para abrir las notas en PDF (sin forzar descarga)
-function downloadGrades() {
+function openReport() {
     const username = localStorage.getItem("loggedUser");
     if (!username) {
         alert("No se encontró el usuario en sesión.");
