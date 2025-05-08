@@ -1475,15 +1475,15 @@ function openReport() {
     window.open(FilePath, '_blank');
 }
 
-
 // Función para cerrar sesión
+function logout() {
+    localStorage.removeItem("loggedUser");
+    window.location.href = "index.html";
+}
+
+// Llama a loadGrades solo si estamos en plataforma.html
 if (window.location.pathname.includes("plataforma.html")) {
-    const username = localStorage.getItem("loggedUser");
-    if (username) {
-        loadGrades(); // Solo si hay sesión activa
-    } else {
-        window.location.replace("index.html"); // Redirige si no hay sesión
-    }
+    loadGrades();
 }
 
 
