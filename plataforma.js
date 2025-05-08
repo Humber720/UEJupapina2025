@@ -1477,8 +1477,8 @@ function openReport() {
 
 // Función para cerrar sesión
 function logout() {
-    localStorage.removeItem("loggedUser");
-    window.location.replace("index.html"); // Esto previene que se quede en el historial
+    localStorage.removeItem("loggedUser"); // Elimina la sesión
+    window.location.replace("index.html"); // Redirige a la página de inicio y evita el historial
 }
 
 // Llama a loadGrades solo si estamos en plataforma.html
@@ -1498,5 +1498,6 @@ window.addEventListener("pageshow", function () {
         window.location.replace("index.html"); // Redirige si no hay sesión
     }
 });
+
 
 
