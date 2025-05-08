@@ -1478,13 +1478,26 @@ function openReport() {
 // Función para cerrar sesión
 // Función para cerrar sesión
 function logout() {
-    // Elimina al usuario de la sesión
+    // Elimina el usuario de la sesión
     localStorage.removeItem("loggedUser");
 
     // Redirige a la página de inicio (index.html)
-    window.location.href = "index.html";  // Redirige sin reemplazar el historial
+    // Usamos replace para no dejar la página anterior en el historial y evitar que el usuario regrese al presionar "Atrás"
+    window.location.replace("index.html");
 }
 
+// Llama a loadGrades solo si estamos en plataforma.html
+if (window.location.pathname.includes("plataforma.html")) {
+    loadGrades();
+}
+
+// Protege la plataforma si no hay sesión activa
+window.addEventListener("pageshow", function () {
+    const username = localStorage.getItem("loggedUser");
+    if (!username) {
+        window.location.replace("index.html");  // Redirige si no hay sesión
+    }
+});
 
 
 
