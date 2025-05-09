@@ -26,7 +26,7 @@ const studentsData = {
         password: "16771291",  // Contraseña
         curso: "1ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "74", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "73", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -35,7 +35,7 @@ const studentsData = {
         password: "1234567",  // Contraseña
         curso: "1ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "35", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "36", estado: "REPROBADO(A)", observacion: "NO PRESENTO LAS TAREAS EN LA CLASE DE MÚSICA" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -44,7 +44,7 @@ const studentsData = {
         password: "12671788",  // Contraseña
         curso: "1ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "75", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "81", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -53,7 +53,7 @@ const studentsData = {
         password: "15474617",  // Contraseña
         curso: "1ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "12", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "26", estado: "REPROBADO(A)", observacion: "NO PRESENTO LAS TAREAS EN LA CLASE DE MÚSICA" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -62,7 +62,7 @@ const studentsData = {
         password: "16202235",  // Contraseña
         curso: "1ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "8", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "22", estado: "REPROBADO(A)", observacion: "NO PRESENTO LAS TAREAS EN LA CLASE DE MÚSICA" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -71,7 +71,7 @@ const studentsData = {
         password: "16970170",  // Contraseña
         curso: "1ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "24", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -80,7 +80,7 @@ const studentsData = {
         password: "13087772",  // Contraseña
         curso: "1ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "68", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "69", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -89,7 +89,7 @@ const studentsData = {
         password: "14006431",  // Contraseña
         curso: "1ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "54", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "60", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -107,7 +107,7 @@ const studentsData = {
         password: "16211614",  // Contraseña
         curso: "1ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "88", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "89", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -116,7 +116,7 @@ const studentsData = {
         password: "16018425",  // Contraseña
         curso: "1ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "75", estado: "", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "75", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -125,7 +125,7 @@ const studentsData = {
         password: "14006685",  // Contraseña
         curso: "1ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "55", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "62", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -134,7 +134,7 @@ const studentsData = {
         password: "16335842",  // Contraseña
         curso: "1ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "84", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "85", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -143,7 +143,7 @@ const studentsData = {
         password: "15294040",  // Contraseña
         curso: "1ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "73", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "79", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -152,7 +152,7 @@ const studentsData = {
         password: "17037744",  // Contraseña
         curso: "1ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "48", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -161,7 +161,7 @@ const studentsData = {
         password: "15635453",  // Contraseña
         curso: "1ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "87", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "86", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -170,7 +170,7 @@ const studentsData = {
         password: "16361717",  // Contraseña
         curso: "1ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "53", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -179,7 +179,7 @@ const studentsData = {
         password: "16886497",  // Contraseña
         curso: "1ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "44", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -188,7 +188,7 @@ const studentsData = {
         password: "14108002",  // Contraseña
         curso: "1ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "58", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "60", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -207,7 +207,7 @@ const studentsData = {
         password: "14938370",  // Contraseña
         curso: "2do de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "31", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "52", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -234,7 +234,7 @@ const studentsData = {
         password: "12863798",  // Contraseña
         curso: "2do de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "50", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "54", estado: "APROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -243,7 +243,7 @@ const studentsData = {
         password: "12894836",  // Contraseña
         curso: "2do de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "52", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "66", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -270,7 +270,7 @@ const studentsData = {
         password: "14481933",  // Contraseña
         curso: "2do de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "55", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "59", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -351,7 +351,7 @@ const studentsData = {
         password: "16188827",  // Contraseña
         curso: "2do de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "41", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "48", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -360,7 +360,7 @@ const studentsData = {
         password: "13378621",  // Contraseña
         curso: "2do de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "8", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "40", estado: "REPROBADO(A)", observacion: "NO PRESENTO LAS TAREAS EN LA CLASE DE MÚSICA" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -387,7 +387,7 @@ const studentsData = {
         password: "15969914",  // Contraseña
         curso: "2do de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "10", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "10", estado: "REPROBADO(A)", observacion: "NO PRESENTO LAS TAREAS EN LA CLASE DE MÚSICA" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -414,7 +414,7 @@ const studentsData = {
         password: "15432789",  // Contraseña
         curso: "2do de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "23", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "33", estado: "REPROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -423,7 +423,7 @@ const studentsData = {
         password: "13552936",  // Contraseña
         curso: "2do de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "89", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "93", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -459,7 +459,7 @@ const studentsData = {
         password: "13393302",  // Contraseña
         curso: "2do de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "76", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "81", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -468,7 +468,7 @@ const studentsData = {
         password: "14107325",  // Contraseña
         curso: "2do de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "19", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "19", estado: "REPROBADO(A)", observacion: "NO PRESENTO LAS TAREAS EN LA CLASE DE MÚSICA" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -478,7 +478,7 @@ const studentsData = {
         password: "15048549",  // Contraseña
         curso: "3ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "56", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "57", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -487,7 +487,7 @@ const studentsData = {
         password: "15404949",  // Contraseña
         curso: "3ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "55", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "56", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -496,7 +496,7 @@ const studentsData = {
         password: "15464131",  // Contraseña
         curso: "3ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "62", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "63", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -514,7 +514,7 @@ const studentsData = {
         password: "11089196",  // Contraseña
         curso: "3ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "18", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -523,7 +523,7 @@ const studentsData = {
         password: "12864320",  // Contraseña
         curso: "3ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "41", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "52", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -532,7 +532,7 @@ const studentsData = {
         password: "9888738",  // Contraseña
         curso: "3ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "12", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "53", estado: "APROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -550,7 +550,7 @@ const studentsData = {
         password: "14006569",  // Contraseña
         curso: "3ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "57", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "58", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -559,7 +559,7 @@ const studentsData = {
         password: "13677470",  // Contraseña
         curso: "3ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "47", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -568,7 +568,7 @@ const studentsData = {
         password: "15377402",  // Contraseña
         curso: "3ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "38", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "57", estado: "APROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -577,7 +577,7 @@ const studentsData = {
         password: "12541664",  // Contraseña
         curso: "3ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "49", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "52", estado: "APROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -586,7 +586,7 @@ const studentsData = {
         password: "15053118",  // Contraseña
         curso: "3ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "78", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "79", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -595,7 +595,7 @@ const studentsData = {
         password: "15474420",  // Contraseña
         curso: "3ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "27", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -604,7 +604,7 @@ const studentsData = {
         password: "13119900",  // Contraseña
         curso: "3ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "63", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "64", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -631,7 +631,7 @@ const studentsData = {
         password: "15055240",  // Contraseña
         curso: "3ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "57", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "58", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -640,7 +640,7 @@ const studentsData = {
         password: "15241005",  // Contraseña
         curso: "3ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "6", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "6", estado: "REPROBADO(A)", observacion: "NO PRESENTO LAS TAREAS EN LA CLASE DE MÚSICA" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -649,7 +649,7 @@ const studentsData = {
         password: "15479403",  // Contraseña
         curso: "3ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "73", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "74", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -667,7 +667,7 @@ const studentsData = {
         password: "12345678",  // Contraseña
         curso: "3ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "55", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "56", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -676,7 +676,7 @@ const studentsData = {
         password: "16575605",  // Contraseña
         curso: "3ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "19", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "19", estado: "REPROBADO(A)", observacion: "NO PRESENTO LAS TAREAS EN LA CLASE DE MÚSICA" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -685,7 +685,7 @@ const studentsData = {
         password: "11089150",  // Contraseña
         curso: "3ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "14", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "14", estado: "REPROBADO(A)", observacion: "NO PRESENTO LAS TAREAS EN LA CLASE DE MÚSICA" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -703,7 +703,7 @@ const studentsData = {
         password: "15054000",  // Contraseña
         curso: "3ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "81", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "82", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -739,7 +739,7 @@ const studentsData = {
         password: "15055926",  // Contraseña
         curso: "3ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "18", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -785,7 +785,7 @@ const studentsData = {
         password: "13121449",  // Contraseña
         curso: "4to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "40", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "40", estado: "REPROBADO(A)", observacion: "NO PRESENTO LAS TAREAS EN LA CLASE DE MÚSICA" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -866,7 +866,7 @@ const studentsData = {
         password: "14006654",  // Contraseña
         curso: "4to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "93", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "96", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -911,7 +911,7 @@ const studentsData = {
         password: "15158804",  // Contraseña
         curso: "4to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "54", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "65", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -947,7 +947,7 @@ const studentsData = {
         password: "12734905",  // Contraseña
         curso: "4to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "20", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "33", estado: "REPROBADO(A)", observacion: "NO PRESENTO LAS TAREAS EN LA CLASE DE MÚSICA" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -956,7 +956,7 @@ const studentsData = {
         password: "13492936",  // Contraseña
         curso: "5to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "69", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "70", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -965,7 +965,7 @@ const studentsData = {
         password: "13423947",  // Contraseña
         curso: "5to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "93", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "94", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -974,7 +974,7 @@ const studentsData = {
         password: "11089147",  // Contraseña
         curso: "5to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "12", estado: "REPROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "33", estado: "REPROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -983,7 +983,7 @@ const studentsData = {
         password: "14879257",  // Contraseña
         curso: "5to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "29", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "53", estado: "APROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -992,7 +992,7 @@ const studentsData = {
         password: "13757364",  // Contraseña
         curso: "5to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "78", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "79", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -1001,7 +1001,7 @@ const studentsData = {
         password: "16515023",  // Contraseña
         curso: "5to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "93", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "95", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -1010,7 +1010,7 @@ const studentsData = {
         password: "8483392",  // Contraseña
         curso: "5to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "85", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "86", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -1019,7 +1019,7 @@ const studentsData = {
         password: "8484185",  // Contraseña
         curso: "5to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "84", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "85", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -1028,7 +1028,7 @@ const studentsData = {
         password: "12960769",  // Contraseña
         curso: "5to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "87", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "88", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -1037,7 +1037,7 @@ const studentsData = {
         password: "14007089",  // Contraseña
         curso: "5to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "96", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "97", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -1046,7 +1046,7 @@ const studentsData = {
         password: "10921323",  // Contraseña
         curso: "5to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "69", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "70", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -1055,7 +1055,7 @@ const studentsData = {
         password: "14644329",  // Contraseña
         curso: "5to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "19", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "20", estado: "REPROBADO(A)", observacion: "NO PRESENTO LAS TAREAS EN LA CLASE DE MÚSICA" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -1064,7 +1064,7 @@ const studentsData = {
         password: "15049845",  // Contraseña
         curso: "5to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "91", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "93", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -1073,7 +1073,7 @@ const studentsData = {
         password: "14304279",  // Contraseña
         curso: "5to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "70", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "71", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -1082,7 +1082,7 @@ const studentsData = {
         password: "14107870",  // Contraseña
         curso: "5to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "33", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "52", estado: "REPROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -1091,7 +1091,7 @@ const studentsData = {
         password: "12481018",  // Contraseña
         curso: "5to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "86", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "87", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -1100,7 +1100,7 @@ const studentsData = {
         password: "14645393",  // Contraseña
         curso: "5to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "92", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "93", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -1109,7 +1109,7 @@ const studentsData = {
         password: "15231181",  // Contraseña
         curso: "5to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "52", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "53", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -1118,7 +1118,7 @@ const studentsData = {
         password: "15432390",  // Contraseña
         curso: "5to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "91", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "92", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -1127,7 +1127,7 @@ const studentsData = {
         password: "13120783",  // Contraseña
         curso: "5to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "93", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "95", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -1154,7 +1154,7 @@ const studentsData = {
         password: "13642808",  // Contraseña
         curso: "5to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "92", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "93", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -1163,7 +1163,7 @@ const studentsData = {
         password: "12961057",  // Contraseña
         curso: "5to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "55", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "56", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -1172,7 +1172,7 @@ const studentsData = {
         password: "15753400",  // Contraseña
         curso: "6to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "46", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "46", estado: "REPROBADO(A)", observacion: "NO PRESENTO LAS TAREAS EN LA CLASE DE MÚSICA" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -1217,7 +1217,7 @@ const studentsData = {
         password: "12672972",  // Contraseña
         curso: "6to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "55", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "68", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -1235,7 +1235,7 @@ const studentsData = {
         password: "14108181",  // Contraseña
         curso: "6to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "47", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "54", estado: "APROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -1244,7 +1244,7 @@ const studentsData = {
         password: "13757653",  // Contraseña
         curso: "6to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "14", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "57", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -1271,7 +1271,7 @@ const studentsData = {
         password: "10937026",  // Contraseña
         curso: "6to de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "25", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
+            { trimestre: "1er Trim.", calificacion: "53", estado: "APROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
@@ -1362,7 +1362,7 @@ const studentsData = {
         curso: "6to de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "53", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "50", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
     },
