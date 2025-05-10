@@ -89,7 +89,7 @@ const studentsData = {
         password: "14006431",  // Contraseña
         curso: "1ro de Secundaria", 
         calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "60", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "1er Trim.", calificacion: "70", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
