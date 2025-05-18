@@ -1,29 +1,32 @@
-/* Estilo para centrar el contenido */
-body, html {
+/* Reset básico */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: Arial, sans-serif;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,5,133,1) 35%, rgba(0,212,255,1) 100%);
 }
 
+/* Container centrado horizontalmente, no forzado verticalmente */
 .container {
-    text-align: center;
-    padding: 50px;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 40px;
     background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
-    max-width: 80%;
-    overflow-x: auto; /* Permite el desplazamiento horizontal en pantallas pequeñas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow-x: auto;
 }
 
 /* Encabezado */
 .container h2 {
     color: #333333;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 /* Tabla de calificaciones */
@@ -31,6 +34,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
+    table-layout: fixed; /* Para mejor adaptación responsiva */
 }
 
 table, th, td {
@@ -40,7 +44,7 @@ table, th, td {
 th, td {
     padding: 12px;
     text-align: center;
-    word-wrap: break-word; /* Ajusta el texto dentro de las celdas */
+    word-wrap: break-word;
 }
 
 /* Estilo para encabezados de la tabla */
@@ -50,7 +54,7 @@ th {
     font-weight: bold;
 }
 
-/* Estilo para las filas de la tabla */
+/* Estilo para filas de la tabla */
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
@@ -59,7 +63,18 @@ tr:nth-child(odd) {
     background-color: #e9f5f3;
 }
 
-/* Estilo del botón */
+/* Estilo para la fila de promedio */
+.promedio-anual {
+    background-color: #064e3b;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    text-align: center;
+    font-size: 1rem;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+/* Botón */
 button {
     padding: 10px 20px;
     background-color: #2a9d8f;
@@ -69,54 +84,65 @@ button {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s;
+    margin: 10px 0;
 }
 
 button:hover {
     background-color: #21867a;
 }
 
-/* Estilo para pantallas pequeñas (móviles) */
+/* Móviles y tablets */
 @media (max-width: 768px) {
     .container {
-        max-width: 100%; /* Asegura que la tabla ocupe el ancho completo en dispositivos pequeños */
-        padding: 15px;
+        padding: 20px;
+        margin: 20px;
     }
-    
+
     table, th, td {
-        font-size: 0.9em; /* Reduce el tamaño de la fuente en pantallas pequeñas */
-        padding: 8px; /* Reduce el relleno en pantallas pequeñas */
+        font-size: 0.9em;
+        padding: 8px;
     }
 }
 
-/* Estilo para pantallas muy pequeñas (móviles en orientación horizontal) */
+/* botones en una fila entrevistas */
+.botonera {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* espacio entre botones */
+    flex-wrap: wrap; /* permite que se acomode en móviles */
+    margin: 20px 0;
+}
+
+.botonera button {
+    padding: 10px 20px;
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botonera button:hover {
+    background-color: #21867a;
+}
+
+/* Móviles pequeños */
 @media (max-width: 480px) {
     .container {
-        padding: 10px;
+        padding: 15px;
     }
-    
+
     table, th, td {
-        font-size: 0.8em; /* Ajusta el tamaño de la fuente para móviles en horizontal */
+        font-size: 0.8em;
     }
-    
+
     td.observacion:empty::after {
-        content: "N/A"; /* Muestra 'N/A' cuando la celda está vacía */
+        content: "N/A";
         color: #888888;
     }
-}
 
-/* Estilo para la fila de promedio */
-.promedio-anual {
-    background-color: #064e3b; /* verde oscuro */
-    color: rgb(3, 3, 3);        /* texto blanco */
-    font-weight: bold;         /* texto en negrita */
-    text-align: center;        /* centrar el texto */
-    font-size: 1rem;           /* tamaño de fuente normal o agrandado si quieres */
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
-}
-
-/* Media query para pantallas más pequeñas */
-@media (max-width: 600px) {
     .promedio-anual {
         font-size: 1.1em;
         letter-spacing: 0.5px;
