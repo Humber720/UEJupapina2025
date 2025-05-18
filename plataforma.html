@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Calificaciones</title>
+    <title>Plataforma de Calificación</title>
     <link rel="stylesheet" href="plataforma.css">
 </head>
 <body>
     <div class="container">
         <h2><u>AREA: EDUCACIÓN MUSICAL</u></h2>
-        <h3><p>Curso: <span id="course-name"></span></p></h3>
+        <h2><p>Curso: <span id="course-name"></span></p></h2>
         <h2>Bienvenido/a, Estudiante: <span id="student-name">Estudiante</span></h2>
         <table id="grades-table">
             <caption><b>NOTAS DE CALIFICACIÓN DE EDUCACIÓN MUSICAL</b></caption>
@@ -19,49 +19,54 @@
                 <th>Estado</th>
                 <th>Observación</th>
             </tr>
-            <!-- Filas de calificaciones se insertarán aquí -->
-        </table>
-        <button onclick="openNotas()">Ver Informe de Entrevista Pedagógica</button>
+         </table>
+        </br>
+        <center><h3><p>INFORME DE ENTREVISTA PEDAGÓGICA</p></h3></center>
+        <div class="botonera">
+            <button onclick="openNotas1()">1er Trim.</button> 
+            <button onclick="openNotas2()">2do Trim.</button> 
+            <button onclick="openNotas3()">3er Trim.</button> 
+        </div>
         </br>
         </br>   
-      <table>
-        <caption><b>RANGO DE VALORACIÓN DE LAS DIMENSIONES</b></caption>
-        <tr>
-          <th>#</th>
-          <th>Descripción</th>
-          <th>Sigla</th>
-          <th>Puntaje Mínimo</th>
-          <th>Puntaje Máximo</th>
-        </tr>
-        <tr>
-          <td>1</td>
-          <td>En desarrollo</td>
-          <td>ED</td>
-          <td>0</td>
-          <td>50</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Desarrollo aceptable</td>
-          <td>DA</td>
-          <td>51</td>
-          <td>68</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>Desarrollo óptimo</td>
-          <td>DO</td>
-          <td>69</td>
-          <td>84</td>
-        </tr>
-        <tr>
-          <td>4</td>
-          <td>Desarrollo pleno</td>
-          <td>DP</td>
-          <td>85</td>
-          <td>100</td>
-        </tr>
-      </table>
+        <table>
+            <caption><b>RANGO DE VALORACIÓN DE LAS DIMENSIONES</b></caption>
+            <tr>
+            <th>#</th>
+            <th>Descripción</th>
+            <th>Sigla</th>
+            <th>Puntaje Mínimo</th>
+            <th>Puntaje Máximo</th>
+            </tr>
+            <tr>
+            <td>1</td>
+            <td>En desarrollo</td>
+            <td>ED</td>
+            <td>0</td>
+            <td>50</td>
+            </tr>
+            <tr>
+            <td>2</td>
+            <td>Desarrollo aceptable</td>
+            <td>DA</td>
+            <td>51</td>
+            <td>68</td>
+            </tr>
+            <tr>
+            <td>3</td>
+            <td>Desarrollo óptimo</td>
+            <td>DO</td>
+            <td>69</td>
+            <td>84</td>
+            </tr>
+            <tr>
+            <td>4</td>
+            <td>Desarrollo pleno</td>
+            <td>DP</td>
+            <td>85</td>
+            <td>100</td>
+            </tr>
+        </table>
         </br>
         <button onclick="openLibretas()">Ver Libreta Escolar Electrónica</button>
         </br>
