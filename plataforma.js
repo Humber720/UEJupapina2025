@@ -1475,6 +1475,20 @@ function openReport() {
     window.open(FilePath, '_blank');
 }
 
+// Función para abrir las libretas en PDF (sin forzar descarga)
+function openReport() {
+    const username = localStorage.getItem("loggedUser");
+    if (!username) {
+        alert("No se encontró el usuario en sesión.");
+        return;
+    }
+
+    const FilePath = `libretas/${username}.pdf`; // Ruta donde están los PDFs
+
+    // Abrir el PDF en una nueva pestaña, sin descargar automáticamente
+    window.open(FilePath, '_blank');
+}
+
 // Función para cerrar sesión
 function logout() {
     localStorage.removeItem("loggedUser");
