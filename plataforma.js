@@ -1483,7 +1483,7 @@ function openReport() {
         return;
     }
 
-    const FilePath = `libretas/${username}.pdf`; // Ruta donde están los PDFs
+    const FilePath = `Libretas/${username}.pdf`; // Ruta donde están los PDFs
 
     // Abrir el PDF en una nueva pestaña, sin descargar automáticamente
     window.open(FilePath, '_blank');
