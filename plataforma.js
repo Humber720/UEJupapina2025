@@ -1461,16 +1461,36 @@ function loadGrades() {
     }
 }
 
-// Función para abrir las notas en PDF (sin forzar descarga)
-function openNotas() {
+// Función para abrir las notas de 1er trimestre en PDF (sin forzar descarga)
+function openNotas1() {
     const username = localStorage.getItem("loggedUser");
     if (!username) {
         alert("No se encontró el usuario en sesión.");
         return;
     }
-
-    const FilePath = `notas/${username}.pdf`; // Ruta donde están los PDFs
-
+    const FilePath = `notas1/${username}.pdf`; // Ruta donde están los PDFs
+    // Abrir el PDF en una nueva pestaña, sin descargar automáticamente
+    window.open(FilePath, '_blank');
+}
+// Función para abrir las notas de 2do trimestre en PDF (sin forzar descarga)
+function openNotas2() {
+    const username = localStorage.getItem("loggedUser");
+    if (!username) {
+        alert("No se encontró el usuario en sesión.");
+        return;
+    }
+    const FilePath = `notas2/${username}.pdf`; // Ruta donde están los PDFs
+    // Abrir el PDF en una nueva pestaña, sin descargar automáticamente
+    window.open(FilePath, '_blank');
+}
+// Función para abrir las notas de 3er trimestre en PDF (sin forzar descarga)
+function openNotas3() {
+    const username = localStorage.getItem("loggedUser");
+    if (!username) {
+        alert("No se encontró el usuario en sesión.");
+        return;
+    }
+    const FilePath = `notas3/${username}.pdf`; // Ruta donde están los PDFs
     // Abrir el PDF en una nueva pestaña, sin descargar automáticamente
     window.open(FilePath, '_blank');
 }
