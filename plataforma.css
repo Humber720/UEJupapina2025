@@ -148,3 +148,46 @@ button:hover {
         letter-spacing: 0.5px;
     }
 }
+/* Para avisos y comunicados */
+.avisos-comunicados {
+    background-color: #f9fafb;
+    border: 2px solid #c3dafe;
+    border-radius: 12px;
+    padding: 1.5rem;
+    max-width: 800px;
+    margin: 2rem auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .avisos-comunicados h1 {
+    font-size: 1.75rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .aviso {
+    background-color: #ffffff;
+    border-left: 6px solid #3b82f6;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+  }
+  
+  .aviso h3 {
+    margin: 0 0 0.5rem 0;
+    color: #1f2937;
+  }
+  
+  .aviso p {
+    margin: 0 0 0.5rem 0;
+    color: #4b5563;
+  }
+  
+  .fecha {
+    font-size: 0.85rem;
+    color: #6b7280;
+  }
+  
+
