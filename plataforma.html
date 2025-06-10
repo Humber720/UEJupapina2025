@@ -1,80 +1,92 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Plataforma de Calificación</title>
-    <link rel="stylesheet" href="plataforma.css">
-</head>
-<body>
-    <div class="container">
-        <h2><u>AREA: EDUCACIÓN MUSICAL</u></h2>
-        <h2><p>Curso: <span id="course-name"></span></p></h2>
-        <h2>Bienvenido/a, Estudiante: <span id="student-name">Estudiante</span></h2>
-        <table id="grades-table">
-            <caption><b>NOTAS DE CALIFICACIÓN DE EDUCACIÓN MUSICAL</b></caption>
-            <tr>
-                <th>Trimestres</th>
-                <th>Calificación</th>
-                <th>Estado</th>
-                <th>Observación</th>
-            </tr>
-         </table>
-        </br>
-        <center><h3><p>INFORME DE ENTREVISTA PEDAGÓGICA</p></h3></center>
-        <div class="botonera">
-            <button onclick="openNotas1()">1er Trim.</button> 
-            <button onclick="openNotas2()">2do Trim.</button> 
-            <button onclick="openNotas3()">3er Trim.</button> 
-        </div>
-        </br>
-        </br>   
-        <table>
-            <caption><b>RANGO DE VALORACIÓN DE LAS DIMENSIONES</b></caption>
-            <tr>
-            <th>#</th>
-            <th>Descripción</th>
-            <th>Sigla</th>
-            <th>Puntaje Mínimo</th>
-            <th>Puntaje Máximo</th>
-            </tr>
-            <tr>
-            <td>1</td>
-            <td>En desarrollo</td>
-            <td>ED</td>
-            <td>0</td>
-            <td>50</td>
-            </tr>
-            <tr>
-            <td>2</td>
-            <td>Desarrollo aceptable</td>
-            <td>DA</td>
-            <td>51</td>
-            <td>68</td>
-            </tr>
-            <tr>
-            <td>3</td>
-            <td>Desarrollo óptimo</td>
-            <td>DO</td>
-            <td>69</td>
-            <td>84</td>
-            </tr>
-            <tr>
-            <td>4</td>
-            <td>Desarrollo pleno</td>
-            <td>DP</td>
-            <td>85</td>
-            <td>100</td>
-            </tr>
-        </table>
-        </br>
-        <center><button onclick="openLibretas()">Ver Libreta Escolar Electrónica</button></center>
-        </br>
-        </br>
-        <center><button onclick="logout()">Salir</button></center>
-    </div>
 
-    <!-- Script para cargar las notas y manejar la sesión -->
-    <script src="plataforma.js"></script> 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Estudiante - Plataforma Interactiva</title>
+    <!-- CSS para la cabecera -->
+  <link rel="stylesheet" href="cabecera.css" />  
+  <link rel="stylesheet" href="plataforma.css" />
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Encabezado -->
+  <!-- Encabezado -->
+  <header class="encabezado">
+    <div class="encabezado-container">
+      <div class="encabezado-content">
+        <div class="encabezado-logo">
+          <div class="logo-icono">🎵</div>
+          <span class="encabezado-titulo">EDUCACIÓN MUSICAL</span>
+        </div>
+       <!-- Encabezado izquierda derecha --> 
+        <div class="menu-scroll-contenedor">
+          <button class="flecha izquierda" onclick="scrollMenu(-150)">‹</button>
+        
+          <div class="menu-scroll" id="menuScroll">
+            <a href="#" class="activo">Inicio</a>
+            <button onclick="window.location.href='calificacion.html'">Notas de calificación</button>
+            <button onclick="window.location.href='entrevista.html'">Entrevistas</button>
+            <button onclick="window.location.href='libreta.html'">Libretas</button>
+            <button onclick="window.location.href='banda.html'">Banda de Música</button>📁
+          </div>
+          <button class="flecha derecha" onclick="scrollMenu(150)">›</button>
+        </div>
+               
+        <!-- Perfil de encabezado -->
+        <div class="encabezado-perfil">
+          <button id="dropdownToggle" class="encabezado-perfil-btn">
+            <div class="avatar-circle">👤</div>
+            <span class="encabezado-nombre">Estudiante</span>
+            <svg class="encabezado-flecha" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.25a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.08z" clip-rule="evenodd" />
+            </svg>
+          </button>
+
+          <!-- Menú desplegable -->
+          <div id="dropdownMenu" class="menu-dropdown hidden">
+            <div class="info">
+              <p><strong>Usuario:</strong> <span id="user-name">--</span></p>
+              <p><strong>Contraseña:</strong> <span id="user-password">--</span></p>
+            </div>
+            <div class="acciones">
+              <button onclick="logout()" class="cerrar">Cerrar sesión</button>
+            </div>
+          </div>
+        </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--principal plataforma--> 
+  <div class="container">
+    <h2>UNIDAD EDUCATIVA TÉCNICA HUMANÍSTICA PLENA "JUPAPINA"</h2> 
+    <h2>Bienvenido/a, Estudiante: <span id="student-name"></span></h2> 
+    <h2><p>Curso: <span id="course-name"></span></p></h2>
+  </div>
+  <div class="avisos-comunicados">
+    <h1>📢 Avisos y Comunicados</h1>
+    <div class="aviso">
+      <h3>CITACIÓN</h3>
+      <p>Se cita a una reunión a las madres, padres o tutores de los estudiantes que integran en la Banda de Música U.E.T.H.P. Jupapina, que se llevará a cabo el día martes 10 de junio de la presente gestión, a horas   07:30 a.m. en el aula de Música de la Unidad Educativa.
+        Sin otro particular se insinúa su puntual asistencia.
+        Atte. Prof. de Educación Musical,
+        </p>
+      <span class="fecha">Publicado: 09/06/2025</span>
+    </div>
+    <div class="aviso">
+      <h3>ENSAYO DE LA BANDA DE MÚSICA</h3>
+      <p>Se comunica a todos los estudiantes que forman parte de la Banda de Música U.E. Jupapina, el ensayo de la Banda
+        se realizará el dia miercoles 11 de Junio a horas 14:00 pm hasta 16:00 pm. La asistencia se constrolara al inicio del ensayo.
+        Atte. Prof. de Educación Musical,
+        .</p>
+      <span class="fecha">Publicado: 08/06/2025</span>
+    </div>
+  </div>  
+  <script src="plataforma.js"></script>
 </body>
+
 </html>
