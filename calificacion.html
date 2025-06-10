@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plataforma de Calificación</title>
+  <!-- CSS para la cabecera -->
+  <link rel="stylesheet" href="cabecera.css" />
+  <!-- CSS general de la página -->
+  <link rel="stylesheet" href="calificacion.css" />
+  <script src="plataforma.js"></script>
+  <script src="cabecera.js"></script>
+</head>
+<body>
+  <!-- Encabezado -->
+  <header class="encabezado">
+    <div class="encabezado-container">
+      <div class="encabezado-content">
+        <div class="encabezado-logo">
+          <div class="logo-icono">🎵</div>
+          <span class="encabezado-titulo">EDUCACIÓN MUSICAL</span>
+        </div>
+        
+       <!-- Encabezado izquierda derecha --> 
+        <div class="menu-scroll-contenedor">
+          <button class="flecha izquierda" onclick="scrollMenu(-150)">‹</button>
+        
+          <div class="menu-scroll" id="menuScroll">
+            <a href="plataforma.html" class="activo">Inicio</a>
+            <button onclick="window.location.href='calificacion.html'">Notas de calificación</button>
+            <button onclick="window.location.href='entrevista.html'">Entrevistas</button>
+            <button onclick="window.location.href='libreta.html'">Libretas</button>
+            <button onclick="window.location.href='banda.html'">Banda de Música</button>📁
+          </div>
+          <button class="flecha derecha" onclick="scrollMenu(150)">›</button>
+        </div>
+               
+        <!-- Perfil de encabezado -->
+        <div class="encabezado-perfil">
+          <button id="dropdownToggle" class="encabezado-perfil-btn">
+            <div class="avatar-circle">👤</div>
+            <span class="encabezado-nombre">Estudiante</span>
+            <svg class="encabezado-flecha" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.25a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.08z" clip-rule="evenodd" />
+            </svg>
+          </button>
+
+          <!-- Menú desplegable -->
+          <div id="dropdownMenu" class="menu-dropdown hidden">
+            <div class="info">
+              <p><strong>Usuario:</strong> <span id="user-name">--</span></p>
+              <p><strong>Contraseña:</strong> <span id="user-password">--</span></p>
+            </div>
+            <div class="acciones">
+              <button onclick="logout()" class="cerrar">Cerrar sesión</button>
+            </div>
+          </div>
+        </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <!-- Contenido principal calificación -->
+<div class="container">
+  <!-- Encabezado con nombre del estudiante y curso -->
+  <div class="student-info">
+    <h2 id="student-name"></h2>
+    <p id="course-name"></p>
+  <!--<button onclick="logout()" class="logout-button">Cerrar sesión</button>-->
+  </div>
+
+  <!-- Tabla de calificaciones -->
+  <table class="grades-table">
+    <caption><b>NOTAS DE CALIFICACIÓN DE EDUCACIÓN MUSICAL</b></caption>
+    <thead>
+      <tr>
+        <th>Trimestre</th>
+        <th>Calificación</th>
+        <th>Estado</th>
+        <th>Observación</th>
+      </tr>
+    </thead>
+    <tbody id="grades-table">
+      <!-- Las filas se insertan desde calificacion.js -->
+    </tbody>
+  </table>
+</div>
+<!-- Scripts -->
+<script src="calificacion.js"></script>
+</html>
