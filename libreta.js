@@ -1364,7 +1364,7 @@ function login(event) {
 
     if (studentsData[username] && studentsData[username].password === password) {
         localStorage.setItem("loggedUser", username);
-        window.location.href = "entrevista.html";
+        window.location.href = "libretas.html";
     } else {
         alert("Usuario o contraseña incorrectos.");
     }
