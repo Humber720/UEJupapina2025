@@ -1334,8 +1334,8 @@ function login(event) {
     const password = document.getElementById("password").value.trim();
   
     if (estudiantes[username] && estudiantes[username].password === password) {
-      localStorage.setItem("loggedUser", username);
-      localStorage.setItem("loggedPass", password); // ✅ Agregado para mostrar en el perfil
+      sessionStorage.setItem("loggedUser", username);
+      sessionStorage.setItem("loggedPass", password); // ✅ Agregado para mostrar en el perfil
       window.location.href = "plataforma.html";
     } else {
       alert("Usuario o contraseña incorrectos. Inténtalo de nuevo.");
@@ -1344,8 +1344,8 @@ function login(event) {
   
 // Mostrar datos en plataforma
 window.onload = () => {
-  const user = localStorage.getItem("loggedUser");
-  const pass = localStorage.getItem("loggedPass");
+  const user = sessionStorage.getItem("loggedUser");
+  const pass = sessionStorage.getItem("loggedPass");
 
   if (!user || !estudiantes[user]) {
     // Si no hay usuario en sesión, redirigir al login
@@ -1379,21 +1379,13 @@ window.onload = () => {
 };
 
 function logout() {
-  localStorage.removeItem("loggedUser");
-  localStorage.removeItem("loggedPass");
+  sessionStorage.removeItem("loggedUser");
+  sessionStorage.removeItem("loggedPass");
   window.location.href = "index.html";
 }
 
-window.addEventListener("pageshow", function () {
-  const user = localStorage.getItem("loggedUser");
-  if (!user) {
-    window.location.href = "index.html";
-  }
-});
-
-// Bloquear botón atrás desde plataforma.html
 window.onload = () => {
-  const user = localStorage.getItem("loggedUser");
+  const user = sessionStorage.getItem("loggedUser");
 
   if (!user) {
     window.location.href = "index.html";
