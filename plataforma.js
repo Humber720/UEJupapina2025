@@ -1344,43 +1344,62 @@ function login(event) {
   
 // Mostrar datos en plataforma
 window.onload = () => {
-    const user = localStorage.getItem("loggedUser");
-    const pass = localStorage.getItem("loggedPass");
-  
-    if (user && estudiantes[user]) {
-      // Mostrar en plataforma.html
-      const studentName = document.getElementById("student-name");
-      const courseName = document.getElementById("course-name");
-  
-      if (studentName) studentName.textContent = user;
-      if (courseName) courseName.textContent = estudiantes[user].curso;
-  
-      // Mostrar en calificación.html (perfil)
-      const userName = document.getElementById("user-name");
-      const userPass = document.getElementById("user-password");
-  
-      if (userName) userName.textContent = user;
-      if (userPass) userPass.textContent = pass;
-    } else {
-      alert("Usuario o contraseña incorrectos. Inténtalo de nuevo.");
-    }
-  
-    // Desplegar menú si existe
-    const toggleBtn = document.getElementById("dropdownToggle");
-    const dropdownMenu = document.getElementById("dropdownMenu");
-  
-    if (toggleBtn && dropdownMenu) {
-      toggleBtn.addEventListener("click", () => {
-        dropdownMenu.classList.toggle("hidden");
-      });
-    }
-  };
-  
-  function logout() {
-    localStorage.removeItem("loggedUser");
-    localStorage.removeItem("loggedPass");
+  const user = localStorage.getItem("loggedUser");
+  const pass = localStorage.getItem("loggedPass");
+
+  if (!user || !estudiantes[user]) {
+    // Si no hay usuario en sesión, redirigir al login
+    window.location.href = "index.html";
+    return;
+  }
+
+  // Mostrar en plataforma.html
+  const studentName = document.getElementById("student-name");
+  const courseName = document.getElementById("course-name");
+
+  if (studentName) studentName.textContent = user;
+  if (courseName) courseName.textContent = estudiantes[user].curso;
+
+  // Mostrar en calificación.html (perfil)
+  const userName = document.getElementById("user-name");
+  const userPass = document.getElementById("user-password");
+
+  if (userName) userName.textContent = user;
+  if (userPass) userPass.textContent = pass;
+
+  // Desplegar menú si existe
+  const toggleBtn = document.getElementById("dropdownToggle");
+  const dropdownMenu = document.getElementById("dropdownMenu");
+
+  if (toggleBtn && dropdownMenu) {
+    toggleBtn.addEventListener("click", () => {
+      dropdownMenu.classList.toggle("hidden");
+    });
+  }
+};
+
+function logout() {
+  // Limpiar sesión
+  localStorage.removeItem("loggedUser");
+  localStorage.removeItem("loggedPass");
+
+  // Prevenir volver atrás con cache (en móviles)
+  if (window.history.replaceState) {
+    window.history.replaceState(null, "", window.location.href);
+  }
+
+  // Redirigir al login
+  window.location.href = "index.html";
+}
+// Util para moviles
+window.addEventListener("pageshow", function (event) {
+  const user = localStorage.getItem("loggedUser");
+  if (!user && event.persisted) {
+    // El usuario volvió desde el cache sin sesión activa
     window.location.href = "index.html";
   }
+});
+
 //para horizontal izquierda y derecha
   function scrollMenu(distancia) {
     const contenedor = document.getElementById("menuScroll");
