@@ -1381,22 +1381,30 @@ window.onload = () => {
 function logout() {
   localStorage.removeItem("loggedUser");
   localStorage.removeItem("loggedPass");
-
-  if (window.history.replaceState) {
-    window.history.replaceState(null, "", window.location.href);
-  }
-
   window.location.href = "index.html";
 }
 
-// Util para moviles
-window.addEventListener("pageshow", function (event) {
+window.addEventListener("pageshow", function () {
   const user = localStorage.getItem("loggedUser");
-  if (!user && event.persisted) {
-    // El usuario volvió desde el cache sin sesión activa
+  if (!user) {
     window.location.href = "index.html";
   }
 });
+
+// Bloquear botón atrás desde plataforma.html
+window.onload = () => {
+  const user = localStorage.getItem("loggedUser");
+
+  if (!user) {
+    window.location.href = "index.html";
+    return;
+  }
+
+  // Bloquear retroceso
+  history.pushState(null, null, location.href);
+  window.onpopstate = function () {
+    history.go(1);
+  };
 
 //para horizontal izquierda y derecha
   function scrollMenu(distancia) {
