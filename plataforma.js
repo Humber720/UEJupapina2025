@@ -1375,23 +1375,11 @@ window.onload = () => {
       });
     }
   };
-
-// Bloquear volver atrás después de logout
-function logout() {
-  localStorage.removeItem("loggedUser");
-  localStorage.removeItem("loggedPass");
-
-  // Usar replace para evitar volver con el botón atrás
-  window.location.replace("index.html");
-}
-window.onload = () => {
-  const user = localStorage.getItem("loggedUser");
-
-  // Verifica que exista sesión, si no, redirige sin bucle
-  if (!user) {
-    // Reemplaza la página actual (evita el historial atrás)
-    window.location.replace("index.html");
-    return;
+  
+  function logout() {
+    localStorage.removeItem("loggedUser");
+    localStorage.removeItem("loggedPass");
+    window.location.href = "index.html";
   }
 //para horizontal izquierda y derecha
   function scrollMenu(distancia) {
