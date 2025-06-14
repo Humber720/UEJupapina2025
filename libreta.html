@@ -66,11 +66,11 @@
         <div class="botonera">
           <center><button onclick="mostrarAviso()">VER LIBRETA ESCOLAR ELECTRÓNICA</button></center>
         <!-- Contenedor para el aviso de descarga -->
-        <div id="modalDescarga" style="display: none; position: fixed; top: 30%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 20px; box-shadow: 0 0 10px #333;">
-          <p>Presiona el botón para descargar tu nota en PDF:</p>
-          <button onclick="openNota()">Descargar PDF</button>
-          <button onclick="cerrarAviso()">Cancelar</button>
-        </div>
+            <div id="modalDescarga" class="modal-descarga">
+              <p>Presiona el botón para descargar libreta electrónica en PDF:</p>
+              <button onclick="openNota()">Descargar PDF</button>
+              <button onclick="cerrarAviso()">Cancelar</button>
+            </div>
         </div>
         </br>
         </br>   
