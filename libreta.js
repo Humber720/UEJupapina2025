@@ -1386,7 +1386,7 @@ function openNota() {
         return;
     }
 
-    const filePath = `libretas/${username}.pdf`;
+    const filePath = `Libretas/${username}.pdf`;
 
     // Crear enlace invisible para descarga automática
     const link = document.createElement("a");
