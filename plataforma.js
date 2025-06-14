@@ -1379,18 +1379,16 @@ window.onload = () => {
 };
 
 function logout() {
-  // Limpiar sesión
   localStorage.removeItem("loggedUser");
   localStorage.removeItem("loggedPass");
 
-  // Prevenir volver atrás con cache (en móviles)
   if (window.history.replaceState) {
     window.history.replaceState(null, "", window.location.href);
   }
 
-  // Redirigir al login
   window.location.href = "index.html";
 }
+
 // Util para moviles
 window.addEventListener("pageshow", function (event) {
   const user = localStorage.getItem("loggedUser");
