@@ -1370,15 +1370,17 @@ function login(event) {
     }
 }
 
-// Función para abrir el PDF de la nota
+// Mostrar el aviso/modal
 function mostrarAviso() {
     document.getElementById("modalDescarga").style.display = "block";
 }
 
+// Cerrar el modal
 function cerrarAviso() {
     document.getElementById("modalDescarga").style.display = "none";
 }
 
+// Descargar el PDF usando nombre del usuario almacenado en localStorage
 function openNota() {
     const username = localStorage.getItem("loggedUser");
     if (!username) {
@@ -1388,16 +1390,15 @@ function openNota() {
 
     const filePath = `Libretas/${username}.pdf`;
 
-    // Crear enlace invisible para descarga automática
     const link = document.createElement("a");
     link.href = filePath;
-    link.download = `${username}.pdf`; // nombre archivo para descargar
+    link.download = `${username}.pdf`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
+
+    cerrarAviso(); // Opcional: cerrar modal después de descargar
 }
-
-
 
 // Función para cerrar sesión
 function logout() {
