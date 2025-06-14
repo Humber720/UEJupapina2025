@@ -1384,7 +1384,15 @@ function logout() {
   // Usar replace para evitar volver con el botón atrás
   window.location.replace("index.html");
 }
+window.onload = () => {
+  const user = localStorage.getItem("loggedUser");
 
+  // Verifica que exista sesión, si no, redirige sin bucle
+  if (!user) {
+    // Reemplaza la página actual (evita el historial atrás)
+    window.location.replace("index.html");
+    return;
+  }
 //para horizontal izquierda y derecha
   function scrollMenu(distancia) {
     const contenedor = document.getElementById("menuScroll");
