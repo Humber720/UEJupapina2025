@@ -1328,27 +1328,33 @@ function togglePasswordVisibility() {
   };
 //para dirigirse a la plataforma  
 function login(event) {
-    event.preventDefault();
-  
-    const username = document.getElementById("username").value.trim().toUpperCase();
-    const password = document.getElementById("password").value.trim();
-  
-    if (estudiantes[username] && estudiantes[username].password === password) {
-      sessionStorage.setItem("loggedUser", username);
-      sessionStorage.setItem("loggedPass", password); // ✅ Agregado para mostrar en el perfil
-      window.location.href = "plataforma.html";
-    } else {
-      alert("Usuario o contraseña incorrectos. Inténtalo de nuevo.");
-    }
+  event.preventDefault();
+
+  const username = document.getElementById("username").value.trim().toUpperCase();
+  const password = document.getElementById("password").value.trim();
+
+  if (estudiantes[username] && estudiantes[username].password === password) {
+    sessionStorage.setItem("loggedUser", username);
+    sessionStorage.setItem("loggedPass", password);
+    window.location.href = "plataforma.html";
+  } else {
+    alert("Usuario o contraseña incorrectos. Inténtalo de nuevo.");
   }
-  
-// Mostrar datos en plataforma
+}
+
+function logout() {
+  sessionStorage.removeItem("loggedUser");
+  sessionStorage.removeItem("loggedPass");
+  window.location.href = "index.html";
+}
+
+// ✅ UNIFICADO: Mostrar datos + bloqueo retroceso
 window.onload = () => {
   const user = sessionStorage.getItem("loggedUser");
   const pass = sessionStorage.getItem("loggedPass");
 
+  // Verificar sesión activa
   if (!user || !estudiantes[user]) {
-    // Si no hay usuario en sesión, redirigir al login
     window.location.href = "index.html";
     return;
   }
@@ -1360,7 +1366,7 @@ window.onload = () => {
   if (studentName) studentName.textContent = user;
   if (courseName) courseName.textContent = estudiantes[user].curso;
 
-  // Mostrar en calificación.html (perfil)
+  // Mostrar en calificación.html
   const userName = document.getElementById("user-name");
   const userPass = document.getElementById("user-password");
 
@@ -1376,27 +1382,13 @@ window.onload = () => {
       dropdownMenu.classList.toggle("hidden");
     });
   }
-};
 
-function logout() {
-  sessionStorage.removeItem("loggedUser");
-  sessionStorage.removeItem("loggedPass");
-  window.location.href = "index.html";
-}
-
-window.onload = () => {
-  const user = sessionStorage.getItem("loggedUser");
-
-  if (!user) {
-    window.location.href = "index.html";
-    return;
-  }
-
-  // Bloquear retroceso
+  // ✅ Bloquear botón atrás (retroceso)
   history.pushState(null, null, location.href);
   window.onpopstate = function () {
     history.go(1);
   };
+};
 
 //para horizontal izquierda y derecha
   function scrollMenu(distancia) {
