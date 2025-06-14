@@ -1328,67 +1328,67 @@ function togglePasswordVisibility() {
   };
 //para dirigirse a la plataforma  
 function login(event) {
-  event.preventDefault();
-
-  const username = document.getElementById("username").value.trim().toUpperCase();
-  const password = document.getElementById("password").value.trim();
-
-  if (estudiantes[username] && estudiantes[username].password === password) {
-    sessionStorage.setItem("loggedUser", username);
-    sessionStorage.setItem("loggedPass", password);
-    window.location.href = "plataforma.html";
-  } else {
-    alert("Usuario o contraseña incorrectos. Inténtalo de nuevo.");
+    event.preventDefault();
+  
+    const username = document.getElementById("username").value.trim().toUpperCase();
+    const password = document.getElementById("password").value.trim();
+  
+    if (estudiantes[username] && estudiantes[username].password === password) {
+      localStorage.setItem("loggedUser", username);
+      localStorage.setItem("loggedPass", password); // ✅ Agregado para mostrar en el perfil
+      window.location.href = "plataforma.html";
+    } else {
+      alert("Usuario o contraseña incorrectos. Inténtalo de nuevo.");
+    }
   }
-}
-
-function logout() {
-  sessionStorage.removeItem("loggedUser");
-  sessionStorage.removeItem("loggedPass");
-  window.location.href = "index.html";
-}
-
-// ✅ UNIFICADO: Mostrar datos + bloqueo retroceso
+  
+// Mostrar datos en plataforma
 window.onload = () => {
-  const user = sessionStorage.getItem("loggedUser");
-  const pass = sessionStorage.getItem("loggedPass");
-
-  // Verificar sesión activa
-  if (!user || !estudiantes[user]) {
-    window.location.href = "index.html";
-    return;
-  }
-
-  // Mostrar en plataforma.html
-  const studentName = document.getElementById("student-name");
-  const courseName = document.getElementById("course-name");
-
-  if (studentName) studentName.textContent = user;
-  if (courseName) courseName.textContent = estudiantes[user].curso;
-
-  // Mostrar en calificación.html
-  const userName = document.getElementById("user-name");
-  const userPass = document.getElementById("user-password");
-
-  if (userName) userName.textContent = user;
-  if (userPass) userPass.textContent = pass;
-
-  // Desplegar menú si existe
-  const toggleBtn = document.getElementById("dropdownToggle");
-  const dropdownMenu = document.getElementById("dropdownMenu");
-
-  if (toggleBtn && dropdownMenu) {
-    toggleBtn.addEventListener("click", () => {
-      dropdownMenu.classList.toggle("hidden");
-    });
-  }
-
-  // ✅ Bloquear botón atrás (retroceso)
-  history.pushState(null, null, location.href);
-  window.onpopstate = function () {
-    history.go(1);
+    const user = localStorage.getItem("loggedUser");
+    const pass = localStorage.getItem("loggedPass");
+  
+    if (user && estudiantes[user]) {
+      // Mostrar en plataforma.html
+      const studentName = document.getElementById("student-name");
+      const courseName = document.getElementById("course-name");
+  
+      if (studentName) studentName.textContent = user;
+      if (courseName) courseName.textContent = estudiantes[user].curso;
+  
+      // Mostrar en calificación.html (perfil)
+      const userName = document.getElementById("user-name");
+      const userPass = document.getElementById("user-password");
+  
+      if (userName) userName.textContent = user;
+      if (userPass) userPass.textContent = pass;
+    } else {
+      alert("Usuario o contraseña incorrectos. Inténtalo de nuevo.");
+    }
+  
+    // Desplegar menú si existe
+    const toggleBtn = document.getElementById("dropdownToggle");
+    const dropdownMenu = document.getElementById("dropdownMenu");
+  
+    if (toggleBtn && dropdownMenu) {
+      toggleBtn.addEventListener("click", () => {
+        dropdownMenu.classList.toggle("hidden");
+      });
+    }
   };
-};
+  
+  function logout() {
+    localStorage.removeItem("loggedUser");
+    localStorage.removeItem("loggedPass");
+    window.location.href = "index.html";
+  }
+// Bloquear volver atrás después de logout
+window.addEventListener("pageshow", function (event) {
+  const user = localStorage.getItem("loggedUser");
+  if (!user && event.persisted) {
+    // Si no hay sesión activa y la página fue restaurada desde caché
+    window.location.href = "index.html";
+  }
+});
 
 //para horizontal izquierda y derecha
   function scrollMenu(distancia) {
