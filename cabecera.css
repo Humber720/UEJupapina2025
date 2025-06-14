@@ -357,7 +357,50 @@
       font-size: 16px;
     }
   }
-
+  /* MODAL, Para descargar las notas y libretas */
+  .modal-descarga {
+    display: none;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 400px;
+    z-index: 9999;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .modal-descarga button {
+    margin: 10px 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #28a391;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .modal-descarga button:hover {
+    background-color: #21867a;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .modal-descarga {
+      top: 10%;
+      padding: 15px;
+    }
+  
+    .modal-descarga button {
+      width: 100%;
+      margin: 5px 0;
+    }
+  }
+  
 
 
   
