@@ -1390,17 +1390,6 @@ function logout() {
     contenedor.scrollLeft += distancia;
   }
 
-window.addEventListener("pageshow", () => {
-  const user = localStorage.getItem("loggedUser");
-
-  // Si no hay usuario, pero estamos en plataforma.html, redirigir
-  if (!user && location.pathname.includes("plataforma.html")) {
-    // Esperar 100ms antes de redirigir para evitar parpadeo fuerte
-    setTimeout(() => {
-      location.replace("index.html");
-    }, 100);
-  }
-});
 
 
 
