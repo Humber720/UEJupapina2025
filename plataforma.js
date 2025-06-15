@@ -1375,12 +1375,14 @@ window.onload = () => {
       });
     }
   };
-  
-  function logout() {
-    localStorage.removeItem("loggedUser");
-    localStorage.removeItem("loggedPass");
-    window.location.href = "index.html";
-  }
+
+function logout() {
+  localStorage.removeItem("loggedUser");
+  localStorage.removeItem("loggedPass");
+
+  // Redirección que evita volver con el botón atrás
+  window.location.replace("index.html");
+}
 //para horizontal izquierda y derecha
   function scrollMenu(distancia) {
     const contenedor = document.getElementById("menuScroll");
