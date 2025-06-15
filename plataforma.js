@@ -1355,15 +1355,6 @@ window.onload = () => {
       if (studentName) studentName.textContent = user;
       if (courseName) courseName.textContent = estudiantes[user].curso;
   
-      // Mostrar en calificación.html (perfil)
-      const userName = document.getElementById("user-name");
-      const userPass = document.getElementById("user-password");
-  
-      if (userName) userName.textContent = user;
-      if (userPass) userPass.textContent = pass;
-    } else {
-      alert("Usuario o contraseña incorrectos. Inténtalo de nuevo.");
-    }
   
     // Desplegar menú si existe
     const toggleBtn = document.getElementById("dropdownToggle");
