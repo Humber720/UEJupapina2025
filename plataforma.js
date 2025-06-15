@@ -1338,7 +1338,7 @@ function login(event) {
       localStorage.setItem("loggedPass", password); // ✅ Agregado para mostrar en el perfil
       window.location.href = "plataforma.html";
     } else {
-      alert("");
+      alert("Usuario o contraseña incorrectos. Inténtalo de nuevo.");
     }
   }
   
@@ -1361,10 +1361,11 @@ window.onload = () => {
   
       if (userName) userName.textContent = user;
       if (userPass) userPass.textContent = pass;
-    } else {
-      alert("Usuario o contraseña incorrectos. Inténtalo de nuevo.");
-    }
-  
+      
+  if (!user || !estudiantes[user]) {
+  window.location.href = "index.html";
+  return;
+}  
     // Desplegar menú si existe
     const toggleBtn = document.getElementById("dropdownToggle");
     const dropdownMenu = document.getElementById("dropdownMenu");
@@ -1376,11 +1377,11 @@ window.onload = () => {
     }
   };
   
-  function logout() {
-    localStorage.removeItem("loggedUser");
-    localStorage.removeItem("loggedPass");
-    window.location.href = "index.html";
-  }
+function logout() {
+  localStorage.removeItem("loggedUser");
+  localStorage.removeItem("loggedPass");
+  window.location.replace("index.html"); // Mejor que href para móviles
+}
 //para horizontal izquierda y derecha
   function scrollMenu(distancia) {
     const contenedor = document.getElementById("menuScroll");
