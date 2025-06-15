@@ -1325,55 +1325,69 @@ function togglePasswordVisibility() {
           { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
       ],
   },
-  };
-//para dirigirse a la plataforma  
+  }; 
+// Función para iniciar sesión
 function login(event) {
-    event.preventDefault();
-  
-    const username = document.getElementById("username").value.trim().toUpperCase();
-    const password = document.getElementById("password").value.trim();
-  
-    if (estudiantes[username] && estudiantes[username].password === password) {
-      localStorage.setItem("loggedUser", username);
-      localStorage.setItem("loggedPass", password); // ✅ Agregado para mostrar en el perfil
-      window.location.href = "plataforma.html";
-    } else {
-      alert("Usuario o contraseña incorrectos. Inténtalo de nuevo.");
-    }
-  }
-  
-// Mostrar datos en plataforma
-window.onload = () => {
-    const user = localStorage.getItem("loggedUser");
-    const pass = localStorage.getItem("loggedPass");
-  
-    if (user && estudiantes[user]) {
-      // Mostrar en plataforma.html
-      const studentName = document.getElementById("student-name");
-      const courseName = document.getElementById("course-name");
-  
-      if (studentName) studentName.textContent = user;
-      if (courseName) courseName.textContent = estudiantes[user].curso;
-  
-  
-    // Desplegar menú si existe
-    const toggleBtn = document.getElementById("dropdownToggle");
-    const dropdownMenu = document.getElementById("dropdownMenu");
-  
-    if (toggleBtn && dropdownMenu) {
-      toggleBtn.addEventListener("click", () => {
-        dropdownMenu.classList.toggle("hidden");
-      });
-    }
-  };
+  event.preventDefault();
 
+  const username = document.getElementById("username").value.trim().toUpperCase();
+  const password = document.getElementById("password").value.trim();
+
+  if (estudiantes[username] && estudiantes[username].password === password) {
+    localStorage.setItem("loggedUser", username);
+    localStorage.setItem("loggedPass", password);
+    window.location.href = "plataforma.html";
+  } else {
+    alert("Usuario o contraseña incorrectos. Inténtalo de nuevo.");
+  }
+}
+
+// Mostrar datos en plataforma.html o calificación.html
+window.onload = () => {
+  const user = localStorage.getItem("loggedUser");
+  const pass = localStorage.getItem("loggedPass");
+
+  if (!user || !estudiantes[user]) {
+    // Redirección limpia y sin historial atrás
+    location.replace("index.html");
+    return;
+  }
+
+  // Mostrar datos en plataforma.html
+  const studentName = document.getElementById("student-name");
+  const courseName = document.getElementById("course-name");
+  if (studentName) studentName.textContent = user;
+  if (courseName) courseName.textContent = estudiantes[user].curso;
+
+  // Mostrar datos en calificación.html
+  const userName = document.getElementById("user-name");
+  const userPass = document.getElementById("user-password");
+  if (userName) userName.textContent = user;
+  if (userPass) userPass.textContent = pass;
+
+  // Menú desplegable (si existe)
+  const toggleBtn = document.getElementById("dropdownToggle");
+  const dropdownMenu = document.getElementById("dropdownMenu");
+  if (toggleBtn && dropdownMenu) {
+    toggleBtn.addEventListener("click", () => {
+      dropdownMenu.classList.toggle("hidden");
+    });
+  }
+};
+
+// Cerrar sesión y salir completamente
 function logout() {
   localStorage.removeItem("loggedUser");
   localStorage.removeItem("loggedPass");
-
-  // Redirección que evita volver con el botón atrás
-  window.location.replace("index.html");
+  location.replace("index.html"); // evita volver atrás
 }
+
+// Scroll horizontal (izquierda/derecha)
+function scrollMenu(distancia) {
+  const contenedor = document.getElementById("menuScroll");
+  contenedor.scrollLeft += distancia;
+}
+
 //para horizontal izquierda y derecha
   function scrollMenu(distancia) {
     const contenedor = document.getElementById("menuScroll");
