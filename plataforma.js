@@ -1380,7 +1380,7 @@ window.onload = () => {
 function logout() {
   localStorage.removeItem("loggedUser");
   localStorage.removeItem("loggedPass");
-  window.location.replace("index.html"); // Mejor que href para móviles
+  window.location.href = "index.html";
 }
 //para horizontal izquierda y derecha
   function scrollMenu(distancia) {
