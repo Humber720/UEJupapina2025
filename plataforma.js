@@ -1327,6 +1327,7 @@ function togglePasswordVisibility() {
   },
   }; 
 //para dirigirse a la plataforma  
+//para dirigirse a la plataforma  
 function login(event) {
     event.preventDefault();
   
@@ -1361,11 +1362,10 @@ window.onload = () => {
   
       if (userName) userName.textContent = user;
       if (userPass) userPass.textContent = pass;
-      
-  if (!user || !estudiantes[user]) {
-  window.location.href = "index.html";
-  return;
-}  
+    } else {
+      alert("Usuario o contraseña incorrectos. Inténtalo de nuevo.");
+    }
+  
     // Desplegar menú si existe
     const toggleBtn = document.getElementById("dropdownToggle");
     const dropdownMenu = document.getElementById("dropdownMenu");
@@ -1377,11 +1377,11 @@ window.onload = () => {
     }
   };
   
-function logout() {
-  localStorage.removeItem("loggedUser");
-  localStorage.removeItem("loggedPass");
-  window.location.href = "index.html";
-}
+  function logout() {
+    localStorage.removeItem("loggedUser");
+    localStorage.removeItem("loggedPass");
+    window.location.href = "index.html";
+  }
 //para horizontal izquierda y derecha
   function scrollMenu(distancia) {
     const contenedor = document.getElementById("menuScroll");
