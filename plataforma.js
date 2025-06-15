@@ -1327,12 +1327,29 @@ function togglePasswordVisibility() {
   },
   };
 //para dirigirse a la plataforma  
-window.onload = () => {
+// FUNCIÓN DE LOGIN
+function login(event) {
+  event.preventDefault();
+
+  const username = document.getElementById("username").value.trim().toUpperCase();
+  const password = document.getElementById("password").value.trim();
+
+  if (estudiantes[username] && estudiantes[username].password === password) {
+    localStorage.setItem("loggedUser", username);
+    localStorage.setItem("loggedPass", password);
+    window.location.href = "plataforma.html";
+  } else {
+    alert("Usuario o contraseña incorrectos. Inténtalo de nuevo.");
+  }
+}
+
+// MOSTRAR DATOS EN plataforma.html O calificación.html
+document.addEventListener("DOMContentLoaded", () => {
   const user = localStorage.getItem("loggedUser");
   const pass = localStorage.getItem("loggedPass");
 
+  // Si no hay sesión, redirige
   if (!user || !estudiantes[user]) {
-    // Evitar mostrar alerta si venimos de logout o sin sesión
     window.location.replace("index.html");
     return;
   }
@@ -1344,14 +1361,14 @@ window.onload = () => {
   if (studentName) studentName.textContent = user;
   if (courseName) courseName.textContent = estudiantes[user].curso;
 
-  // Mostrar en calificación.html (perfil)
+  // Mostrar en calificación.html
   const userName = document.getElementById("user-name");
   const userPass = document.getElementById("user-password");
 
   if (userName) userName.textContent = user;
   if (userPass) userPass.textContent = pass;
 
-  // Desplegar menú si existe
+  // Menú desplegable
   const toggleBtn = document.getElementById("dropdownToggle");
   const dropdownMenu = document.getElementById("dropdownMenu");
 
@@ -1360,14 +1377,14 @@ window.onload = () => {
       dropdownMenu.classList.toggle("hidden");
     });
   }
-};
+});
 
-// Cerrar sesión
+// FUNCIÓN LOGOUT
 function logout() {
   localStorage.removeItem("loggedUser");
   localStorage.removeItem("loggedPass");
 
-  // Redirige reemplazando historial (así no se puede volver con atrás)
+  // Reemplaza la página actual para evitar volver atrás
   window.location.replace("index.html");
 }
 
