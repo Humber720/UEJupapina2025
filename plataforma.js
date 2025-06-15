@@ -1377,24 +1377,22 @@ window.onload = () => {
   };
   
 function logout() {
-  // Eliminar sesión
   localStorage.removeItem("loggedUser");
   localStorage.removeItem("loggedPass");
 
-  // Reemplaza la URL actual para evitar que se pueda regresar con el botón "atrás"
+  // Redirige limpiamente al login sin guardar historial
   window.location.replace("index.html");
 }
-
-// Evitar volver atrás después de logout (especial para celulares)
+// Evitar que vuelva a plataforma.html si ya cerró sesión (especial móviles)
 window.addEventListener("pageshow", function (event) {
   const user = localStorage.getItem("loggedUser");
 
-  // Si no hay usuario y se vuelve desde el caché, redirige
+  // Si no hay usuario activo y la página se muestra desde el caché
   if (!user && event.persisted) {
+    // Limpia la página en memoria y redirige
     window.location.replace("index.html");
   }
 });
-
 
 //para horizontal izquierda y derecha
   function scrollMenu(distancia) {
