@@ -1346,24 +1346,25 @@ function login(event) {
 window.onload = () => {
     const user = localStorage.getItem("loggedUser");
     const pass = localStorage.getItem("loggedPass");
-    if (!user || !estudiantes[user]) {
-    window.location.replace("index.html"); // redirección limpia
-    return;
-  }
-
-  // Si el usuario es válido, continuar
-  const studentName = document.getElementById("student-name");
-  const courseName = document.getElementById("course-name");
-
-  if (studentName) studentName.textContent = user;
-  if (courseName) courseName.textContent = estudiantes[user].curso;
-
-  const userName = document.getElementById("user-name");
-  const userPass = document.getElementById("user-password");
-
-  if (userName) userName.textContent = user;
-  if (userPass) userPass.textContent = pass;
-
+  
+    if (user && estudiantes[user]) {
+      // Mostrar en plataforma.html
+      const studentName = document.getElementById("student-name");
+      const courseName = document.getElementById("course-name");
+  
+      if (studentName) studentName.textContent = user;
+      if (courseName) courseName.textContent = estudiantes[user].curso;
+  
+      // Mostrar en calificación.html (perfil)
+      const userName = document.getElementById("user-name");
+      const userPass = document.getElementById("user-password");
+  
+      if (userName) userName.textContent = user;
+      if (userPass) userPass.textContent = pass;
+    } else {
+      alert("Usuario o contraseña incorrectos. Inténtalo de nuevo.");
+    }
+  
     // Desplegar menú si existe
     const toggleBtn = document.getElementById("dropdownToggle");
     const dropdownMenu = document.getElementById("dropdownMenu");
@@ -1375,15 +1376,11 @@ window.onload = () => {
     }
   };
   
-function logout() {
-  // Eliminar sesión
-  localStorage.removeItem("loggedUser");
-  localStorage.removeItem("loggedPass");
-
-  // Recarga limpia: reemplaza en el historial y evita volver atrás
-  location.replace("index.html");
-}
-
+  function logout() {
+    localStorage.removeItem("loggedUser");
+    localStorage.removeItem("loggedPass");
+    window.location.href = "index.html";
+  }
 //para horizontal izquierda y derecha
   function scrollMenu(distancia) {
     const contenedor = document.getElementById("menuScroll");
