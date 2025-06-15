@@ -1338,7 +1338,7 @@ function login(event) {
       localStorage.setItem("loggedPass", password); // ✅ Agregado para mostrar en el perfil
       window.location.href = "plataforma.html";
     } else {
-      alert("Usuario o contraseña incorrectos. Inténtalo de nuevo.");
+      alert("");
     }
   }
   
