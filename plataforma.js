@@ -1346,25 +1346,24 @@ function login(event) {
 window.onload = () => {
     const user = localStorage.getItem("loggedUser");
     const pass = localStorage.getItem("loggedPass");
-  
-    if (user && estudiantes[user]) {
-      // Mostrar en plataforma.html
-      const studentName = document.getElementById("student-name");
-      const courseName = document.getElementById("course-name");
-  
-      if (studentName) studentName.textContent = user;
-      if (courseName) courseName.textContent = estudiantes[user].curso;
-  
-      // Mostrar en calificación.html (perfil)
-      const userName = document.getElementById("user-name");
-      const userPass = document.getElementById("user-password");
-  
-      if (userName) userName.textContent = user;
-      if (userPass) userPass.textContent = pass;
-    } else {
-      alert("Usuario o contraseña incorrectos. Inténtalo de nuevo.");
-    }
-  
+    if (!user || !estudiantes[user]) {
+    window.location.replace("index.html"); // redirección limpia
+    return;
+  }
+
+  // Si el usuario es válido, continuar
+  const studentName = document.getElementById("student-name");
+  const courseName = document.getElementById("course-name");
+
+  if (studentName) studentName.textContent = user;
+  if (courseName) courseName.textContent = estudiantes[user].curso;
+
+  const userName = document.getElementById("user-name");
+  const userPass = document.getElementById("user-password");
+
+  if (userName) userName.textContent = user;
+  if (userPass) userPass.textContent = pass;
+
     // Desplegar menú si existe
     const toggleBtn = document.getElementById("dropdownToggle");
     const dropdownMenu = document.getElementById("dropdownMenu");
@@ -1377,28 +1376,29 @@ window.onload = () => {
   };
   
 function logout() {
+  // Eliminar sesión
   localStorage.removeItem("loggedUser");
   localStorage.removeItem("loggedPass");
 
-  // Redirige limpiamente al login sin guardar historial
-  window.location.replace("index.html");
+  // Recarga limpia: reemplaza en el historial y evita volver atrás
+  location.replace("index.html");
 }
-// Evitar que vuelva a plataforma.html si ya cerró sesión (especial móviles)
-window.addEventListener("pageshow", function (event) {
-  const user = localStorage.getItem("loggedUser");
-
-  // Si no hay usuario activo y la página se muestra desde el caché
-  if (!user && event.persisted) {
-    // Limpia la página en memoria y redirige
-    window.location.replace("index.html");
-  }
-});
 
 //para horizontal izquierda y derecha
   function scrollMenu(distancia) {
     const contenedor = document.getElementById("menuScroll");
     contenedor.scrollLeft += distancia;
   }
+
+window.addEventListener("pageshow", (event) => {
+  const user = localStorage.getItem("loggedUser");
+
+  if (!user && event.persisted) {
+    // Si se vuelve con botón atrás y ya no hay sesión, salir sin parpadeo
+    window.location.replace("index.html");
+  }
+});
+
 
 
 
