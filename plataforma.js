@@ -1361,10 +1361,7 @@ window.onload = () => {
   
       if (userName) userName.textContent = user;
       if (userPass) userPass.textContent = pass;
-    } else {
-        // Redirige en vez de alertar
-        window.location.href = "index.html";
-      }
+    }
 
     // Desplegar menú si existe
     const toggleBtn = document.getElementById("dropdownToggle");
@@ -1382,6 +1379,14 @@ window.onload = () => {
     localStorage.removeItem("loggedPass");
     window.location.href = "index.html";
   }
+// Bloquear el acceso directo si no hay sesión activa
+window.addEventListener("pageshow", () => {
+  const user = localStorage.getItem("loggedUser");
+  if (!user || !estudiantes[user]) {
+    window.location.href = "index.html";
+  }
+});
+
 //para horizontal izquierda y derecha
   function scrollMenu(distancia) {
     const contenedor = document.getElementById("menuScroll");
