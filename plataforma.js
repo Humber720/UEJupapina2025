@@ -1336,7 +1336,7 @@ function login(event) {
     if (estudiantes[username] && estudiantes[username].password === password) {
       localStorage.setItem("loggedUser", username);
       localStorage.setItem("loggedPass", password); // ✅ Agregado para mostrar en el perfil
-      window.location.href = "plataforma.html";
+      location.replace("plataforma.html");
     } else {
       alert("Usuario o contraseña incorrectos. Inténtalo de nuevo.");
     }
@@ -1379,11 +1379,14 @@ window.onload = () => {
     localStorage.removeItem("loggedPass");
     window.location.href = "index.html";
   }
-// Bloquear el acceso directo si no hay sesión activa
-window.addEventListener("pageshow", () => {
-  const user = localStorage.getItem("loggedUser");
-  if (!user || !estudiantes[user]) {
-    window.location.href = "index.html";
+
+// Bloquear acceso si se carga directamente o desde historial sin sesión
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "visible") {
+    const user = localStorage.getItem("loggedUser");
+    if (!user || !estudiantes[user]) {
+      location.replace("index.html");
+    }
   }
 });
 
