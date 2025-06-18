@@ -1326,8 +1326,15 @@ function togglePasswordVisibility() {
       ],
   },
   }; 
-//para dirigirse a la plataforma  
-//para dirigirse a la plataforma  
+window.addEventListener("pageshow", () => {
+  const user = localStorage.getItem("loggedUser");
+  if (!user || !estudiantes[user]) {
+    // Redirigir a index si no hay sesión activa
+    window.location.href = "index.html";
+  }
+});
+
+//para dirigirse a la plataforma   
 function login(event) {
     event.preventDefault();
   
@@ -1363,9 +1370,10 @@ window.onload = () => {
       if (userName) userName.textContent = user;
       if (userPass) userPass.textContent = pass;
     } else {
-      alert("Usuario o contraseña incorrectos. Inténtalo de nuevo.");
-    }
-  
+        // Redirige en vez de alertar
+        window.location.href = "index.html";
+      }
+
     // Desplegar menú si existe
     const toggleBtn = document.getElementById("dropdownToggle");
     const dropdownMenu = document.getElementById("dropdownMenu");
