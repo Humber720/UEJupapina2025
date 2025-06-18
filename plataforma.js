@@ -1326,14 +1326,6 @@ function togglePasswordVisibility() {
       ],
   },
   }; 
-window.addEventListener("pageshow", () => {
-  const user = localStorage.getItem("loggedUser");
-  if (!user || !estudiantes[user]) {
-    // Redirigir a index si no hay sesión activa
-    window.location.href = "index.html";
-  }
-});
-
 //para dirigirse a la plataforma   
 function login(event) {
     event.preventDefault();
