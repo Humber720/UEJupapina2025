@@ -135,10 +135,6 @@ const studentsData = {
         password: "16361717",  // Contraseña
         curso: "1ro de Secundaria", 
         calificaciones: [
-            {instrumento: "TAM-", ensayo: "Tarde Martes 3 de Junio", asistencia: "FALTA", calificacion: "0", observacion: "" },
-            {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
-            {instrumento: "TAM-", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "FALTA", calificacion: "0", observacion: "" },
-            {instrumento: "TAM-", ensayo: "Tarde Lunes 16 de Junio", asistencia: "FALTA", calificacion: "0", observacion: "" },
         ],
     },
     "CRISTIAN KEVIN": { //Usuario
@@ -155,6 +151,10 @@ const studentsData = {
         password: "14108002",  // Contraseña
         curso: "1ro de Secundaria", 
         calificaciones: [
+            {instrumento: "TAM-", ensayo: "Tarde Martes 3 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
+            {instrumento: "TAM-", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "TAM-", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
         ],
     },
     "DAVID": { //Usuario
