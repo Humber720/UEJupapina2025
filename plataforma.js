@@ -1374,11 +1374,14 @@ window.onload = () => {
     }
   };
   
-  function logout() {
+// Función para cerrar sesión location.replace()	El historial no permite volver a plataforma
+function logout() {
+    // Elimina la sesión
     localStorage.removeItem("loggedUser");
-    localStorage.removeItem("loggedPass");
-    window.location.href = "index.html";
-  }
+
+    // Redirige reemplazando la historia (impide volver con "Atrás")
+    location.replace("index.html");
+}
 
 // Bloquear acceso si se carga directamente o desde historial sin sesión
 document.addEventListener("visibilitychange", () => {
