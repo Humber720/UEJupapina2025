@@ -1373,7 +1373,12 @@ window.onload = () => {
       });
     }
   };
-  
+//para horizontal izquierda y derecha
+  function scrollMenu(distancia) {
+    const contenedor = document.getElementById("menuScroll");
+    contenedor.scrollLeft += distancia;
+  }
+
 // Función para cerrar sesión location.replace()	El historial no permite volver a plataforma
 function logout() {
     // Elimina la sesión
@@ -1392,13 +1397,6 @@ document.addEventListener("visibilitychange", () => {
     }
   }
 });
-
-//para horizontal izquierda y derecha
-  function scrollMenu(distancia) {
-    const contenedor = document.getElementById("menuScroll");
-    contenedor.scrollLeft += distancia;
-  }
-
 
 
 
