@@ -30,32 +30,36 @@
             <button onclick="window.location.href='calificacion.html'">Notas de calificación</button>
             <button onclick="window.location.href='entrevista.html'">Entrevistas</button>
             <button onclick="window.location.href='libreta.html'">Libretas</button>
-            <button onclick="window.location.href='banda.html'">Banda de Música</button>📁
+            <button onclick="window.location.href='banda.html'">Banda de Música</button>
+            <button onclick="window.location.href='lateral.html'">📁Otros</button>
           </div>
           <button class="flecha derecha" onclick="scrollMenu(150)">›</button>
         </div>
-               
-        <!-- Perfil de encabezado -->
-        <div class="encabezado-perfil">
-          <button id="dropdownToggle" class="encabezado-perfil-btn">
-            <div class="avatar-circle">👤</div>
-            <span class="encabezado-nombre">Estudiante</span>
-            <svg class="encabezado-flecha" fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.25a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.08z" clip-rule="evenodd" />
-            </svg>
-          </button>
+                    <!-- Perfil de encabezado -->
+            <!-- Contenedor para alinear a la derecha -->
+            <div class="perfil-wrapper">
+              <!-- Perfil de encabezado -->
+              <div class="encabezado-perfil">
+                <button id="dropdownToggle" class="encabezado-perfil-btn">
+                  <div class="avatar-circle">👤</div>
+                  <span class="encabezado-nombre">Estudiante</span>
+                  <svg class="encabezado-flecha" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.25a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.08z" clip-rule="evenodd" />
+                  </svg>
+                </button>
 
-          <!-- Menú desplegable -->
-          <div id="dropdownMenu" class="menu-dropdown hidden">
-            <div class="info">
-              <p><strong>Usuario:</strong> <span id="user-name">--</span></p>
-              <p><strong>Contraseña:</strong> <span id="user-password">--</span></p>
+                <!-- Menú desplegable -->
+                <div id="dropdownMenu" class="menu-dropdown hidden">
+                  <div class="info">
+                    <p><strong>Usuario:</strong> <span id="user-name">--</span></p>
+                    <p><strong>Contraseña:</strong> <span id="user-password">--</span></p>
+                  </div>
+                  <div class="acciones">
+                    <button onclick="logout()" class="cerrar">Cerrar sesión</button>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="acciones">
-              <button onclick="logout()" class="cerrar">Cerrar sesión</button>
-            </div>
-          </div>
-        </div>
 
           </div>
         </div>
