@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plataforma Escolar</title>
+      <!-- CSS para la cabecera -->
+      <link rel="stylesheet" href="cabecera.css" />
+      <!-- CSS general de la página -->
+
+      <script src="plataforma.js"></script>
+      <script src="cabecera.js"></script>
+  <link rel="stylesheet" href="lateral.css" />
+</head>
+<body>
+  <body class="bg-gray-100 font-sans">
+    <!-- Encabezado -->
+    <!-- Encabezado -->
+    <header class="encabezado">
+      <div class="encabezado-container">
+        <div class="encabezado-content">
+          <div class="encabezado-logo">
+            <div class="logo-icono">🎵</div>
+            <span class="encabezado-titulo">EDUCACIÓN MUSICAL</span>
+          </div>
+         <!-- Encabezado izquierda derecha --> 
+          <div class="menu-scroll-contenedor">
+            <button class="flecha izquierda" onclick="scrollMenu(-150)">‹</button>
+          
+            <div class="menu-scroll" id="menuScroll">
+              <a href="#" class="activo">Inicio</a>
+              <button onclick="window.location.href='calificacion.html'">Notas de calificación</button>
+              <button onclick="window.location.href='entrevista.html'">Entrevistas</button>
+              <button onclick="window.location.href='libreta.html'">Libretas</button>
+              <button onclick="window.location.href='banda.html'">Banda de Música</button>
+              <button onclick="window.location.href='lateral.html'">📁Otros</button>
+            </div>
+            <button class="flecha derecha" onclick="scrollMenu(150)">›</button>
+          </div>
+                      <!-- Perfil de encabezado -->
+              <!-- Contenedor para alinear a la derecha -->
+              <div class="perfil-wrapper">
+                <!-- Perfil de encabezado -->
+                <div class="encabezado-perfil">
+                  <button id="dropdownToggle" class="encabezado-perfil-btn">
+                    <div class="avatar-circle">👤</div>
+                    <span class="encabezado-nombre">Estudiante</span>
+                    <svg class="encabezado-flecha" fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.25a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.08z" clip-rule="evenodd" />
+                    </svg>
+                  </button>
+  
+                  <!-- Menú desplegable -->
+                  <div id="dropdownMenu" class="menu-dropdown hidden">
+                    <div class="info">
+                      <p><strong>Usuario:</strong> <span id="user-name">--</span></p>
+                      <p><strong>Contraseña:</strong> <span id="user-password">--</span></p>
+                    </div>
+                    <div class="acciones">
+                      <button onclick="logout()" class="cerrar">Cerrar sesión</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+<!-- Menú lateral izquierda --> 
+  <div class="container">
+    <aside class="sidebar">
+      <div class="icono-circular">🛢️</div>
+      <center><h4>Humberto Yupanqui Condori</h4></center>
+      <center><h3>EDUCACIÓN MUSICAL</h3></center>
+      <center><h3>CONTENIDOS</h3></center>
+      <button onclick="mostrarContenido('1roSecundaria')">📚1ro Secundaria</button>
+      <button onclick="mostrarContenido('2doSecundaria')">📚2do Secundaria</button>
+      <button onclick="mostrarContenido('3roSecundaria')">📚3ro Secundaria</button>
+      <button onclick="mostrarContenido('4toSecundaria')">📚4to Secundaria</button>
+      <button onclick="mostrarContenido('5toSecundaria')">📚5to Secundaria</button>
+      <button onclick="mostrarContenido('6toSecundaria')">📚6to Secundaria</button>
+      <button onclick="mostrarContenido('himnos')">📖HIMNOS PATRIÓTICOS</button>
+      <button onclick="mostrarContenido('partituras')">🎼PARTITURAS MUSICALES</button>
+      <div class="acciones">
+        <button onclick="logout()" class="cerrar">Cerrar sesión</button>
+      </div>
+    </aside>
+    <main class="contenido">
+      <h1 id="tituloCurso">Selecciona un curso</h1>
+      <div id="infoCurso">Aquí se mostrará la información del curso seleccionado.</div>
+    </main>
+  </div>
+  <script src="lateral.js"></script>
+</body>
+</html>
