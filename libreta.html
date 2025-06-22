@@ -28,90 +28,98 @@
             <button onclick="window.location.href='calificacion.html'">Notas de calificación</button>
             <button onclick="window.location.href='entrevista.html'">Entrevistas</button>
             <button onclick="window.location.href='libreta.html'">Libretas</button>
-            <button onclick="window.location.href='banda.html'">Banda de Música</button>📁
-          </div>
-          <button class="flecha derecha" onclick="scrollMenu(150)">›</button>
-        </div>
-               
-        <!-- Perfil de encabezado -->
-        <div class="encabezado-perfil">
-          <button id="dropdownToggle" class="encabezado-perfil-btn">
-            <div class="avatar-circle">👤</div>
-            <span class="encabezado-nombre">Estudiante</span>
-            <svg class="encabezado-flecha" fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.25a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.08z" clip-rule="evenodd" />
-            </svg>
-          </button>
+            <button onclick="window.location.href='banda.html'">Banda de Música</button>
+              <button onclick="window.location.href='lateral.html'">📁Otros</button>
+            </div>
+            <button class="flecha derecha" onclick="scrollMenu(150)">›</button>
+          </div> 
+                      <!-- Perfil de encabezado -->
+              <!-- Contenedor para alinear a la derecha -->
+              <div class="perfil-wrapper">
+                <!-- Perfil de encabezado -->
+                <div class="encabezado-perfil">
+                  <button id="dropdownToggle" class="encabezado-perfil-btn">
+                    <div class="avatar-circle">👤</div>
+                    <span class="encabezado-nombre">Estudiante</span>
+                    <svg class="encabezado-flecha" fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.25a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.08z" clip-rule="evenodd" />
+                    </svg>
+                  </button>
 
-          <!-- Menú desplegable -->
-          <div id="dropdownMenu" class="menu-dropdown hidden">
-            <div class="info">
-              <p><strong>Usuario:</strong> <span id="user-name">--</span></p>
-              <p><strong>Contraseña:</strong> <span id="user-password">--</span></p>
-            </div>
-            <div class="acciones">
-              <button onclick="logout()" class="cerrar">Cerrar sesión</button>
-            </div>
-          </div>
-        </div>
+                  <!-- Menú desplegable -->
+                  <div id="dropdownMenu" class="menu-dropdown hidden">
+                    <div class="info">
+                      <p><strong>Usuario:</strong> <span id="user-name">--</span></p>
+                      <p><strong>Contraseña:</strong> <span id="user-password">--</span></p>
+                    </div>
+                    <div class="acciones">
+                      <button onclick="logout()" class="cerrar">Cerrar sesión</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
           </div>
         </div>
       </div>
     </div>
   </header>
+   </header>
     <!-- principal libreta -->
     <div class="container">
         <center><h3><p>LEBRETA ELECTRÓNICA ESCOLAR</p></h3></center>
+      </br>
+      <center><h4><p>ASESOR 2DO SEC. - PROF. HUMBERTO YUPANQUI C.</p></h4></center>
         <div class="botonera">
           <center><button onclick="mostrarAviso()">VER LIBRETA ESCOLAR ELECTRÓNICA</button></center>
         <!-- Contenedor para el aviso de descarga -->
-            <div id="modalDescarga" class="modal-descarga">
-              <p>Presiona el botón para descargar libreta electrónica en PDF:</p>
-              <button onclick="openNota()">Descargar PDF</button>
-              <button onclick="cerrarAviso()">Cancelar</button>
-            </div>
+        <div id="modalDescarga" class="modal-descarga">
+          <p>Presiona el botón para descargar libreta electrónica en PDF:</p>
+          <button onclick="openNota()">Descargar PDF</button>
+          <button onclick="cerrarAviso()">Cancelar</button>
         </div>
-        </br>
-        </br>   
-        <table>
-            <caption><b>RANGO DE VALORACIÓN DE LAS DIMENSIONES</b></caption>
-            <tr>
-            <th>#</th>
-            <th>Descripción</th>
-            <th>Sigla</th>
-            <th>Puntaje Mínimo</th>
-            <th>Puntaje Máximo</th>
-            </tr>
-            <tr>
-            <td>1</td>
-            <td>En desarrollo</td>
-            <td>ED</td>
-            <td>0</td>
-            <td>50</td>
-            </tr>
-            <tr>
-            <td>2</td>
-            <td>Desarrollo aceptable</td>
-            <td>DA</td>
-            <td>51</td>
-            <td>68</td>
-            </tr>
-            <tr>
-            <td>3</td>
-            <td>Desarrollo óptimo</td>
-            <td>DO</td>
-            <td>69</td>
-            <td>84</td>
-            </tr>
-            <tr>
-            <td>4</td>
-            <td>Desarrollo pleno</td>
-            <td>DP</td>
-            <td>85</td>
-            <td>100</td>
-            </tr>
-        </table>
+        </div>
+        </br>  
+  <!-- Tabla de calificaciones -->
+  <!-- PRIMER TRIMESTRE -->
+  <table class="grades-table">
+    <caption><b>INFORMACIÓN DE ÁREAS REPROBADOS PRIMER TRIMESTRE</b></caption>
+    <thead>
+      <tr>
+        <th>ASIGNATURAS</th>
+        <th>CALIFICACIÓN</th>
+        <th>ESTADO</th>
+        <th>OBSERVACIÓN</th>
+      </tr>
+    </thead>
+    <tbody id="grades-trim-1"></tbody>
+  </table>
+  <!-- SEGUNDO TRIMESTRE -->
+  <table class="grades-table">
+    <caption><b>INFORMACIÓN DE ÁREAS REPROBADOS SEGUNDO TRIMESTRE</b></caption>
+    <thead>
+      <tr>
+        <th>ASIGNATURAS</th>
+        <th>CALIFICACIÓN</th>
+        <th>ESTADO</th>
+        <th>OBSERVACIÓN</th>
+      </tr>
+    </thead>
+    <tbody id="grades-trim-2"></tbody>
+  </table>
+    <!-- TERCER TRIMESTRE -->
+    <table class="grades-table">
+      <caption><b>INFORMACIÓN DE ÁREAS REPROBADOS TERCER TRIMESTRE</b></caption>
+      <thead>
+        <tr>
+          <th>ASIGNATURAS</th>
+          <th>CALIFICACIÓN</th>
+          <th>ESTADO</th>
+          <th>OBSERVACIÓN</th>
+        </tr>
+      </thead>
+      <tbody id="grades-trim-3"></tbody>
+    </table>
     </div>
     <!-- Script para cargar las notas y manejar la sesión -->
     <script src="plataforma.js"></script> 
