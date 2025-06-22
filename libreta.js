@@ -190,285 +190,488 @@ const studentsData = {
         ],
 
     },
+    //2DO DE EDUCACIÓN SECUNDARIA COMUNITARIA VOCACIONAL
     "MATEO IVAR": { //Usuario
         password: "14938370",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "31", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "LENGUA EXTRANJERA", calificacion: "45", estado: "REPROBADO(A)", observacion: "" },
+            { area: "CIENCIAS SOCIALES", calificacion: "43", estado: "REPROBADO(A)", observacion: " " },
+            { area: "COSMOVISIÓNES, FILOSFÍA Y SICOLOGÍA", calificacion: "46", estado: "REPROBADO(A)", observacion: " " },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+        }
     },
     "BRENDA MAYTE": { //Usuario
         password: "12454396",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "84", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+        }
     },
     "GENESIS CECILIA": { //Usuario
         password: "16906396",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "83", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+        }
     },
     "JUAN FERNANDO": { //Usuario
         password: "12863798",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "50", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "LENGUA EXTRANJERA", calificacion: "47", estado: "REPROBADO(A)", observacion: "" },
+            { area: "ARTES PLÁSTICAS Y VISUALES", calificacion: "39", estado: "REPROBADO(A)", observacion: "" },
+            { area: "MATEMÁTICA", calificacion: "48", estado: "REPROBADO(A)", observacion: "" },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+        }
     },
     "CRISTIAN ELVIS": { //Usuario
         password: "12894836",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "52", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+        }
     },
     "MARIA DEL CIELO": { //Usuario
         password: "15352617",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "72", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+        }
     },
     "KEYLA ALEIDIS": { //Usuario
         password: "12735760",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "70", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "LENGUA EXTRANJERA", calificacion: "48", estado: "REPROBADO(A)", observacion: "" },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+        }
     },
     "MIGUEL ANGEL": { //Usuario
         password: "14481933",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "55", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+        }
     },
     "JASIEL NOEMI": { //Usuario
         password: "14007065",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "84", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+        }
     },
     "GABRIEL KEVIN": { //Usuario
         password: "15150735",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "77", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+        }
     },
     "RICARDO": { //Usuario
         password: "15377451",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "ARTES PLÁSTICAS Y VISUALES", calificacion: "47", estado: "REPROBADO(A)", observacion: "" },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+        }
     },
     "FABRICIO DANIEL": { //Usuario
         password: "15467033",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "65", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+        }
     },
     "ZOEY SUMAYA": { //Usuario
         password: "13118786",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "68", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+        }
     },
     "KEVIN PATRICIO": { //Usuario
         password: "13119655",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "86", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+        }
     },
     "JHENNY YOSELIN": { //Usuario
         password: "13053567",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "83", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+        }
     },
     "JUAN RODRIGO": { //Usuario
         password: "15069633",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "65", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+            }
     },
     "JULIAN NEYMAR": { //Usuario
         password: "16188827",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "41", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "EDUCACIÓN MUSICAL", calificacion: "48", estado: "REPROBADO(A)", observacion: "" },
+            { area: "MATEMÁTICA", calificacion: "48", estado: "", observacion: "REPROBADO(A)" },
+            { area: "CIENCIAS NATURALES: BIOLOGÍA - GEOGRAFÍA", calificacion: "36", estado: "REPROBADO(A)", observacion: "" },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+        }
     },
     "ANA CELESTE": { //Usuario
         password: "13378621",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "8", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "LENGUA EXTRENJERA", calificacion: "45", estado: "REPROBADO(A)", observacion: "" },
+            { area: "EDUCACIÓN MUSICAL", calificacion: "40", estado: "REPROBADO(A)", observacion: "" },
+            { area: "ARTES PLÁSTICAS Y VISUALES", calificacion: "35", estado: "REPROBADO(A)", observacion: "" },
+            { area: "MATEMÁTICA", calificacion: "47", estado: "REPROBADO(A)", observacion: "" },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+        }
     },
     "DRAKE NOLAND": { //Usuario
         password: "14041113",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "78", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+        }
     },
     "HANNA JANDY": { //Usuario
         password: "15900234",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "70", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+        }
     },
     "NEYMAR DIDYEL": { //Usuario
         password: "15969914",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "10", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "COMUNICACIÓN Y LENGUAJES: CASTELLANA Y ORIGINARIA", calificacion: "43", estado: "REPROBADO(A)", observacion: "" },
+            { area: "LENGUA EXTRANJERA", calificacion: "40", estado: "REPROBADO(A)", observacion: "" },
+            { area: "CIENCIAS SOCIALES", calificacion: "40", estado: "REPROBADO(A)", observacion: "" },
+            { area: "EDUCACIÓN MUSICAL", calificacion: "37", estado: "REPROBADO(A)", observacion: "" },
+            { area: "ARTES PLÁTICAS Y VISUALES", calificacion: "35", estado: "REPROBADO(A)", observacion: "" },
+            { area: "MATEMÁTICA", calificacion: "48", estado: "REPROBADO(A)", observacion: "" },
+            { area: "TÉCNICA TECNOLOGICA GENERAL", calificacion: "48", estado: "REPROBADO(A)", observacion: "" },
+            { area: "CIENCIAS NATURALES: BIOLOGÍA - GEOGRAFÍA", calificacion: "35", estado: "REPROBADO(A)", observacion: "" },
+            { area: "COSMOVISIÓNES, FILOSFÍA Y SICOLOGÍA", calificacion: "41", estado: "REPROBADO(A)", observacion: "" },
+            { area: "VALORES ESPIRITUALIDADES Y RELIGIONES", calificacion: "40", estado: "REPROBADO(A)", observacion: "" },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+        }
     },
     "PAOLA REYNA": { //Usuario
         password: "9534431",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "78", estado: "APROBADO(A)", observacion: "" },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+        }
     },
     "LEIDY FLORA": { //Usuario
         password: "13491581",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "77", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+        },
     },
     "KEVIN": { //Usuario
         password: "15432789",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "23", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "LENGUA EXTRANJERA", calificacion: "48", estado: "REPROBADO(A)", observacion: "" },
+            { area: "CIENCIAS SOCIALES", calificacion: "48", estado: "REPROBADO(A)", observacion: "" },
+            { area: "EDUCACIÓN MUSICAL", calificacion: "43", estado: "REPROBADO(A)", observacion: "" },
+            { area: "MATEMÁTICA", calificacion: "48", estado: "REPROBADO(A)", observacion: "" },
+            { area: "CIENCIAS NATURALES: BIOLOGÍA - GEOGRAFÍA", calificacion: "45", estado: "REPROBADO(A)", observacion: "" },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+            }
     },
     "YUSARA GENESIS": { //Usuario
         password: "13552936",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "89", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+        }
     },
     "AARON JUSTINIANO": { //Usuario
         password: "15453680",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "87", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+        }
     },
     "ANGELA MASHIEL": { //Usuario
         password: "14007170",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "55", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "ARTES PLÁSTICAS Y VISUALES", calificacion: "37", estado: "REPROBADO(A)", observacion: "" },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+        }
     },
     "DELIA": { //Usuario
         password: "13394025",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "91", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+            }
     },
     "LESLIE MAYLI": { //Usuario
         password: "13393302",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "76", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "ENGUA EXTRANJERA", calificacion: "46", estado: "REPROBADO(A)", observacion: "" },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+        }
     },
     "JOSE ANTONIO": { //Usuario
         password: "14107325",  // Contraseña
         curso: "2do de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "19", estado: "REPROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+        calificaciones: {
+            "1er Trim.": [
+            { area: "LENGUA EXTRANJERA", calificacion: "45", estado: "REPROBADO(A)", observacion: "" },
+            { area: "CIECIAS SOCIALES", calificacion: "48", estado: "REPROBADO(A)", observacion: "" },
+            { area: "EDUCACIÓN MUSICAL", calificacion: "41", estado: "REPROBADO(A)", observacion: "" },
+            { area: "TÉCNICA TECNOLOGICA GENERAL", calificacion: "49", estado: "REPROBADO(A)", observacion: "" },
+            { area: "COSMOVISIÓNES, FILOSFÍA Y SICOLOGÍA", calificacion: "48", estado: "REPROBADO(A)", observacion: "" },
+            ],
+            "2do Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ],
+            "3er Trim.": [
+            { area: "", calificacion: "", estado: "", observacion: "" },
+            ]
+        }
     },
-
+//TERCERO DE SECUNDARIA
     "MARCO ANTONIO": { //Usuario
         password: "15048549",  // Contraseña
         curso: "3ro de Secundaria", 
-        calificaciones: [
-            { trimestre: "1er Trim.", calificacion: "56", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
-        ],
+
     },
     "ROY DAVID": { //Usuario
         password: "15404949",  // Contraseña
@@ -1364,22 +1567,19 @@ function login(event) {
 
     if (studentsData[username] && studentsData[username].password === password) {
         localStorage.setItem("loggedUser", username);
-        window.location.href = "libretas.html";
+        window.location.href = "entrevista.html";
     } else {
         alert("Usuario o contraseña incorrectos.");
     }
 }
-
 // Mostrar el aviso/modal
 function mostrarAviso() {
     document.getElementById("modalDescarga").style.display = "block";
 }
-
 // Cerrar el modal
 function cerrarAviso() {
     document.getElementById("modalDescarga").style.display = "none";
 }
-
 // Descargar el PDF usando nombre del usuario almacenado en localStorage
 function openNota() {
     const username = localStorage.getItem("loggedUser");
@@ -1399,9 +1599,50 @@ function openNota() {
 
     cerrarAviso(); // Opcional: cerrar modal después de descargar
 }
-
 // Función para cerrar sesión
 function logout() {
     localStorage.removeItem("loggedUser");
     window.location.href = "index.html";
 }
+// CALIFICACIÓN PARA CADA ESTUDIANTE
+// Función que carga y muestra las notas del usuario logueado
+function loadGrades(username) {
+    const student = studentsData[username];
+    if (!student) {
+      alert("Estudiante no encontrado");
+      return;
+    }
+  
+    // Limpia tablas
+    [1, 2, 3].forEach(i => {
+      document.getElementById(`grades-trim-${i}`).innerHTML = "";
+    });
+  
+    // Llena las tablas por trimestre
+    ["1er Trim.", "2do Trim.", "3er Trim."].forEach((trimestre, idx) => {
+      const tbody = document.getElementById(`grades-trim-${idx + 1}`);
+      const lista = student.calificaciones[trimestre] || [];
+      lista.forEach(({ area, calificacion, estado, observacion }) => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td>${area}</td>
+          <td>${calificacion || "-"}</td>
+          <td>${estado || "-"}</td>
+          <td>${observacion || "-"}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+    });
+  }
+  
+  // Al cargar la página, mostrar las notas del usuario en sesión
+  document.addEventListener("DOMContentLoaded", () => {
+    const loggedUser = localStorage.getItem("loggedUser");
+    if (loggedUser) {
+      loadGrades(loggedUser);
+    } else {
+      alert("No has iniciado sesión");
+      // Aquí podrías redirigir al login si quieres
+    }
+  });
+  
