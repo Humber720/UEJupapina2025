@@ -13,7 +13,7 @@ function togglePasswordVisibility() {
 //datos del usuario 
   const estudiantes = {
 //QUINTO DE PRIMARIA 
-    "YHORDY ALEXANDER": { password: "15652837", curso: "5t de Primaria" },
+    "YHORDY ALEXANDER": { password: "15652837", curso: "5to de Primaria" },
 //SEXTO DE PRIMARIA 
     "ARMIN DENIS": { password: "16783243", curso: "6to de Primaria" },
     "NELVIN EZEQUIEL": { password: "14427297", curso: "6to de Primaria" },
