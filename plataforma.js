@@ -12,6 +12,15 @@ function togglePasswordVisibility() {
 }
 //datos del usuario 
   const estudiantes = {
+//QUINTO DE PRIMARIA 
+    "YHORDY ALEXANDER": { password: "15652837", curso: "5t de Primaria" },
+//SEXTO DE PRIMARIA 
+    "ARMIN DENIS": { password: "16783243", curso: "6to de Primaria" },
+    "NELVIN EZEQUIEL": { password: "14427297", curso: "6to de Primaria" },
+    "ALEJANDRO MATIAS": { password: "16908894", curso: "6to de Primaria" },
+    "ASBEL JESUS": { password: "15970059", curso: "6to de Primaria" },
+    
+ //PRIMERO DE SECUNDARIA   
     "YESICA VALENTINA": { password: "15982427", curso: "2do de Secundaria" },
     "AIRAN JUAN": { password: "16771291", curso: "6to de Secundaria" },
     "VALENTINA": { password: "1234567", curso: "1ro de Secundaria" },
