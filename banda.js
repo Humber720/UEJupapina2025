@@ -3,7 +3,7 @@ const studentsData = {
 //QUINTO DE PRIMARIA     
     "YHORDY ALEXANDER": { 
         password: "15652837", 
-        curso: "5t de Primaria", 
+        curso: "5to de Primaria", 
     calificaciones: [
         {instrumento: "TAMBOR", ensayo: "Tarde Martes 3 de Junio", asistencia: "NINGUNO", calificacion: "NINGUNO", observacion: "" },
         {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
