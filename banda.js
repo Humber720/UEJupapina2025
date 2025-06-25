@@ -1254,3 +1254,36 @@ function calculateAnnualAverage(grades) {
       });
     }
   };
+// para mostrar compromiso
+  const contenedor = document.getElementById('contenedorImagen');
+  const img = document.getElementById('imagen');
+  
+  let anchoActual = 100; // ancho inicial en porcentaje
+  const minAncho = 30;
+  const maxAncho = 100;
+  
+  document.getElementById('mostrarBtn').addEventListener('click', () => {
+    contenedor.style.display = 'block';
+    img.style.width = anchoActual + '%';  // aplica tamaño actual al mostrar
+  });
+  
+  document.getElementById('ocultarBtn').addEventListener('click', () => {
+    contenedor.style.display = 'none';
+  });
+  
+  document.getElementById('aumentar').addEventListener('click', () => {
+    if (anchoActual < maxAncho) {
+      anchoActual += 10;
+      if (anchoActual > maxAncho) anchoActual = maxAncho;
+      img.style.width = anchoActual + '%';
+    }
+  });
+  
+  document.getElementById('reducir').addEventListener('click', () => {
+    if (anchoActual > minAncho) {
+      anchoActual -= 10;
+      if (anchoActual < minAncho) anchoActual = minAncho;
+      img.style.width = anchoActual + '%';
+    }
+  });
+  
