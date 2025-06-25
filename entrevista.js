@@ -1,5 +1,13 @@
 // Datos de usuarios y calificaciones combinados
 const studentsData = {
+//QUINTO DE PRIMARIA 
+"YHORDY ALEXANDER": { password: "15652837", curso: "5to de Primaria" },
+//SEXTO DE PRIMARIA 
+    "ARMIN DENIS": { password: "16783243", curso: "6to de Primaria" },
+    "NELVIN EZEQUIEL": { password: "14427297", curso: "6to de Primaria" },
+    "ALEJANDRO MATIAS": { password: "16908894", curso: "6to de Primaria" },
+    "ASBEL JESUS": { password: "15970059", curso: "6to de Primaria" },
+//PRIMERO DE SECUNDARIA
     "YESICA VALENTINA": { //Usuario
         password: "15982427",  // Contraseña
         curso: "1ro de Secundaria", 
