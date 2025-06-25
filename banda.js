@@ -1343,4 +1343,3 @@ function calculateAnnualAverage(grades) {
       img.style.width = anchoActual + '%';
     }
   });
-  
