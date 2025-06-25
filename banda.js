@@ -1,5 +1,62 @@
 // Datos de usuarios y calificaciones combinados
 const studentsData = {
+//QUINTO DE PRIMARIA     
+    "YHORDY ALEXANDER": { 
+        password: "15652837", 
+        curso: "5t de Primaria", 
+    calificaciones: [
+        {instrumento: "TAMBOR", ensayo: "Tarde Martes 3 de Junio", asistencia: "NINGUNO", calificacion: "NINGUNO", observacion: "" },
+        {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
+        {instrumento: "TAMBOR", ensayo: "Tarde Miercoles 11 de mayo", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+        {instrumento: "TAMBOR", ensayo: "Tarde Miercoles 11 de mayo", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+        {instrumento: "TAMBOR", ensayo: "Tarde Martes 24 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+    ],
+},
+//SEXTO DE PRIMARIA 
+    "ARMIN DENIS": { 
+        password: "16783243", 
+        curso: "6to de Primaria", 
+        calificaciones: [
+            {instrumento: "TPT", ensayo: "Tarde Martes 3 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
+            {instrumento: "TPT", ensayo: "Tarde Miercoles 11 de mayo", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "TPT", ensayo: "Tarde Miercoles 11 de mayo", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "TPT", ensayo: "Tarde Martes 24 de Junio", asistencia: "FALTA", calificacion: "0", observacion: "Señor padre de familia: Debe pasar a firmar el compromiso del prestamdo del instrumento musical" },
+        ],
+    },
+    "NELVIN EZEQUIEL": { 
+        password: "14427297", 
+        curso: "6to de Primaria",
+        calificaciones: [
+            {instrumento: "TAMBOR", ensayo: "Tarde Martes 3 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
+            {instrumento: "TAMBOR", ensayo: "Tarde Miercoles 11 de mayo", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "TAMBOR", ensayo: "Tarde Miercoles 11 de mayo", asistencia: "PRESENTE", calificacion: "100", observacion: "" }
+            {instrumento: "TAMBOR", ensayo: "Tarde Martes 24 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },,
+        ],
+    },
+    "ALEJANDRO MATIAS": { 
+        password: "16908894", 
+        curso: "6to de Primaria",
+        calificaciones: [
+            {instrumento: "TPT", ensayo: "Tarde Martes 3 de Junio", asistencia: "FALTA", calificacion: "0", observacion: "" },
+            {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
+            {instrumento: "TPT", ensayo: "Tarde Miercoles 11 de mayo", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "TPT", ensayo: "Tarde Miercoles 11 de mayo", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "TPT", ensayo: "Tarde Martes 24 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "Señor padre de familia: Debe pasar a firmar el compromiso del prestamdo del instrumento musical" },
+        ],
+    },
+    "ASBEL JESUS": { 
+        password: "15970059", 
+        curso: "6to de Primaria", 
+        calificaciones: [
+            {instrumento: "TPT", ensayo: "Tarde Martes 3 de Junio", asistencia: "FALTA", calificacion: "0", observacion: "" },
+            {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
+            {instrumento: "TPT", ensayo: "Tarde Miercoles 11 de mayo", asistencia: "FALTA", calificacion: "0", observacion: "" },
+            {instrumento: "TPT", ensayo: "Tarde Miercoles 11 de mayo", asistencia: "FALTA", calificacion: "0", observacion: "" },
+            {instrumento: "TPT", ensayo: "Tarde Martes 24 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "Señor padre de familia: Debe pasar a firmar el compromiso del prestamdo del instrumento musical" },
+        ],
+    },
 //Primero de Secundaria
     "YESICA VALENTINA": { //Usuario
         password: "15982427",  // Contraseña
