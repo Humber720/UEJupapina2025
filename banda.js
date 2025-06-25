@@ -15,6 +15,7 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
             {instrumento: "TPT", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "TPT", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "TPT", ensayo: "Tarde Martes 24 de Junio", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
         ],
     },
     "VALENTINA": { //Usuario
@@ -37,6 +38,7 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
             {instrumento: "BOMBO", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "BOMBO", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "BOMBO", ensayo: "Tarde Martes 24 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
         ],
     },
     "GIORGIO MORIS": { //Usuario
@@ -47,6 +49,7 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
             {instrumento: "BARITONO-", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "BARITONO", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "BARITONO", ensayo: "Tarde Martes 24 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
         ],
     },
     "FABIAN": { //Usuario
@@ -57,6 +60,7 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
             {instrumento: "TBN-1", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "TBN-1", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "TBN-1", ensayo: "Tarde Martes 24 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
         ],
     },
     "SARA SCARLETT": { //Usuario
@@ -79,6 +83,7 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
             {instrumento: "TAM-8", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "TAM-8", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "TAM-8", ensayo: "Tarde Martes 24 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
         ],
     },
     "NAIZETH AYLIN": { //Usuario
@@ -113,6 +118,7 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "NIGUNO", calificacion: "NINGUNO", observacion: "" },
             {instrumento: "BAR-", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "BAR-", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
+            {instrumento: "BAR", ensayo: "Tarde Martes 24 de Junio", asistencia: "FALTA", calificacion: "0", observacion: "" },
         ],
     },
     "DANIEL": { //Usuario
@@ -129,6 +135,7 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
             {instrumento: "TPT-04", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "TPT-04", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "TPT-04", ensayo: "Tarde Martes 24 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
         ],
     },
     "ARACELI BRIANCA": { //Usuario
@@ -145,16 +152,18 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
             {instrumento: "TBN-2", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "TBN-2", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "TBN-2", ensayo: "Tarde Martes 24 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
         ],
     },
     "LIZETH LUNA": { //Usuario
         password: "14108002",  // Contraseña
         curso: "1ro de Secundaria", 
         calificaciones: [
-            {instrumento: "TAM-", ensayo: "Tarde Martes 3 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "LIRA", ensayo: "Tarde Martes 3 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
-            {instrumento: "TAM-", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-            {instrumento: "TAM-", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "LURA", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "LIRA", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "LIRA", ensayo: "Tarde Martes 24 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
         ],
     },
     "DAVID": { //Usuario
@@ -165,6 +174,7 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
             {instrumento: "TPT-02", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "TPT-02", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "TPT-02", ensayo: "Tarde Martes 24 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
         ],
 
     },
@@ -188,6 +198,7 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
             {instrumento: "LIRA", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "LIRA", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "LIRA", ensayo: "Tarde Martes 24 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
         ],
     },
     "JUAN FERNANDO": { //Usuario
@@ -204,6 +215,7 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
             {instrumento: "TAMBOR", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "TAMBOR", ensayo: "Tarde Lunes 16 de Junio", asistencia: "FALTA", calificacion: "0", observacion: "" },
+            {instrumento: "TAMBOR", ensayo: "Tarde Martes 24 de Junio", asistencia: "FALTA", calificacion: "0", observacion: "" },
         ],
     },
     "MARIA DEL CIELO": { //Usuario
@@ -262,6 +274,7 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
             {instrumento: "MTQP-2", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "MTQP-2", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "MTQP-2", ensayo: "Tarde Martes 24 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
         ],
     },
     "JHENNY YOSELIN": { //Usuario
@@ -278,6 +291,7 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "" },
             {instrumento: "TAM-7", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "TAM-7", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "TAM-7", ensayo: "Tarde Martes 24 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
         ],
     },
     "JULIAN NEYMAR": { //Usuario
@@ -312,6 +326,7 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
             {instrumento: "TAM-4", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "TAM-4", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "TAM-4", ensayo: "Tarde Martes 24 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
         ],
     },
     "PAOLA REYNA": { //Usuario
@@ -407,6 +422,7 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
             {instrumento: "BAR-07", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "BAR-07", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "BAR-07", ensayo: "Tarde Martes 24 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
         ],
     },
     "DINA VALERIA": { //Usuario
@@ -429,6 +445,7 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
             {instrumento: "BOMBO", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "BOMBO", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "BOMBO", ensayo: "Tarde Martes 24 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
         ],
     },
     "JOSE MIGUEL": { //Usuario
@@ -463,6 +480,7 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
             {instrumento: "BAR-05", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "BAR-05", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "BAR-05", ensayo: "Tarde Martes 24 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
         ],
     },
     "JHOVANA": { //Usuario
@@ -509,6 +527,7 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
             {instrumento: "LIR-03", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "FALTA", calificacion: "0", observacion: "" },
             {instrumento: "LIR-03", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "LIR-03", ensayo: "Tarde Martes 24 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
         ],
     },
     "GENESIS CAMILA": { //Usuario
@@ -525,6 +544,7 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
             {instrumento: "LIRA", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "FALTA", calificacion: "0", observacion: "" },
             {instrumento: "LIRA", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PERMISO", calificacion: "NIGUNO", observacion: "" },
+            {instrumento: "LIRA", ensayo: "Tarde Martes 24 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
         ],
     },
     "MELANI PILAR": { //Usuario
@@ -535,6 +555,7 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
             {instrumento: "LIRA", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "LIRA", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
+            {instrumento: "LIRA", ensayo: "Tarde Martes 24 de Junio", asistencia: "FALTA", calificacion: "0", observacion: "" },
         ],
     },
     "SONIA": { //Usuario
@@ -550,7 +571,8 @@ const studentsData = {
             {instrumento: "LIR-05", ensayo: "Tarde Martes 3 de Junio", asistencia: "FALTA", calificacion: "0", observacion: "" },
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
             {instrumento: "LIR-05", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-            {instrumento: "lir-05", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "LIR-05", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "LIR.05", ensayo: "Tarde Martes 24 de Junio", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
         ],
     },
     "EMILI CLARA": { //Usuario
@@ -579,6 +601,7 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
             {instrumento: "TAM-5", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "TAM-5", ensayo: "Tarde Lunes 16 de Junio", asistencia: "FALTA", calificacion: "0", observacion: "" },
+            {instrumento: "TAM-5", ensayo: "Tarde Martes 24 de Junio", asistencia: "FALTA", calificacion: "0", observacion: "" },
         ],
     },
 
@@ -596,6 +619,7 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "" },
             {instrumento: "LIR-01", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "LIR-01", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "LIR-01", ensayo: "Tarde Martes 24 de Junio", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
         ],
     },
     "LAURA NOELIA": { //Usuario
@@ -636,6 +660,7 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
             {instrumento: "TPT-05", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "TPT-05", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "TPT-05", ensayo: "Tarde Martes 24 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
         ],
     },
     "ANDREA": { //Usuario
@@ -646,6 +671,7 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
             {instrumento: "LIRA", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "LIRA", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "LIRA", ensayo: "Tarde Martes 24 de Junio", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
         ],
     },
     "CLARA": { //Usuario
@@ -664,10 +690,11 @@ const studentsData = {
         password: "15069646",  // Contraseña
         curso: "4to de Secundaria", 
         calificaciones: [
-            {instrumento: "TPT", ensayo: "Tarde Martes 3 de Junio", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
+            {instrumento: "TPT-01", ensayo: "Tarde Martes 3 de Junio", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
-            {instrumento: "TPT", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-            {instrumento: "TPT", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "TPT-01", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "TPT-01", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "TPT-01", ensayo: "Tarde Martes 24 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
         ],
     },
     "DIETMAR RAYNARD": { //Usuario
@@ -702,6 +729,7 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
             {instrumento: "BAR-02", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "BAR-02", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "BAR-02", ensayo: "Tarde Martes 24 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
         ],
     },
     "YERKO": { //Usuario
@@ -712,6 +740,7 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
             {instrumento: "BAR-1", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "BAR-1", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "BAR-1", ensayo: "Tarde Martes 24 de Junio", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
         ],
     },
     "CRISTIAN LEONEL": { //Usuario
@@ -728,6 +757,7 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
             {instrumento: "LIRA", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "LIRA", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "LIRA", ensayo: "Tarde Martes 24 de Junio", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
         ],
     },
     "ARTURO ANDRES": { //Usuario
@@ -738,6 +768,7 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
             {instrumento: "BAR-06", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "ATRASADO", calificacion: "70", observacion: "" },
             {instrumento: "BAR-06", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "BAR-06", ensayo: "Tarde Martes 24 de Junio", asistencia: "PRESENTE", calificacion: "0", observacion: "" },
         ],
     },
     "EDDY": { //Usuario
@@ -782,6 +813,7 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
             {instrumento: "BAR-04", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "BAR-04", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "BAR-04", ensayo: "Tarde Martes 24 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
         ],
     },
     "MAYRA DANETZA": { //Usuario
@@ -864,6 +896,7 @@ const studentsData = {
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
             {instrumento: "BOMBO", ensayo: "Tarde Miercoles 11 de Junio", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
             {instrumento: "BOMBO", ensayo: "Tarde Lunes 16 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "BOMBO", ensayo: "Tarde Martes 24 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
         ],
     },
     "DANNA MARICELA": { //Usuario
