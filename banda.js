@@ -13,7 +13,7 @@ const studentsData = {
             {instrumento: "TAMBOR", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "TAMBOR", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "TAMBOR", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-            {instrumento: "TAMBOR", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+            {instrumento: "TAMBOR", ensayo: "Desfile Martes 15 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
         ],
     },
     //SEXTO DE PRIMARIA 
@@ -29,7 +29,7 @@ const studentsData = {
                 {instrumento: "TPT-03", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "TPT-03", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "TPT-03", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "TPT-03", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "TPT-03", ensayo: "Desfile Martes 15 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "NELVIN EZEQUIEL": { 
@@ -44,7 +44,7 @@ const studentsData = {
                 {instrumento: "TAMBOR", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "TAMBOR", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "TAMBOR", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "TAMBOR", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "TAMBOR", ensayo: "Desfile Martes 15 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "ALEJANDRO MATIAS": { 
@@ -59,7 +59,7 @@ const studentsData = {
                 {instrumento: "TPT-07", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "TPT-07", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "TPT-07", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "TPT-07", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "TPT-07", ensayo: "Desfile Martes 15 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "ASBEL JESUS": { 
@@ -74,7 +74,7 @@ const studentsData = {
                 {instrumento: "TPT", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "TPT", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "TPT", ensayo: "Desfile Viernes 11 de Julio", asistencia: "NINGUNO", calificacion: "NINGUNO", observacion: "NO ASISTIÓ, DEBIDO A LA INASISTENCIA A LOS ENSAYOS" },
-                {instrumento: "TPT", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "TPT", ensayo: "Desfile Martes 15 de Julio", asistencia: "NINGUNO", calificacion: "NINGUNO", observacion: "NO ASISTIÓ" },
             ],
         },
     //Primero de Secundaria
@@ -96,7 +96,7 @@ const studentsData = {
                 {instrumento: "TPT-3", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "TPT-3", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "TPT-3", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "TPT-3", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "TPT-3", ensayo: "Desfile Martes 15 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "VALENTINA": { //Usuario
@@ -123,7 +123,7 @@ const studentsData = {
                 {instrumento: "BOMBO", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "BOMBO", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "BOMBO", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "BOMBO", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "BOMBO", ensayo: "Desfile Martes 15 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "GIORGIO MORIS": { //Usuario
@@ -138,7 +138,7 @@ const studentsData = {
                 {instrumento: "BARITONO", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "BARITONO", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "BARITONO", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "BARITONO", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "BARITONO", ensayo: "Desfile Martes 15 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "FABIAN": { //Usuario
@@ -153,7 +153,7 @@ const studentsData = {
                 {instrumento: "TBN-1", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "TBN-1", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "TBN-1", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "TBN-1", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "TBN-1", ensayo: "Desfile Martes 15 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "SARA SCARLETT": { //Usuario
@@ -180,7 +180,7 @@ const studentsData = {
                 {instrumento: "TAM-8", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "TAM-8", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "TAM-8", ensayo: "Desfile Viernes 11 de Julio", asistencia: "NINGUNO", calificacion: "NINGUNO", observacion: "" },
-                {instrumento: "TAM-8", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "TAM-8", ensayo: "Desfile Martes 15 de Julio", asistencia: "NINGUNO", calificacion: "NINGUNO", observacion: "" },
             ],
         },
         "NAIZETH AYLIN": { //Usuario
@@ -219,7 +219,7 @@ const studentsData = {
                 {instrumento: "TAM-3", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "TAM-3", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "TAM-3", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "TAM-3", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "TAM-3", ensayo: "Desfile Martes 15 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "DANIEL": { //Usuario
@@ -240,7 +240,7 @@ const studentsData = {
                 {instrumento: "TPT-04", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "TPT-04", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "TPT-04", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "TPT-04", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "TPT-04", ensayo: "Desfile Martes 15 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "ARACELI BRIANCA": { //Usuario
@@ -262,7 +262,7 @@ const studentsData = {
                 {instrumento: "TBN-2", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "TBN-2", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "TBN-2", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "TBN-2", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "TBN-2", ensayo: "Desfile Martes 15 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "LIZETH LUNA": { //Usuario
@@ -277,7 +277,7 @@ const studentsData = {
                 {instrumento: "LIRA", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "LIRA", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "LIRA", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
-                {instrumento: "LIRA", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "LIRA", ensayo: "Desfile Martes 15 de Julio", asistencia: "FALTA", calificacion: "0", observacion: "NO ASISTIÓ AL DESFILE" },
             ],
         },
         "DAVID": { //Usuario
@@ -292,7 +292,7 @@ const studentsData = {
                 {instrumento: "TPT-02", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "TPT-02", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "TPT-02", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "TPT-02", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "TPT-02", ensayo: "Desfile Martes 15 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
     
         },
@@ -320,7 +320,7 @@ const studentsData = {
                 {instrumento: "LIRA", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "LIRA", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "LIRA", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "LIRA", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "LIRA", ensayo: "Desfile Martes 15 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "JUAN FERNANDO": { //Usuario
@@ -341,7 +341,7 @@ const studentsData = {
                 {instrumento: "TAMBOR", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "TAMBOR", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "TAMBOR", ensayo: "Desfile Viernes 11 de Julio", asistencia: "NINGUNO", calificacion: "NINGUNO", observacion: "" },
-                {instrumento: "TAMBOR", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "TAMBOR", ensayo: "Desfile Martes 15 de Julio", asistencia: "NINGUNO", calificacion: "NINGUNO", observacion: "" },
             ],
         },
         "MARIA DEL CIELO": { //Usuario
@@ -404,7 +404,7 @@ const studentsData = {
                 {instrumento: "MTQP-2", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "MTQP-2", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "MTQP-2", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "MTQP-2", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "MTQP-2", ensayo: "Desfile Martes 15 de Julio", asistencia: "ATRASADO", calificacion: "70", observacion: "" },
             ],
         },
         "JHENNY YOSELIN": { //Usuario
@@ -425,7 +425,7 @@ const studentsData = {
                 {instrumento: "TAM-7", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "TAM-7", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "TAM-7", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "TAM-7", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "TAM-7", ensayo: "Desfile Martes 15 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "JULIAN NEYMAR": { //Usuario
@@ -458,7 +458,7 @@ const studentsData = {
                 {instrumento: "LIRA", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "LIRA", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "LIRA", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "98", observacion: "CABELLOS SIN MOÑOS" },
-                {instrumento: "LIRA", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "LIRA", ensayo: "Desfile Martes 15 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "NEYMAR DIDYEL": { //Usuario
@@ -473,7 +473,7 @@ const studentsData = {
                 {instrumento: "TAM-4", ensayo: "Mañana Miercoles  02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "TAM-4", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "TAM-4", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "TAM-4", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "TAM-4", ensayo: "Desfile Martes 15 de Julio", asistencia: "ATRASADO", calificacion: "70", observacion: "" },
             ],
         },
         "PAOLA REYNA": { //Usuario
@@ -573,7 +573,7 @@ const studentsData = {
                 {instrumento: "BAR-07", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "BAR-07", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "BAR-07", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "BAR-07", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "BAR-07", ensayo: "Desfile Martes 15 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "DINA VALERIA": { //Usuario
@@ -600,7 +600,7 @@ const studentsData = {
                 {instrumento: "BOMBO", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "BOMBO", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "BOMBO", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "BOMBO", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "BOMBO", ensayo: "Desfile Martes 15 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "JOSE MIGUEL": { //Usuario
@@ -639,7 +639,7 @@ const studentsData = {
                 {instrumento: "BAR-05", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "BAR-05", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "BAR-05", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "95", observacion: "NO FIRMO COMPROMISO DE PADRE DE FAMILIA" },
-                {instrumento: "BAR-05", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "BAR-05", ensayo: "Desfile Martes 15 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "JHOVANA": { //Usuario
@@ -660,7 +660,7 @@ const studentsData = {
                 {instrumento: "LIR-09", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "LIR-09", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "LIR-09", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "95", observacion: "NO FIRMO COMPROMISO DE PADRE DE FAMILIA" },
-                {instrumento: "LIR-09", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "LIR-09", ensayo: "Desfile Martes 15 de Julio", asistencia: "ATRASADO", calificacion: "70", observacion: "" },
             ],
         },
         "DUBAL SEBASTIAN": { //Usuario
@@ -699,7 +699,7 @@ const studentsData = {
                 {instrumento: "LIR-03", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "LIR-03", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "LIR-03", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "LIR-03", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "LIR-03", ensayo: "Desfile Martes 15 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "GENESIS CAMILA": { //Usuario
@@ -720,7 +720,7 @@ const studentsData = {
                 {instrumento: "LIRA", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "LIRA", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "LIRA", ensayo: "Desfile Viernes 11 de Julio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISITIO POR INASISTENCIA A LOS ENSAYOS" },
-                {instrumento: "LIRA", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "LIRA", ensayo: "Desfile Martes 15 de Julio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "" },
             ],
         },
         "MELANI PILAR": { //Usuario
@@ -735,7 +735,7 @@ const studentsData = {
                 {instrumento: "LIRA", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "LIRA", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "LIRA", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "LIRA", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "LIRA", ensayo: "Desfile Martes 15 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "SONIA": { //Usuario
@@ -756,7 +756,7 @@ const studentsData = {
                 {instrumento: "LIR-05", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "LIR-05", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "LIR-05", ensayo: "Desfile Viernes 11 de Julio", asistencia: "ATRASADO", calificacion: "70", observacion: "" },
-                {instrumento: "LIR-05", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "LIR-05", ensayo: "Desfile Martes 15 de Julio", asistencia: "ATRASADO", calificacion: "70", observacion: "" },
             ],
         },
         "EMILI CLARA": { //Usuario
@@ -789,7 +789,7 @@ const studentsData = {
                 {instrumento: "TAM-5", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "TAM-5", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "TAM-5", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "TAM-5", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "TAM-5", ensayo: "Desfile Martes 15 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
     
@@ -811,7 +811,7 @@ const studentsData = {
                 {instrumento: "LIR-01", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "LIR-01", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "LIR-01", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "95", observacion: "NO FIRMO COMPROMISO DE PADRE DE FAMILIA" },
-                {instrumento: "LIR-01", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "LIR-01", ensayo: "Desfile Martes 15 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "LAURA NOELIA": { //Usuario
@@ -856,7 +856,7 @@ const studentsData = {
                 {instrumento: "TPT-03", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "TPT-03", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "TPT-03", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "TPT-03", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "TPT-03", ensayo: "Desfile Martes 15 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "ANDREA": { //Usuario
@@ -871,7 +871,7 @@ const studentsData = {
                 {instrumento: "LIRA", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "LIRA", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "LIRA", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "LIRA", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "LIRA", ensayo: "Desfile Martes 15 de Julio", asistencia: "ATRASADO", calificacion: "70", observacion: "" },
             ],
         },
         "CLARA": { //Usuario
@@ -898,7 +898,7 @@ const studentsData = {
                 {instrumento: "TPT-01", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "TPT-01", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "TPT-01", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "TPT-01", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "TPT-01", ensayo: "Desfile Martes 15 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "DIETMAR RAYNARD": { //Usuario
@@ -937,7 +937,7 @@ const studentsData = {
                 {instrumento: "BAR-02", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "BAR-02", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "BAR-02", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "BAR-02", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "BAR-02", ensayo: "Desfile Martes 15 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "YERKO": { //Usuario
@@ -952,7 +952,7 @@ const studentsData = {
                 {instrumento: "BAR-1", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "BAR-1", ensayo: "Tarde MIercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "BAR-1", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "BAR-1", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "BAR-1", ensayo: "Desfile Martes 15 de Julio", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
             ],
         },
         "CRISTIAN LEONEL": { //Usuario
@@ -973,7 +973,7 @@ const studentsData = {
                 {instrumento: "LIRA", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "LIRA", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "LIRA", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "98", observacion: "CABELLOS SIN MOÑO" },
-                {instrumento: "LIRA", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "LIRA", ensayo: "Desfile Martes 15 de Julio", asistencia: "ATRASADO", calificacion: "70", observacion: "" },
             ],
         },
         "ARTURO ANDRES": { //Usuario
@@ -988,7 +988,7 @@ const studentsData = {
                 {instrumento: "BAR-06", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "BAR-06", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "BAR-06", ensayo: "Desfile Viernes 11 de Julio", asistencia: "ATRASADO", calificacion: "70", observacion: "" },
-                {instrumento: "BAR-06", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "BAR-06", ensayo: "Desfile Martes 15 de Julio", asistencia: "ATRASADO", calificacion: "70", observacion: "" },
             ],
         },
         "EDDY": { //Usuario
@@ -1037,7 +1037,7 @@ const studentsData = {
                 {instrumento: "BAR-04", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "BAR-04", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "BAR-04", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "BAR-04", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "BAR-04", ensayo: "Desfile Martes 15 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "MAYRA DANETZA": { //Usuario
@@ -1124,7 +1124,7 @@ const studentsData = {
                 {instrumento: "BOMBO", ensayo: "Mañana Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "BOMBO", ensayo: "Tarde Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" }, 
                 {instrumento: "BOMBO", ensayo: "Desfile Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "BOMBO", ensayo: "Desfile Martes 15 de Julio", asistencia: "", calificacion: "", observacion: "" },      
+                {instrumento: "BOMBO", ensayo: "Desfile Martes 15 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },      
             ],
         },
         "DANNA MARICELA": { //Usuario
