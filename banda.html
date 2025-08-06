@@ -70,11 +70,15 @@
     <div class="container">
         <!-- Encabezado con nombre del estudiante y curso -->
         <div class="student-info">
-          <h2 id="student-name"></h2>
-          <p id="course-name"></p>
-        <!--<button onclick="logout()" class="logout-button">Cerrar sesión</button>-->
+          <h2>ESTUDIANTE: <span id="student-name"></span></h2>
+
+          <table style="width:100%;">
+            <tr>
+              <td><strong>Curso:</strong> <span id="course-name"></span></td>
+              <td style="text-align:center;"><strong>Instrumento musical:</strong> <span id="instrument-name"></span></td>
+            </tr>
+          </table>
         </div>
-      
         <!-- Tabla de calificaciones -->
         <table class="grades-table">
           <caption><b><h2>ENSAYOS DE LA BANDA DE MÚSICA</h2></b></caption>
@@ -105,3 +109,4 @@
       <!-- Scripts -->
       <script src="banda.js"></script>
       </html>
+
