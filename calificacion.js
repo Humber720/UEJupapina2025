@@ -1,13 +1,5 @@
 // Datos de usuarios y calificaciones combinados
 const studentsData = {
-//QUINTO DE PRIMARIA 
-    "YHORDY ALEXANDER": { password: "15652837", curso: "5to de Primaria" },
-//SEXTO DE PRIMARIA 
-    "ARMIN DENIS": { password: "16783243", curso: "6to de Primaria" },
-    "NELVIN EZEQUIEL": { password: "14427297", curso: "6to de Primaria" },
-    "ALEJANDRO MATIAS": { password: "16908894", curso: "6to de Primaria" },
-    "ASBEL JESUS": { password: "15970059", curso: "6to de Primaria" },
-//PRIMERO DE SECUNDARIA 
     "YESICA VALENTINA": { //Usuario
         password: "15982427",  // Contraseña
         curso: "1ro de Secundaria", 
@@ -1458,3 +1450,40 @@ function calculateAnnualAverage(grades) {
       });
     }
   };
+
+  
+// Mostrar el aviso/modal de descarga pdf
+function mostrarAviso() {
+    document.getElementById("modalDescarga").style.display = "block";
+}
+
+// Cerrar el modal
+function cerrarAviso() {
+    document.getElementById("modalDescarga").style.display = "none";
+}
+
+  // Descargar el PDF usando nombre del usuario almacenado en localStorage
+function openNota() {
+    const username = localStorage.getItem("loggedUser");
+    if (!username) {
+        alert("No se encontró el usuario en sesión.");
+        return;
+    }
+
+    const filePath = `notas/${username}.pdf`;
+
+    const link = document.createElement("a");
+    link.href = filePath;
+    link.download = `${username}.pdf`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    cerrarAviso(); // Opcional: cerrar modal después de descargar
+}
+
+// Función para cerrar sesión
+function logout() {
+    localStorage.removeItem("loggedUser");
+    window.location.href = "index.html";
+}
