@@ -27,8 +27,8 @@
         
           <div class="menu-scroll" id="menuScroll">
             <a href="plataforma.html" class="activo">Inicio</a>
+            <button onclick="window.location.href='actividad.html'">Actividades</button>
             <button onclick="window.location.href='calificacion.html'">Notas de calificación</button>
-            <button onclick="window.location.href='entrevista.html'">Entrevistas</button>
             <button onclick="window.location.href='libreta.html'">Libretas</button>
             <button onclick="window.location.href='banda.html'">Banda de Música</button>
           </div>
@@ -66,12 +66,29 @@
       </div>
     </div>
   </header>
+ 
+    <!-- Contenido principal entrevista -->
+    <div class="container">
+      <center><h3><p>INFORME DE ENTREVISTA PEDAGÓGICA</p></h3></center>
+    </br>
+      <center><h4><p>EDUCACIÓN MUSICAL - PROF. HUMBERTO YUPANQUI C.</p></h4></center>
+  <!-- HTML - Botón para mostrar aviso de descarga -->
+  <center><button onclick="mostrarAviso()">VER INFORME DE ENTREVITA PEDAGÓGICA</button></center>
   
+    <!-- Contenedor para el aviso de descarga -->
+      <div id="modalDescarga" class="modal-descarga">
+        <p>Presiona el botón para descargar tu nota en PDF:</p>
+        <button onclick="openNota()">Descargar PDF</button>
+        <button onclick="cerrarAviso()">Cancelar</button>
+      </div>
+    </div>
+
   <!-- Contenido principal calificación -->
 <div class="container">
   <!-- Encabezado con nombre del estudiante y curso -->
   <div class="student-info">
     <h2>ESTUDIANTE: <span id="student-name"></span></h2>
+
     <p id="course-name"></p>
   <!--<button onclick="logout()" class="logout-button">Cerrar sesión</button>-->
   </div>
@@ -95,4 +112,3 @@
 <!-- Scripts -->
 <script src="calificacion.js"></script>
 </html>
-
