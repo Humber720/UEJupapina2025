@@ -1,13 +1,5 @@
 // Datos de usuarios y calificaciones combinados
 const studentsData = {
-//QUINTO DE PRIMARIA 
-"YHORDY ALEXANDER": { password: "15652837", curso: "5to de Primaria" },
-//SEXTO DE PRIMARIA 
-    "ARMIN DENIS": { password: "16783243", curso: "6to de Primaria" },
-    "NELVIN EZEQUIEL": { password: "14427297", curso: "6to de Primaria" },
-    "ALEJANDRO MATIAS": { password: "16908894", curso: "6to de Primaria" },
-    "ASBEL JESUS": { password: "15970059", curso: "6to de Primaria" },
-//PRIMERO DE SECUNDARIA
     "YESICA VALENTINA": { //Usuario
         password: "15982427",  // Contraseña
         curso: "1ro de Secundaria", 
@@ -1413,3 +1405,33 @@ function logout() {
     localStorage.removeItem("loggedUser");
     window.location.href = "index.html";
 }
+// MOSTRAR SECCIONES
+function mostrarSeccion(id) {
+    const secciones = document.querySelectorAll(".seccion");
+    secciones.forEach(seccion => seccion.classList.remove("activa"));
+    document.getElementById(id).classList.add("activa");
+  }
+  
+  // ENVIAR TAREA A GOOGLE DRIVE
+  document.getElementById("form-tarea").addEventListener("submit", async function (e) {
+    e.preventDefault();
+  
+    const nombre = document.getElementById("nombre").value;
+    const archivo = document.getElementById("archivo").files[0];
+  
+    const formData = new FormData();
+    formData.append("nombre", nombre);
+    formData.append("archivo", archivo);// archivo es el File object
+  
+    try {
+      const response = await fetch("https://script.google.com/macros/s/AKfycbzchPliYW-2Y5ynDSypbHgV5UafFIq4-qJpbr3zTMpDdFwo1i7bAPQWBPPM-us9dtd05Q/exec", {
+        method: "POST",
+        body: formData,
+      });
+  
+      const texto = await response.text();
+      document.getElementById("mensaje-tarea").textContent = texto;
+    } catch (error) {
+      document.getElementById("mensaje-tarea").textContent = "Error al enviar la tarea.";
+    }
+  });
