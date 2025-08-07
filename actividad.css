@@ -1,0 +1,87 @@
+/* === Estilos para la Plataforma de Actividades === */
+
+header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  header nav button {
+    padding: 8px 16px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    background-color: #007acc;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  header nav button:hover {
+    background-color: #005b99;
+  }
+  
+  /* Secciones */
+  .seccion {
+    display: none;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  .seccion.activa {
+    display: block;
+  }
+  
+  /* Formularios */
+  .seccion form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .seccion label {
+    font-weight: bold;
+  }
+  
+  .seccion input[type="text"],
+  .seccion input[type="file"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .seccion button[type="submit"] {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .seccion button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
+  .seccion p {
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
+  /* Cuestionario */
+  #cuestionario input[type="radio"] {
+    margin-right: 5px;
+  }
+  
