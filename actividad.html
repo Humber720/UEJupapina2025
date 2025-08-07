@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="cabecera.css" />
     <!-- CSS general de la página -->
     <link rel="stylesheet" href="calificacion.css" />
+    <link rel="stylesheet" href="actividad.css" />
     <script src="plataforma.js"></script>
     <script src="cabecera.js"></script>
 </head>
@@ -26,14 +27,14 @@
         
           <div class="menu-scroll" id="menuScroll">
             <a href="plataforma.html" class="activo">Inicio</a>
+            <button onclick="window.location.href='actividad.html'">Actividades</button>
             <button onclick="window.location.href='calificacion.html'">Notas de calificación</button>
-            <button onclick="window.location.href='entrevista.html'">Entrevistas</button>
             <button onclick="window.location.href='libreta.html'">Libretas</button>
             <button onclick="window.location.href='banda.html'">Banda de Música</button>
           </div>
           <button class="flecha derecha" onclick="scrollMenu(150)">›</button>
         </div>
-            <button onclick="window.location.href='lateral.html'">📁Menú</button>
+          <button onclick="window.location.href='lateral.html'">📁Menú</button>
                     <!-- Perfil de encabezado -->
             <!-- Contenedor para alinear a la derecha -->
             <div class="perfil-wrapper">
@@ -59,29 +60,67 @@
                 </div>
               </div>
             </div>
-
+            
           </div>
         </div>
       </div>
     </div>
   </header>
-  <!-- Contenido principal entrevista -->
-  <div class="container">
-    <center><h3><p>INFORME DE ENTREVISTA PEDAGÓGICA</p></h3></center>
-  </br>
-    <center><h4><p>EDUCACIÓN MUSICAL - PROF. HUMBERTO YUPANQUI C.</p></h4></center>
-<!-- HTML - Botón para mostrar aviso de descarga -->
-<center><button onclick="mostrarAviso()">VER INFORME DE ENTREVITA PEDAGÓGICA</button></center>
-<!-- Contenedor para el aviso de descarga -->
-  <div id="modalDescarga" class="modal-descarga">
-    <p>Presiona el botón para descargar tu nota en PDF:</p>
-    <button onclick="openNota()">Descargar PDF</button>
-    <button onclick="cerrarAviso()">Cancelar</button>
-  </div>
+  <header>
+    <nav>
+      <button onclick="mostrarSeccion('contenido')">Contenido</button>
+      <button onclick="mostrarSeccion('tarea')">Subir Tarea</button>
+      <button onclick="mostrarSeccion('cuestionario')">Cuestionario</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Sección Contenido -->
+    <section id="contenido" class="seccion activa">
+      <h2>Contenido Educativo</h2>
+      <p>
+        Bienvenido/a. Aquí podrás encontrar el contenido educativo de tu curso.
+        <br><br>
+        🎵 <strong>Tema:</strong> "La importancia de la música en el desarrollo personal".
+        <br><br>
+        La música desarrolla la creatividad, la memoria y las habilidades sociales. Es una herramienta pedagógica esencial para la educación integral.
+      </p>
+    </section>
+
+    <!-- Sección Subir Tarea -->
+    <section id="tarea" class="seccion">
+      <h2>Subir Tarea</h2>
+      <form id="form-tarea">
+        <label for="nombre">Nombre del estudiante:</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="archivo">Selecciona tu archivo:</label>
+        <input type="file" id="archivo" name="archivo" required />
+
+        <button type="submit">Enviar Tarea</button>
+      </form>
+      <p id="mensaje-tarea"></p>
+    </section>
+
+    <!-- Sección Cuestionario -->
+    <section id="cuestionario" class="seccion">
+      <h2>Cuestionario</h2>
+      <form id="form-cuestionario">
+        <label>1. ¿Te gusta la música?</label><br/>
+        <input type="radio" name="q1" value="Sí" required> Sí<br/>
+        <input type="radio" name="q1" value="No"> No<br/><br/>
+
+        <label>2. ¿Qué instrumento te gustaría tocar?</label>
+        <input type="text" name="instrumento" required /><br/>
+
+        <button type="submit">Enviar Respuestas</button>
+      </form>
+      <p id="mensaje-cuestionario"></p>
+    </section>
+  </main>
 
     <table>
-    <table>
-      <caption><b>RANGO DE VALORACIÓN DE LAS DIMENSIONES</b></caption>
+      <caption><h1><b>RANGO DE VALORACIÓN DE LAS DIMENSIONES</b></h1></caption>
       <tr>
       <th>#</th>
       <th>Descripción</th>
@@ -121,6 +160,6 @@
 </div> 
     <!-- Script para cargar las notas y manejar la sesión -->
     <script src="plataforma.js"></script> 
-    <script src="entrevista.js"></script> 
+    <script src="actividad.js"></script> 
 </body>
 </html>
