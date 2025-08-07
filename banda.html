@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="cabecera.css" />
     <!-- CSS general de la página -->
     <link rel="stylesheet" href="calificacion.css" />
-    <script src="banda.css"></script>
     <script src="plataforma.js"></script>
     <script src="cabecera.js"></script>
+    <script src="banda.css"></script>
 </head>
 <body>
      <!-- Encabezado -->
@@ -27,14 +27,14 @@
         
           <div class="menu-scroll" id="menuScroll">
             <a href="plataforma.html" class="activo">Inicio</a>
+            <button onclick="window.location.href='actividad.html'">Actividades</button>
             <button onclick="window.location.href='calificacion.html'">Notas de calificación</button>
-            <button onclick="window.location.href='entrevista.html'">Entrevistas</button>
             <button onclick="window.location.href='libreta.html'">Libretas</button>
             <button onclick="window.location.href='banda.html'">Banda de Música</button>
           </div>
           <button class="flecha derecha" onclick="scrollMenu(150)">›</button>
-        </div> 
-          <button onclick="window.location.href='lateral.html'">📁Menú</button>
+        </div>
+        <button onclick="window.location.href='lateral.html'">📁Menú</button> 
                     <!-- Perfil de encabezado -->
             <!-- Contenedor para alinear a la derecha -->
             <div class="perfil-wrapper">
@@ -56,6 +56,7 @@
                   </div>
                   <div class="acciones">
                     <button onclick="logout()" class="cerrar">Cerrar sesión</button>
+                    <!--<button onclick="logout()" class="logout-button">Cerrar sesión</button>-->
                   </div>
                 </div>
               </div>
@@ -79,9 +80,10 @@
             </tr>
           </table>
         </div>
+        
         <!-- Tabla de calificaciones -->
         <table class="grades-table">
-          <caption><b><h2>ENSAYOS DE LA BANDA DE MÚSICA</h2></b></caption>
+          <caption><b><h1>ENSAYOS DE LA BANDA DE MUSICA</h1></b></caption>
           <thead>
             <tr>
               <th>ACTIVIDADES</th>
@@ -96,7 +98,7 @@
           </tbody>
         </table>
       </div>
-                  <!--<button para ver compromiso-->
+              <!--<button para ver compromiso-->
                 <div class="botones">
                   <center><button id="mostrarBtn">VER COMPROMISO</button>
                           <button id="ocultarBtn">OCULTAR COMPROMISO</button>
@@ -109,5 +111,3 @@
       <!-- Scripts -->
       <script src="banda.js"></script>
       </html>
-
-
