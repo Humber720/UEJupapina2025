@@ -70,12 +70,13 @@
     <!-- Contenido principal entrevista -->
     <div class="container">
       <center><h3><p>INFORME DE ENTREVISTA PEDAGÓGICA</p></h3></center>
-    </br>
+      </br>
       <center><h4><p>EDUCACIÓN MUSICAL - PROF. HUMBERTO YUPANQUI C.</p></h4></center>
-  <!-- HTML - Botón para mostrar aviso de descarga -->
-  <center><button onclick="mostrarAviso()">VER INFORME DE ENTREVITA PEDAGÓGICA</button></center>
-  
-    <!-- Contenedor para el aviso de descarga -->
+      <!-- HTML - Botón para mostrar aviso de descarga -->
+      <center><button onclick="mostrarAviso()">VER INFORME DE ENTREVITA PEDAGÓGICA</button></center>
+      <p>Señor(a) padre/madre o tutor del estudiante, descarga el informe de entrevista pedagógica del área Educación Musical, 
+        para informarse el desempeño y aprendizaje del estudiante de 2do trimestre. </p>
+      <!-- Contenedor para el aviso de descarga -->
       <div id="modalDescarga" class="modal-descarga">
         <p>Presiona el botón para descargar tu nota en PDF:</p>
         <button onclick="openNota()">Descargar PDF</button>
@@ -89,10 +90,9 @@
   <div class="student-info">
     <h2>ESTUDIANTE: <span id="student-name"></span></h2>
 
-    <p id="course-name"></p>
+    <td><strong>Curso:</strong> <span id="course-name"></span></td>
   <!--<button onclick="logout()" class="logout-button">Cerrar sesión</button>-->
   </div>
-
   <!-- Tabla de calificaciones -->
   <table class="grades-table">
     <caption><b>NOTAS DE CALIFICACIÓN DE EDUCACIÓN MUSICAL</b></caption>
