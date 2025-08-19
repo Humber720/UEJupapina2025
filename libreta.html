@@ -68,58 +68,70 @@
     <!-- principal libreta -->
     <div class="container">
         <center><h3><p>LEBRETA ELECTRÓNICA ESCOLAR</p></h3></center>
-      </br>
-      <center><h4><p>ASESOR 2DO SEC. - PROF. HUMBERTO YUPANQUI C.</p></h4></center>
-        <div class="botonera">
-          <center><button onclick="mostrarAviso()">VER LIBRETA ESCOLAR ELECTRÓNICA</button></center>
+        </br>
+        <center><h4><p>PROF. HUMBERTO YUPANQUI C. - ASESOR 2DO DE SECUNDARIA</p></h4></center>
+        <center><button onclick="mostrarAviso()">VER LIBRETA ESCOLAR ELECTRÓNICA</button></center>
+        <p>Señor(a) padre/madre o tutor del estudiante, descarga la Libreta Electrónica de 2do de Secundaria, 
+            para informarse el desempeño y aprendizaje del estudiante del 2do trimestre. </p>
         <!-- Contenedor para el aviso de descarga -->
         <div id="modalDescarga" class="modal-descarga">
           <p>Presiona el botón para descargar libreta electrónica en PDF:</p>
           <button onclick="openNota()">Descargar PDF</button>
           <button onclick="cerrarAviso()">Cancelar</button>
         </div>
-        </div>
-        </br>  
-  <!-- Tabla de calificaciones -->
-  <!-- PRIMER TRIMESTRE -->
-  <table class="grades-table">
-    <caption><b>INFORMACIÓN DE ÁREAS REPROBADOS PRIMER TRIMESTRE</b></caption>
-    <thead>
-      <tr>
-        <th>ASIGNATURAS</th>
-        <th>CALIFICACIÓN</th>
-        <th>ESTADO</th>
-        <th>OBSERVACIÓN</th>
-      </tr>
-    </thead>
-    <tbody id="grades-trim-1"></tbody>
-  </table>
-  <!-- SEGUNDO TRIMESTRE -->
-  <table class="grades-table">
-    <caption><b>INFORMACIÓN DE ÁREAS REPROBADOS SEGUNDO TRIMESTRE</b></caption>
-    <thead>
-      <tr>
-        <th>ASIGNATURAS</th>
-        <th>CALIFICACIÓN</th>
-        <th>ESTADO</th>
-        <th>OBSERVACIÓN</th>
-      </tr>
-    </thead>
-    <tbody id="grades-trim-2"></tbody>
-  </table>
-    <!-- TERCER TRIMESTRE -->
-    <table class="grades-table">
-      <caption><b>INFORMACIÓN DE ÁREAS REPROBADOS TERCER TRIMESTRE</b></caption>
-      <thead>
-        <tr>
-          <th>ASIGNATURAS</th>
-          <th>CALIFICACIÓN</th>
-          <th>ESTADO</th>
-          <th>OBSERVACIÓN</th>
-        </tr>
-      </thead>
-      <tbody id="grades-trim-3"></tbody>
-    </table>
+    </div>
+    <div class="container">
+          <!-- Encabezado con nombre del estudiante y curso -->
+          <div class="student-info">
+            <h2>ESTUDIANTE: <span id="student-name"></span></h2>
+        
+            <table style="width:100%;">
+              <tr>
+              <td><strong>Curso:</strong> <span id="course-name"></span></td>
+              <td style="text-align:center;"><strong>Descripción:</strong> <span id="descripcion-name"></span></td>
+              </tr>
+            </table>
+          </div>
+        <!-- Tabla de calificaciones -->
+        <!-- PRIMER TRIMESTRE -->
+        <table class="grades-table">
+          <caption><b>INFORMACIÓN DE ÁREAS REPROBADOS PRIMER TRIMESTRE</b></caption>
+          <thead>
+            <tr>
+              <th>ASIGNATURAS</th>
+              <th>CALIFICACIÓN</th>
+              <th>ESTADO</th>
+              <th>OBSERVACIÓN</th>
+            </tr>
+          </thead>
+          <tbody id="grades-trim-1"></tbody>
+        </table>
+        <!-- SEGUNDO TRIMESTRE -->
+        <table class="grades-table">
+          <caption><b>INFORMACIÓN DE ÁREAS REPROBADOS SEGUNDO TRIMESTRE</b></caption>
+          <thead>
+            <tr>
+              <th>ASIGNATURAS</th>
+              <th>CALIFICACIÓN</th>
+              <th>ESTADO</th>
+              <th>OBSERVACIÓN</th>
+            </tr>
+          </thead>
+          <tbody id="grades-trim-2"></tbody>
+        </table>
+          <!-- TERCER TRIMESTRE -->
+          <table class="grades-table">
+            <caption><b>INFORMACIÓN DE ÁREAS REPROBADOS TERCER TRIMESTRE</b></caption>
+            <thead>
+              <tr>
+                <th>ASIGNATURAS</th>
+                <th>CALIFICACIÓN</th>
+                <th>ESTADO</th>
+                <th>OBSERVACIÓN</th>
+              </tr>
+            </thead>
+            <tbody id="grades-trim-3"></tbody>
+          </table>
     </div>
     <!-- Script para cargar las notas y manejar la sesión -->
     <script src="plataforma.js"></script> 
