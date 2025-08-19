@@ -1,13 +1,13 @@
 // Datos de usuarios y calificaciones combinados
 const studentsData = {
-//SEXTO DE PRIMARIA
-//QUINTO DE PRIMARIA 
-    "YHORDY ALEXANDER": { password: "15652837", curso: "5to de Primaria" },
-//SEXTO DE PRIMARIA 
-    "ARMIN DENIS": { password: "16783243", curso: "6to de Primaria" },
-    "NELVIN EZEQUIEL": { password: "14427297", curso: "6to de Primaria" },
-    "ALEJANDRO MATIAS": { password: "16908894", curso: "6to de Primaria" },
-    "ASBEL JESUS": { password: "15970059", curso: "6to de Primaria" },
+    //SEXTO DE PRIMARIA
+    //QUINTO DE PRIMARIA 
+        "YHORDY ALEXANDER": { password: "15652837", curso: "5to de Primaria" },
+    //SEXTO DE PRIMARIA 
+        "ARMIN DENIS": { password: "16783243", curso: "6to de Primaria" },
+        "NELVIN EZEQUIEL": { password: "14427297", curso: "6to de Primaria" },
+        "ALEJANDRO MATIAS": { password: "16908894", curso: "6to de Primaria" },
+        "ASBEL JESUS": { password: "15970059", curso: "6to de Primaria" },
 //PRIMERO DE SECUNDARIA
     "YESICA VALENTINA": { //Usuario
         password: "15982427",  // Contraseña
@@ -202,7 +202,8 @@ const studentsData = {
     //2DO DE EDUCACIÓN SECUNDARIA COMUNITARIA VOCACIONAL
     "MATEO IVAR": { //Usuario
         password: "14938370",  // Contraseña
-        curso: "2do de Secundaria", 
+        curso: "2do de Secundaria",
+        descripcion: "Usted tiene 3 áreas reprobados(as)",
         calificaciones: {
             "1er Trim.": [
             { area: "LENGUA EXTRANJERA", calificacion: "45", estado: "REPROBADO(A)", observacion: "" },
@@ -220,6 +221,7 @@ const studentsData = {
     "BRENDA MAYTE": { //Usuario
         password: "12454396",  // Contraseña
         curso: "2do de Secundaria", 
+        descripcion: "Usted no tiene áreas reprobados(as)",
         calificaciones: {
             "1er Trim.": [
             { area: "", calificacion: "", estado: "", observacion: "" },
@@ -235,6 +237,7 @@ const studentsData = {
     "GENESIS CECILIA": { //Usuario
         password: "16906396",  // Contraseña
         curso: "2do de Secundaria", 
+        descripcion: "Usted no tiene áreas reprobados(as)",
         calificaciones: {
             "1er Trim.": [
             { area: "", calificacion: "", estado: "", observacion: "" },
@@ -250,6 +253,7 @@ const studentsData = {
     "JUAN FERNANDO": { //Usuario
         password: "12863798",  // Contraseña
         curso: "2do de Secundaria", 
+        descripcion: "Usted tiene 3 áreas reprobados(as)",
         calificaciones: {
             "1er Trim.": [
             { area: "LENGUA EXTRANJERA", calificacion: "47", estado: "REPROBADO(A)", observacion: "" },
@@ -267,6 +271,7 @@ const studentsData = {
     "CRISTIAN ELVIS": { //Usuario
         password: "12894836",  // Contraseña
         curso: "2do de Secundaria", 
+        descripcion: "Usted no tiene áreas reprobados(as)",
         calificaciones: {
             "1er Trim.": [
             { area: "", calificacion: "", estado: "", observacion: "" },
@@ -282,6 +287,7 @@ const studentsData = {
     "MARIA DEL CIELO": { //Usuario
         password: "15352617",  // Contraseña
         curso: "2do de Secundaria", 
+        descripcion: "Usted no tiene áreas reprobados(as)",
         calificaciones: {
             "1er Trim.": [
             { area: "", calificacion: "", estado: "", observacion: "" },
@@ -296,7 +302,8 @@ const studentsData = {
     },
     "KEYLA ALEIDIS": { //Usuario
         password: "12735760",  // Contraseña
-        curso: "2do de Secundaria", 
+        curso: "2do de Secundaria",
+        descripcion: "Usted tiene 1 área reprobado(a)", 
         calificaciones: {
             "1er Trim.": [
             { area: "LENGUA EXTRANJERA", calificacion: "48", estado: "REPROBADO(A)", observacion: "" },
@@ -311,7 +318,8 @@ const studentsData = {
     },
     "MIGUEL ANGEL": { //Usuario
         password: "14481933",  // Contraseña
-        curso: "2do de Secundaria", 
+        curso: "2do de Secundaria",
+        descripcion: "Usted no tiene áreas reprobados(as)", 
         calificaciones: {
             "1er Trim.": [
             { area: "", calificacion: "", estado: "", observacion: "" },
@@ -327,6 +335,7 @@ const studentsData = {
     "JASIEL NOEMI": { //Usuario
         password: "14007065",  // Contraseña
         curso: "2do de Secundaria", 
+        descripcion: "Usted no tiene áreas reprobados(as)",
         calificaciones: {
             "1er Trim.": [
             { area: "", calificacion: "", estado: "", observacion: "" },
@@ -342,6 +351,7 @@ const studentsData = {
     "GABRIEL KEVIN": { //Usuario
         password: "15150735",  // Contraseña
         curso: "2do de Secundaria", 
+        descripcion: "Usted no tiene áreas reprobados(as)",
         calificaciones: {
             "1er Trim.": [
             { area: "", calificacion: "", estado: "", observacion: "" },
@@ -357,6 +367,7 @@ const studentsData = {
     "RICARDO": { //Usuario
         password: "15377451",  // Contraseña
         curso: "2do de Secundaria", 
+        descripcion: "Usted tiene 1 área reprobado(a)",
         calificaciones: {
             "1er Trim.": [
             { area: "ARTES PLÁSTICAS Y VISUALES", calificacion: "47", estado: "REPROBADO(A)", observacion: "" },
@@ -372,6 +383,7 @@ const studentsData = {
     "FABRICIO DANIEL": { //Usuario
         password: "15467033",  // Contraseña
         curso: "2do de Secundaria", 
+        descripcion: "Usted no tiene áreas reprobados(as)",
         calificaciones: {
             "1er Trim.": [
             { area: "", calificacion: "", estado: "", observacion: "" },
@@ -387,6 +399,7 @@ const studentsData = {
     "ZOEY SUMAYA": { //Usuario
         password: "13118786",  // Contraseña
         curso: "2do de Secundaria", 
+        descripcion: "Usted no tiene áreas reprobados(as)",
         calificaciones: {
             "1er Trim.": [
             { area: "", calificacion: "", estado: "", observacion: "" },
@@ -401,7 +414,8 @@ const studentsData = {
     },
     "KEVIN PATRICIO": { //Usuario
         password: "13119655",  // Contraseña
-        curso: "2do de Secundaria", 
+        curso: "2do de Secundaria",
+        descripcion: "Usted no tiene áreas reprobados(as)", 
         calificaciones: {
             "1er Trim.": [
             { area: "", calificacion: "", estado: "", observacion: "" },
@@ -417,6 +431,7 @@ const studentsData = {
     "JHENNY YOSELIN": { //Usuario
         password: "13053567",  // Contraseña
         curso: "2do de Secundaria", 
+        descripcion: "Usted no tiene áreas reprobados(as)",
         calificaciones: {
             "1er Trim.": [
             { area: "", calificacion: "", estado: "", observacion: "" },
@@ -432,6 +447,7 @@ const studentsData = {
     "JUAN RODRIGO": { //Usuario
         password: "15069633",  // Contraseña
         curso: "2do de Secundaria", 
+        descripcion: "Usted no tiene áreas reprobados(as)",
         calificaciones: {
             "1er Trim.": [
             { area: "", calificacion: "", estado: "", observacion: "" },
@@ -447,6 +463,7 @@ const studentsData = {
     "JULIAN NEYMAR": { //Usuario
         password: "16188827",  // Contraseña
         curso: "2do de Secundaria", 
+        descripcion: "Usted tiene 3 áreas reprobados(as)",
         calificaciones: {
             "1er Trim.": [
             { area: "EDUCACIÓN MUSICAL", calificacion: "48", estado: "REPROBADO(A)", observacion: "" },
@@ -463,7 +480,8 @@ const studentsData = {
     },
     "ANA CELESTE": { //Usuario
         password: "13378621",  // Contraseña
-        curso: "2do de Secundaria", 
+        curso: "2do de Secundaria",
+        descripcion: "Usted tiene 4 áreas reprobados(as)", 
         calificaciones: {
             "1er Trim.": [
             { area: "LENGUA EXTRENJERA", calificacion: "45", estado: "REPROBADO(A)", observacion: "" },
@@ -482,6 +500,7 @@ const studentsData = {
     "DRAKE NOLAND": { //Usuario
         password: "14041113",  // Contraseña
         curso: "2do de Secundaria", 
+        descripcion: "Usted no tiene áreas reprobados(as)",
         calificaciones: {
             "1er Trim.": [
             { area: "", calificacion: "", estado: "", observacion: "" },
@@ -497,6 +516,7 @@ const studentsData = {
     "HANNA JANDY": { //Usuario
         password: "15900234",  // Contraseña
         curso: "2do de Secundaria", 
+        descripcion: "Usted no tiene áreas reprobados(as)",
         calificaciones: {
             "1er Trim.": [
             { area: "", calificacion: "", estado: "", observacion: "" },
@@ -512,6 +532,7 @@ const studentsData = {
     "NEYMAR DIDYEL": { //Usuario
         password: "15969914",  // Contraseña
         curso: "2do de Secundaria", 
+        descripcion: "Usted tiene 5 áreas reprobados(as)",
         calificaciones: {
             "1er Trim.": [
             { area: "COMUNICACIÓN Y LENGUAJES: CASTELLANA Y ORIGINARIA", calificacion: "43", estado: "REPROBADO(A)", observacion: "" },
@@ -536,6 +557,7 @@ const studentsData = {
     "PAOLA REYNA": { //Usuario
         password: "9534431",  // Contraseña
         curso: "2do de Secundaria", 
+        descripcion: "Usted no tiene áreas reprobados(as)",
         calificaciones: {
             "1er Trim.": [
             { area: "", calificacion: "", estado: "", observacion: "" },
@@ -550,7 +572,8 @@ const studentsData = {
     },
     "LEIDY FLORA": { //Usuario
         password: "13491581",  // Contraseña
-        curso: "2do de Secundaria", 
+        curso: "2do de Secundaria",
+        descripcion: "Usted no tiene áreas reprobados(as)", 
         calificaciones: {
             "1er Trim.": [
             { area: "", calificacion: "", estado: "", observacion: "" },
@@ -566,6 +589,7 @@ const studentsData = {
     "KEVIN": { //Usuario
         password: "15432789",  // Contraseña
         curso: "2do de Secundaria", 
+        descripcion: "Usted tiene 5 áreas reprobados(as)",
         calificaciones: {
             "1er Trim.": [
             { area: "LENGUA EXTRANJERA", calificacion: "48", estado: "REPROBADO(A)", observacion: "" },
@@ -584,7 +608,8 @@ const studentsData = {
     },
     "YUSARA GENESIS": { //Usuario
         password: "13552936",  // Contraseña
-        curso: "2do de Secundaria", 
+        curso: "2do de Secundaria",
+        descripcion: "Usted no tiene áreas reprobados(as)", 
         calificaciones: {
             "1er Trim.": [
             { area: "", calificacion: "", estado: "", observacion: "" },
@@ -600,6 +625,7 @@ const studentsData = {
     "AARON JUSTINIANO": { //Usuario
         password: "15453680",  // Contraseña
         curso: "2do de Secundaria", 
+        descripcion: "Usted no tiene áreas reprobados(as)",
         calificaciones: {
             "1er Trim.": [
             { area: "", calificacion: "", estado: "", observacion: "" },
@@ -615,6 +641,7 @@ const studentsData = {
     "ANGELA MASHIEL": { //Usuario
         password: "14007170",  // Contraseña
         curso: "2do de Secundaria", 
+        descripcion: "Usted tiene 1 área reprobado(a)",
         calificaciones: {
             "1er Trim.": [
             { area: "ARTES PLÁSTICAS Y VISUALES", calificacion: "37", estado: "REPROBADO(A)", observacion: "" },
@@ -630,6 +657,7 @@ const studentsData = {
     "DELIA": { //Usuario
         password: "13394025",  // Contraseña
         curso: "2do de Secundaria", 
+        descripcion: "Usted no tiene áreas reprobados(as)",
         calificaciones: {
             "1er Trim.": [
             { area: "", calificacion: "", estado: "", observacion: "" },
@@ -645,6 +673,7 @@ const studentsData = {
     "LESLIE MAYLI": { //Usuario
         password: "13393302",  // Contraseña
         curso: "2do de Secundaria", 
+        descripcion: "Usted tiene 1 área reprobado(a)",
         calificaciones: {
             "1er Trim.": [
             { area: "ENGUA EXTRANJERA", calificacion: "46", estado: "REPROBADO(A)", observacion: "" },
@@ -660,6 +689,7 @@ const studentsData = {
     "JOSE ANTONIO": { //Usuario
         password: "14107325",  // Contraseña
         curso: "2do de Secundaria", 
+        descripcion: "Usted tiene 5 áreas reprobados(as)",
         calificaciones: {
             "1er Trim.": [
             { area: "LENGUA EXTRANJERA", calificacion: "45", estado: "REPROBADO(A)", observacion: "" },
@@ -1613,6 +1643,18 @@ function logout() {
     localStorage.removeItem("loggedUser");
     window.location.href = "index.html";
 }
+
+// Capturamos el span de descripción
+const descripcionName = document.getElementById("descripcion-name");
+
+// Obtenemos el usuario logueado
+const loggedUser = localStorage.getItem("loggedUser");
+
+// Verificamos que exista el elemento y el usuario
+if (descripcionName && loggedUser && studentsData[loggedUser]) {
+    descripcionName.textContent = studentsData[loggedUser].descripcion || "—";
+}
+
 // CALIFICACIÓN PARA CADA ESTUDIANTE
 // Función que carga y muestra las notas del usuario logueado
 function loadGrades(username) {
