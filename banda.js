@@ -4,7 +4,8 @@ const studentsData = {
         "YHORDY ALEXANDER": { 
             password: "15652837", 
             curso: "5to de Primaria",
-            instrumento: "Tambor(Redoble)", 
+            instrumento: "Tambor(Redoble)",
+            codigo: "TAM-10",  
         calificaciones: [
             {instrumento: "Ensayo tarde", ensayo: "Martes 3 de Junio", asistencia: "NINGUNO", calificacion: "NINGUNO", observacion: "" },
             {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
@@ -27,6 +28,7 @@ const studentsData = {
             password: "16783243", 
             curso: "6to de Primaria", 
             instrumento: "Trompeta",
+            codigo: "TPT-03", 
             calificaciones: [
                 {instrumento: "Ensayo tarde", ensayo: "Martes 3 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
@@ -41,12 +43,14 @@ const studentsData = {
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Miercoles 30 de Julio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "Ensayo Mañana", ensayo: "Miercoles 30 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Desfile Mecapaca", ensayo: "Lunes 4 de Agosto", asistencia: "ATRASADO", calificacion: "70", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Viernes 15 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "NELVIN EZEQUIEL": { 
             password: "14427297", 
             curso: "6to de Primaria",
             instrumento: "Tambor(Redoble)",
+            codigo: "TAM-2", 
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
@@ -67,6 +71,7 @@ const studentsData = {
             password: "16908894", 
             curso: "6to de Primaria",
             instrumento: "Trompeta",
+            codigo: "TPT-07", 
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
@@ -87,6 +92,7 @@ const studentsData = {
             password: "15970059", 
             curso: "6to de Primaria", 
             instrumento: "Trompeta",
+            codigo: "TPT-", 
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
@@ -114,6 +120,7 @@ const studentsData = {
             password: "16771291",  // Contraseña
             curso: "1ro de Secundaria", 
             instrumento: "Trompeta",
+            codigo: "TPT-03", 
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "NINGUNO", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
@@ -146,6 +153,7 @@ const studentsData = {
             password: "15474617",  // Contraseña
             curso: "1ro de Secundaria", 
             instrumento: "Bombo",
+            codigo: "BOM-", 
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
@@ -165,7 +173,8 @@ const studentsData = {
         "GIORGIO MORIS": { //Usuario
             password: "16202235",  // Contraseña
             curso: "1ro de Secundaria",
-            instrumento: "Baritono", 
+            instrumento: "Baritono",
+            codigo: "BAR-10",  
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
@@ -180,12 +189,14 @@ const studentsData = {
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Miercoles 30 de Julio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "Ensayo Mañana", ensayo: "Miercoles 30 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Desfile Mecapaca", ensayo: "Lunes 4 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Viernes 15 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "FABIAN": { //Usuario
             password: "16970170",  // Contraseña
             curso: "1ro de Secundaria", 
             instrumento: "Trombón",
+            codigo: "TBN-1", 
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
@@ -200,6 +211,7 @@ const studentsData = {
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Miercoles 30 de Julio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "Ensayo Mañana", ensayo: "Miercoles 30 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Desfile Mecapaca", ensayo: "Lunes 4 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Viernes 15 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "SARA SCARLETT": { //Usuario
@@ -218,6 +230,7 @@ const studentsData = {
             password: "13119552",  // Contraseña
             curso: "1ro de Secundaria", 
             instrumento: "Tambor(Redoble)",
+            codigo: "TAM-8", 
             calificaciones: [
                 {instrumento: "TAM-8", ensayo: "Tarde Martes 3 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
@@ -258,6 +271,7 @@ const studentsData = {
             password: "15294040",  // Contraseña
             curso: "1ro de Secundaria",
             instrumento: "Tambor(Redoble)", 
+            codigo: "TAM-10", 
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "NIGUNO", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "NIGUNO", calificacion: "NINGUNO", observacion: "" },
@@ -283,7 +297,8 @@ const studentsData = {
         "JOHAN ERLAN": { //Usuario
             password: "15635453",  // Contraseña
             curso: "1ro de Secundaria",
-            instrumento: "Trompeta", 
+            instrumento: "Trompeta",
+            codigo: "TPT-04",  
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
@@ -298,12 +313,14 @@ const studentsData = {
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Miercoles 30 de Julio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "Ensayo Mañana", ensayo: "Miercoles 30 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Desfile Mecapaca", ensayo: "Lunes 4 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Viernes 15 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "ARACELI BRIANCA": { //Usuario
             password: "16361717",  // Contraseña
             curso: "1ro de Secundaria", 
             instrumento: "Lira",
+            codigo: "PROPIA", 
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Desfile Mallasa", ensayo: "Viernes 11 de Julio", asistencia: "ATRASADO", calificacion: "70", observacion: "" },
@@ -317,7 +334,8 @@ const studentsData = {
         "CRISTIAN KEVIN": { //Usuario
             password: "16886497",  // Contraseña
             curso: "1ro de Secundaria",
-            instrumento: "Trombón", 
+            instrumento: "Trombón",
+            codigo: "TBN-2",  
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "PERMISO", calificacion: "90", observacion: "ASISTIÓ MEDIA HORA" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
@@ -337,7 +355,8 @@ const studentsData = {
         "LIZETH LUNA": { //Usuario
             password: "14108002",  // Contraseña
             curso: "1ro de Secundaria",
-            instrumento: "Lira", 
+            instrumento: "Lira",
+            codigo: "LIR-07",  
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
@@ -357,7 +376,8 @@ const studentsData = {
         "DAVID": { //Usuario
             password: "14974794",  // Contraseña
             curso: "1ro de Secundaria",
-            instrumento: "Trompeta", 
+            instrumento: "Trompeta",
+            codigo: "TPT-02",  
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
@@ -372,6 +392,7 @@ const studentsData = {
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Miercoles 30 de Julio", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "Ensayo Mañana", ensayo: "Miercoles 30 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Desfile Mecapaca", ensayo: "Lunes 4 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Viernes 15 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
     
         },
@@ -391,6 +412,7 @@ const studentsData = {
             password: "16906396",  // Contraseña
             curso: "2do de Secundaria", 
             instrumento: "Lira",
+            codigo: "PROPIA", 
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Tarde Martes 3 de Junio", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
@@ -417,6 +439,7 @@ const studentsData = {
             password: "12894836",  // Contraseña
             curso: "2do de Secundaria", 
             instrumento: "Tambor(Redoble)",
+            codigo: "TAM-", 
             calificaciones: [
                 {instrumento: "TAMBOR", ensayo: "Tarde Martes 3 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
@@ -480,7 +503,8 @@ const studentsData = {
         "KEVIN PATRICIO": { //Usuario
             password: "13119655",  // Contraseña
             curso: "2do de Secundaria", 
-            instrumento: "Quinduple",
+            instrumento: "Quintuple",
+            codigo: "MTQP-2", 
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
@@ -507,6 +531,7 @@ const studentsData = {
             password: "15069633",  // Contraseña
             curso: "2do de Secundaria",
             instrumento: "Tambor(Redoble)", 
+            codigo: "TAM-7", 
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "" },
@@ -545,6 +570,7 @@ const studentsData = {
             password: "15900234",  // Contraseña
             curso: "2do de Secundaria", 
             instrumento: "Lira",
+            codigo: "LIR-", 
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "NINGUNO", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
@@ -565,6 +591,7 @@ const studentsData = {
             password: "15969914",  // Contraseña
             curso: "2do de Secundaria", 
             instrumento: "Tambor(Redoble)",
+            codigo: "TAM-4", 
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
@@ -670,6 +697,7 @@ const studentsData = {
             password: "12864320",  // Contraseña
             curso: "3ro de Secundaria", 
             instrumento: "Baritono",
+            codigo: "BAR-07", 
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
@@ -684,6 +712,7 @@ const studentsData = {
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Miercoles 30 de Julio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "Ensayo Mañana", ensayo: "Miercoles 30 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Desfile Mecapaca", ensayo: "Lunes 4 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Viernes 15 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "DINA VALERIA": { //Usuario
@@ -701,7 +730,8 @@ const studentsData = {
         "JHONATAN DENNIS": { //Usuario
             password: "14006569",  // Contraseña
             curso: "3ro de Secundaria",
-            instrumento: "Bombo", 
+            instrumento: "Bombo",
+            codigo: "BOM-",  
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
@@ -746,6 +776,7 @@ const studentsData = {
             password: "15474420",  // Contraseña
             curso: "3ro de Secundaria",
             instrumento: "Baritono", 
+            codigo: "BAR-05", 
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Tarde Martes 3 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
@@ -760,6 +791,7 @@ const studentsData = {
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Mañana Miercoles 30 de Julio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "Ensayo Mañana", ensayo: "Mañana Miercoles 30 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Desfile Mecapaca", ensayo: "Lunes 4 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Viernes 15 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "JHOVANA": { //Usuario
@@ -772,6 +804,7 @@ const studentsData = {
             password: "13641717",  // Contraseña
             curso: "3ro de Secundaria", 
             instrumento: "Lira",
+            codigo: "LIR-09", 
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "NINGUNO", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
@@ -816,6 +849,7 @@ const studentsData = {
             password: "15049860",  // Contraseña
             curso: "3ro de Secundaria", 
             instrumento: "Lira",
+            codigo: "LIR-03", 
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
@@ -842,6 +876,7 @@ const studentsData = {
             password: "16575605",  // Contraseña
             curso: "3ro de Secundaria", 
             instrumento: "Lira",
+            codigo: "PROPIA", 
             calificaciones: [
                 {instrumento: "LIRA", ensayo: "Tarde Martes 3 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
@@ -857,7 +892,8 @@ const studentsData = {
         "MELANI PILAR": { //Usuario
             password: "11089150",  // Contraseña
             curso: "3ro de Secundaria",
-            instrumento: "Lira", 
+            instrumento: "Lira",
+            codigo: "LIR-",  
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
@@ -884,6 +920,7 @@ const studentsData = {
             password: "15054000",  // Contraseña
             curso: "3ro de Secundaria",
             instrumento: "Lira", 
+            codigo: "LIR-05", 
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
@@ -922,6 +959,7 @@ const studentsData = {
             password: "15055926",  // Contraseña
             curso: "3ro de Secundaria", 
             instrumento: "Tambor(Redoble)",
+            codigo: "TAM-5", 
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
@@ -948,7 +986,8 @@ const studentsData = {
         "LISED": { //Usuario
             password: "14643788",  // Contraseña
             curso: "4to de Secundaria",
-            instrumento: "Lira", 
+            instrumento: "Lira",
+            codigo: "LIR-01",  
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "" },
@@ -957,12 +996,13 @@ const studentsData = {
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 24 de Junio", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "Ensayo Mañana", ensayo: "Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo Tarde", ensayo: "Miercoles 02 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "Desfile Mallasa", ensayo: "Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "95", observacion: "NO FIRMO COMPROMISO DE PADRE DE FAMILIA" },
+                {instrumento: "Desfile Mallasa", ensayo: "Viernes 11 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "NO FIRMO COMPROMISO DE PADRE DE FAMILIA" },
                 {instrumento: "Desfile Mallasa", ensayo: "Martes 15 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 29 de Julio", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Miercoles 30 de Julio", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "Ensayo Mañana", ensayo: "Miercoles 30 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Desfile Mecapaca", ensayo: "Lunes 4 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Viernes 15 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "LAURA NOELIA": { //Usuario
@@ -1013,12 +1053,14 @@ const studentsData = {
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Miercoles 30 de Julio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "Ensayo Mañana", ensayo: "Miercoles 30 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Desfile Mecapaca", ensayo: "Lunes 4 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Viernes 15 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "ANDREA": { //Usuario
             password: "14645148",  // Contraseña
             curso: "4to de Secundaria", 
             instrumento: "Lira",
+            codigo: "LIR-08", 
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
@@ -1033,6 +1075,7 @@ const studentsData = {
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Miercoles 30 de Julio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "Ensayo Mañana", ensayo: "Miercoles 30 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Desfile Mecapaca", ensayo: "Lunes 4 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Viernes 15 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "CLARA": { //Usuario
@@ -1051,6 +1094,7 @@ const studentsData = {
             password: "15069646",  // Contraseña
             curso: "4to de Secundaria", 
             instrumento: "Trompeta",
+            codigo: "TPT-01", 
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
@@ -1065,6 +1109,7 @@ const studentsData = {
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Miercoles 30 de Julio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "Ensayo Mañana", ensayo: "Miercoles 30 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Desfile Mecapaca", ensayo: "Lunes 4 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Viernes 15 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "DIETMAR RAYNARD": { //Usuario
@@ -1095,6 +1140,7 @@ const studentsData = {
             password: "14426906",  // Contraseña
             curso: "4to de Secundaria",
             instrumento: "Baritono", 
+            codigo: "BAR-02", 
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
@@ -1109,12 +1155,14 @@ const studentsData = {
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Miercoles 30 de Julio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "Ensayo Mañana", ensayo: "Miercoles 30 de Julio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "Desfile Mecapaca", ensayo: "Lunes 4 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Viernes 15 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "YERKO": { //Usuario
             password: "14108639",  // Contraseña
             curso: "4to de Secundaria",
-            instrumento: "Baritono", 
+            instrumento: "Baritono",
+            codigo: "BAR-1",  
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
@@ -1129,6 +1177,7 @@ const studentsData = {
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Miercoles 30 de Julio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "Ensayo Mañana", ensayo: "Miercoles 30 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Desfile Mecapaca", ensayo: "Lunes 4 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Viernes 15 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "CRISTIAN LEONEL": { //Usuario
@@ -1141,6 +1190,7 @@ const studentsData = {
             password: "10078682",  // Contraseña
             curso: "4to de Secundaria",
             instrumento: "Lira", 
+            codigo: "LIR-", 
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Tarde Martes 3 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
@@ -1155,12 +1205,14 @@ const studentsData = {
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Mañana Miercoles 30 de Julio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "Ensayo Mañana", ensayo: "Mañana Miercoles 30 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Desfile Mecapaca", ensayo: "Lunes 4 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Viernes 15 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "ARTURO ANDRES": { //Usuario
             password: "15087156",  // Contraseña
             curso: "4to de Secundaria",
             instrumento: "Baritono", 
+            codigo: "BAR-06", 
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
@@ -1215,6 +1267,7 @@ const studentsData = {
             password: "14879257",  // Contraseña
             curso: "5to de Secundaria", 
             instrumento: "Baritono",
+            codigo: "BAR-01",
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "PRESENTE", calificacion: "NINGUNO", observacion: "" },
@@ -1229,6 +1282,7 @@ const studentsData = {
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Miercoles 30 de Julio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "Ensayo Mañana", ensayo: "Miercoles 30 de Julio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Desfile Mecapaca", ensayo: "Lunes 4 de Agosto", asistencia: "ATRASADO", calificacion: "70", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Viernes 15 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "MAYRA DANETZA": { //Usuario
@@ -1307,6 +1361,7 @@ const studentsData = {
             password: "14304279",  // Contraseña
             curso: "5to de Secundaria", 
             instrumento: "Bombo",
+            codigo: "BOM-", 
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Martes 3 de Junio", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "REUNIÓN PADRE DE FAMILIA", ensayo: "Martes 9 de Junio", asistencia: "FALTA", calificacion: "NINGUNO", observacion: "NO ASISTIÓ A LA REUNIÓN" },
@@ -1666,11 +1721,18 @@ const studentsData = {
         if (userName) userName.textContent = user;
         if (userPass) userPass.textContent = pass;
 
-                // Nuevo: mostrar instrumento a la derecha
+                // Nuevo: mostrar instrumento al centro 
         const instrumentName = document.getElementById("instrument-name");
         if (instrumentName) {
             const instr = studentsData[user].instrumento || "—";
             instrumentName.textContent = instr;
+        }
+
+                // Nuevo: mostrar el codigo a la derecha
+        const codigoName = document.getElementById("codigo-name");
+        if (codigoName) {
+            const cod = studentsData[user].codigo || "—";
+            codigoName.textContent = cod;
         }
       
         // Cargar calificaciones
