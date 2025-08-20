@@ -1501,6 +1501,7 @@ const studentsData = {
         "JHEREMY RICKY": { //Usuario
             password: "12672972",  // Contraseña
             curso: "6to de Secundaria",
+            instrumento: "Baritono",
             codigo: "BAR-",  
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Miercoles 20 de Agosto", asistencia: "", calificacion: "", observacion: "" },
@@ -1549,6 +1550,7 @@ const studentsData = {
         "ARSENIO SEBASTIAN": { //Usuario
             password: "10937026",  // Contraseña
             curso: "6to de Secundaria",
+            instrumento: "Trompeta",
             codigo: "TPT-", 
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Miercoles 20 de Agosto", asistencia: "", calificacion: "", observacion: "" },
@@ -1573,6 +1575,7 @@ const studentsData = {
         "CRISTHIAN": { //Usuario
             password: "13967978",  // Contraseña
             curso: "6to de Secundaria",
+            instrumento: "Trompeta",
             codigo: "TPT-",  
             calificaciones: [
                 {instrumento: "Ensayo Tarde", ensayo: "Miercoles 20 de Agosto", asistencia: "", calificacion: "", observacion: "" },
