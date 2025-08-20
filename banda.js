@@ -1500,10 +1500,10 @@ const studentsData = {
         },
         "JHEREMY RICKY": { //Usuario
             password: "12672972",  // Contraseña
-            curso: "6to de Secundaria", 
+            curso: "6to de Secundaria",
+            codigo: "BAR-",  
             calificaciones: [
-                {instrumento: "", ensayo: "", asistencia: "", calificacion: "", observacion: "" },
-                {instrumento: "", ensayo: "", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "Ensayo Tarde", ensayo: "Miercoles 20 de Agosto", asistencia: "", calificacion: "", observacion: "" },
             ],
         },
         "KIMBERLY YESENIA": { //Usuario
@@ -1548,10 +1548,10 @@ const studentsData = {
         },
         "ARSENIO SEBASTIAN": { //Usuario
             password: "10937026",  // Contraseña
-            curso: "6to de Secundaria", 
+            curso: "6to de Secundaria",
+            codigo: "TPT-", 
             calificaciones: [
-                {instrumento: "", ensayo: "", asistencia: "", calificacion: "", observacion: "" },
-                {instrumento: "", ensayo: "", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "Ensayo Tarde", ensayo: "Miercoles 20 de Agosto", asistencia: "", calificacion: "", observacion: "" },
             ],
         },
         "SIOMARA LIZ": { //Usuario
@@ -1572,10 +1572,10 @@ const studentsData = {
         },
         "CRISTHIAN": { //Usuario
             password: "13967978",  // Contraseña
-            curso: "6to de Secundaria", 
+            curso: "6to de Secundaria",
+            codigo: "TPT-",  
             calificaciones: [
-                {instrumento: "", ensayo: "", asistencia: "", calificacion: "", observacion: "" },
-                {instrumento: "", ensayo: "", asistencia: "", calificacion: "", observacion: "" },
+                {instrumento: "Ensayo Tarde", ensayo: "Miercoles 20 de Agosto", asistencia: "", calificacion: "", observacion: "" },
             ],
         },
         "SHAELY POLET": { //Usuario
@@ -1779,4 +1779,5 @@ const studentsData = {
           img.style.width = anchoActual + '%';
         }
       });
+
     
