@@ -71,6 +71,7 @@
       <button onclick="mostrarSeccion('contenido')">Contenido</button>
       <button onclick="mostrarSeccion('tarea')">Subir Tarea</button>
       <button onclick="mostrarSeccion('cuestionario')">Cuestionario</button>
+      <button onclick="mostrarSeccion('autoevaluacion')">Autoevalución</button>
     </nav>
   </header>
 
@@ -78,15 +79,23 @@
     <!-- Sección Contenido -->
     <section id="contenido" class="seccion activa">
       <h2>Contenido Educativo</h2>
-      <p>
-        Bienvenido/a. Aquí podrás encontrar el contenido educativo de tu curso.
-        <br><br>
-        🎵 <strong>Tema:</strong> "La importancia de la música en el desarrollo personal".
-        <br><br>
-        La música desarrolla la creatividad, la memoria y las habilidades sociales. Es una herramienta pedagógica esencial para la educación integral.
-      </p>
+      <div class="contenido-interactivo">
+        <p>
+          Bienvenido/a. Aquí podrás explorar el contenido educativo de tu curso.
+          <br><br>
+          🎵 <strong>Tema:</strong> "La importancia de la música en el desarrollo personal".
+          <br><br>
+          La música desarrolla la creatividad, la memoria y las habilidades sociales. 
+          Es una herramienta pedagógica esencial para la educación integral.
+        </p>
+        <p>
+          Para ver los contenidos del área de Educación Musical de acuerdo al Plan de Desarrollo Curricular, 
+          ingresa al menú donde encontrarás textos de MINEDU 2025 y otros recursos.
+        </p>
+        <button onclick="window.location.href='lateral.html'" class="btn-interactivo">📁 Menú</button>
+      </div>
     </section>
-
+    
     <!-- Sección Subir Tarea -->
     <section id="tarea" class="seccion">
       <h2>Subir Tarea</h2>
@@ -109,14 +118,65 @@
         <label>1. ¿Te gusta la música?</label><br/>
         <input type="radio" name="q1" value="Sí" required> Sí<br/>
         <input type="radio" name="q1" value="No"> No<br/><br/>
-
+    
         <label>2. ¿Qué instrumento te gustaría tocar?</label>
-        <input type="text" name="instrumento" required /><br/>
-
+        <input type="text" name="instrumento" required /><br/><br/>
+    
+        <label>3. ¿Con qué frecuencia escuchas música?</label><br/>
+        <input type="radio" name="q3" value="Diariamente" required> Diariamente<br/>
+        <input type="radio" name="q3" value="Varias veces a la semana"> Varias veces a la semana<br/>
+        <input type="radio" name="q3" value="Rara vez"> Rara vez<br/><br/>
+    
+        <label>4. ¿Cuál es tu género musical favorito?</label>
+        <input type="text" name="genero" required /><br/><br/>
+    
+        <label>5. ¿Has participado alguna vez en un coro o grupo musical?</label><br/>
+        <input type="radio" name="q5" value="Sí" required> Sí<br/>
+        <input type="radio" name="q5" value="No"> No<br/><br/>
+    
+        <label>6. ¿Prefieres escuchar música en vivo o grabada?</label><br/>
+        <input type="radio" name="q6" value="En vivo" required> En vivo<br/>
+        <input type="radio" name="q6" value="Grabada"> Grabada<br/><br/>
+    
+        <label>7. ¿Cuál consideras que es la función principal de la música?</label>
+        <input type="text" name="funcion" required /><br/><br/>
+    
+        <label>8. ¿Te interesa aprender teoría musical (notas, ritmos, compases)?</label><br/>
+        <input type="radio" name="q8" value="Sí" required> Sí<br/>
+        <input type="radio" name="q8" value="No"> No<br/><br/>
+    
+        <label>9. ¿Tienes algún compositor o cantante favorito?</label>
+        <input type="text" name="favorito" required /><br/><br/>
+    
+        <label>10. ¿Te gustaría formar parte de una banda o grupo musical en la escuela?</label><br/>
+        <input type="radio" name="q10" value="Sí" required> Sí<br/>
+        <input type="radio" name="q10" value="No"> No<br/><br/>
+    
+        <label>11. ¿Qué instrumento crees que es más difícil de aprender?</label>
+        <input type="text" name="difil_instrumento" required /><br/><br/>
+    
+        <label>12. ¿La música te ayuda a concentrarte o relajarte?</label><br/>
+        <input type="radio" name="q12" value="Concentrarme" required> A concentrarme<br/>
+        <input type="radio" name="q12" value="Relajarme"> A relajarme<br/>
+        <input type="radio" name="q12" value="Ambas"> Ambas<br/><br/>
+    
         <button type="submit">Enviar Respuestas</button>
       </form>
       <p id="mensaje-cuestionario"></p>
     </section>
+ <!-- Sección Autoevaluación -->
+ <section id="autoevaluacion" class="seccion">
+  <h2>Autoevaluación</h2>
+  <p>
+    📋 <strong>Estimado estudiante:</strong><br>
+    Realiza tu autoevaluación y califícate de manera honesta.  
+    Ingresa únicamente una vez utilizando tu número de cédula de identidad.
+  </p>  
+  <div class="iframe-container">
+    <iframe src="https://humber720.github.io/autoevaluacion/" frameborder="0" width="100%" height="600px"></iframe>
+  </div>
+</section>
+
   </main>
 
     <table>
