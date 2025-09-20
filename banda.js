@@ -12,6 +12,7 @@ const studentsData = {
             {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+            {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
 
         ],
     },
@@ -26,7 +27,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Miercoles 27 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" }, 
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes  16 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },   
+                {instrumento: "Ensayo tarde", ensayo: "Martes  16 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },   
             ],
         },
         "NELVIN EZEQUIEL": { 
@@ -39,7 +41,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Miercoles 27 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" }, 
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },   
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },   
             ],
         },
         "ALEJANDRO MATIAS": { 
@@ -52,7 +55,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Miercoles 27 de Agosto", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },    
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },    
             ],
         },
         "ASBEL JESUS": { 
@@ -82,6 +86,7 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },    
                 {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
             ],
         },
         "VALENTINA": { //Usuario
@@ -107,7 +112,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Acto Mallasa", ensayo: "Lunes 15 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" }, 
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },    
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },    
             ],
         },
         "GIORGIO MORIS": { //Usuario
@@ -120,7 +126,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Miercoles 27 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },     
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },     
             ],
         },
         "FABIAN": { //Usuario
@@ -133,7 +140,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Miercoles 27 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },     
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },     
             ],
         },
         "SARA SCARLETT": { //Usuario
@@ -158,7 +166,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Miercoles 27 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" }, 
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" }, 
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },   
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },   
             ],
         },
         "NAIZETH AYLIN": { //Usuario
@@ -195,7 +204,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Miercoles 27 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },     
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },     
             ],
         },
         "DANIEL": { //Usuario
@@ -214,7 +224,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Miercoles 27 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },     
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },     
             ],
         },
         "ARACELI BRIANCA": { //Usuario
@@ -227,7 +238,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Miercoles 27 de Agosto", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" }, 
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" }, 
             ],
         },
         "CRISTIAN KEVIN": { //Usuario
@@ -240,7 +252,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Miercoles 27 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },     
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },     
             ],
         },
         "LIZETH LUNA": { //Usuario
@@ -254,7 +267,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Acto en Mallasa", ensayo: "Lunes 15 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Miercoles 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },      
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },      
             ],
         },
         "DAVID": { //Usuario
@@ -267,7 +281,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Miercoles 27 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Miercoles 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },     
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },     
             ],
     
         },
@@ -294,7 +309,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" }, 
                 {instrumento: "Acto Mallasa", ensayo: "Lunes 15 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },     
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },     
             ],
         },
         "JUAN FERNANDO": { //Usuario
@@ -370,7 +386,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Miercoles 27 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },     
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },     
             ],
         },
         "JHENNY YOSELIN": { //Usuario
@@ -390,7 +407,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Acto Mallasa", ensayo: "Lunes 15 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },         
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },         
             ],
         },
         "JULIAN NEYMAR": { //Usuario
@@ -422,7 +440,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" }, 
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "Se le presto el instrumento musical para el dia lunes" },
                 {instrumento: "Acto Mallasa", ensayo: "Lunes 15 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },     
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },     
             ],
         },
         "NEYMAR DIDYEL": { //Usuario
@@ -435,7 +454,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Miercoles 27 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },     
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },     
             ],
         },
         "PAOLA REYNA": { //Usuario
@@ -534,7 +554,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "Se le presto el instrumento musical para el dia lunes" },    
                 {instrumento: "Acto Mallasa", ensayo: "Lunes 15 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" }, 
-                {instrumento: "Ensayo tarde", ensayo: "Miercoles 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" }, 
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" }, 
             ],
         },
         "DINA VALERIA": { //Usuario
@@ -559,7 +580,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Miercoles 27 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },     
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },     
             ],
         },
         "JOSE MIGUEL": { //Usuario
@@ -597,7 +619,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "Se le presto el instrumento musical para el dia lunes" },    
                 {instrumento: "Acto Mallasa", ensayo: "Lunes 15 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },  
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },  
             ],
         },
         "JHOVANA": { //Usuario
@@ -616,7 +639,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Miercoles 27 de Agosto", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" }, 
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" }, 
     
             ],
         },
@@ -655,7 +679,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" }, 
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },   
                 {instrumento: "Acto Mallasa", ensayo: "Lunes 15 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes  16 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },  
+                {instrumento: "Ensayo tarde", ensayo: "Martes  16 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },  
             ],
         },
         "GENESIS CAMILA": { //Usuario
@@ -684,7 +709,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Miercoles 27 de Agosto", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes  16 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },     
+                {instrumento: "Ensayo tarde", ensayo: "Martes  16 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },     
             ],
         },
         "SONIA": { //Usuario
@@ -704,7 +730,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" }, 
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },   
                 {instrumento: "Acto Mallasa", ensayo: "Lunes 15 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes  16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },  
+                {instrumento: "Ensayo tarde", ensayo: "Martes  16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },  
             ],
         },
         "EMILI CLARA": { //Usuario
@@ -736,7 +763,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },    
                 {instrumento: "Acto Mallasa", ensayo: "Lunes 15 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes  16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },  
+                {instrumento: "Ensayo tarde", ensayo: "Martes  16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },  
             ],
         },
     
@@ -757,7 +785,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "Se le presto el instrumento musical para el dia lunes" },    
                 {instrumento: "Acto Mallasa", ensayo: "Lunes 15 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },  
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },  
             ],
         },
         "LAURA NOELIA": { //Usuario
@@ -800,7 +829,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },    
                 {instrumento: "Acto Mallasa", ensayo: "Lunes 15 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },  
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },  
             ],
         },
         "ANDREA": { //Usuario
@@ -813,7 +843,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Miercoles 27 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "Se le presto el instrumento musical para el dia lunes" },    
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" }, 
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" }, 
             ],
         },
         "CLARA": { //Usuario
@@ -839,7 +870,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "Se le presto el instrumento musical para el dia lunes" },    
                 {instrumento: "Acto Mallasa", ensayo: "Lunes 15 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },  
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },  
             ],
         },
         "DIETMAR RAYNARD": { //Usuario
@@ -877,7 +909,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" }, 
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "Se le presto el instrumento musical para el dia lunes" },   
                 {instrumento: "Acto Mallasa", ensayo: "Lunes 15 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },  
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },  
             ],
         },
         "YERKO": { //Usuario
@@ -890,7 +923,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Miercoles 27 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },     
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },     
             ],
         },
         "CRISTIAN LEONEL": { //Usuario
@@ -909,7 +943,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Miercoles 27 de Agosto", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "Se le presto el instrumento musical para el dia lunes" },    
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" }, 
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" }, 
             ],
         },
         "ARTURO ANDRES": { //Usuario
@@ -923,7 +958,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "Se le presto el instrumento musical para el dia lunes" },    
                 {instrumento: "Acto Mallasa", ensayo: "Lunes 15 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" }, 
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" }, 
             ],
         },
         "EDDY": { //Usuario
@@ -970,7 +1006,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Miercoles 27 de Agosto", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },     
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },     
             ],
         },
         "MAYRA DANETZA": { //Usuario
@@ -1056,7 +1093,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" }, 
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },       
                 {instrumento: "Acto Mallasa", ensayo: "Lunes 15 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" }, 
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" }, 
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" }, 
             ],
         },
         "DANNA MARICELA": { //Usuario
@@ -1190,7 +1228,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "Se le presto el instrumento musical para el dia lunes" },       
                 {instrumento: "Acto Mallasa", ensayo: "Lunes 15 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" }, 
-                {instrumento: "Ensayo tarde", ensayo: "Martes  16 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" }, 
+                {instrumento: "Ensayo tarde", ensayo: "Martes  16 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" }, 
             ],
         },
         "KIMBERLY YESENIA": { //Usuario
@@ -1244,7 +1283,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" }, 
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "Se le presto el instrumento musical para el dia lunes" },   
                 {instrumento: "Acto Mallasa", ensayo: "Lunes 15 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },  
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },  
             ],
         },
         "SIOMARA LIZ": { //Usuario
@@ -1274,7 +1314,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Lunes 1 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" }, 
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 12 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "Se le presto el instrumento musical para el dia lunes" },       
                 {instrumento: "Acto Mallasa", ensayo: "Lunes 15 de Septiembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },  
+                {instrumento: "Ensayo tarde", ensayo: "Martes 16 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Miercoles 19 de Septiembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },  
             ],
         },
         "SHAELY POLET": { //Usuario
