@@ -20,7 +20,7 @@ function togglePasswordVisibility() {
     "ALEJANDRO MATIAS": { password: "16908894", curso: "6to de Primaria" },
     "ASBEL JESUS": { password: "15970059", curso: "6to de Primaria" },
     
- //PRIMERO DE SECUNDARIA   
+//datos del usuario   
     "YESICA VALENTINA": { password: "15982427", curso: "2do de Secundaria" },
     "AIRAN JUAN": { password: "16771291", curso: "6to de Secundaria" },
     "VALENTINA": { password: "1234567", curso: "1ro de Secundaria" },
@@ -1334,7 +1334,7 @@ function togglePasswordVisibility() {
           { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
       ],
   },
-  }; 
+  };
 //para dirigirse a la plataforma   
 function login(event) {
     event.preventDefault();
@@ -1383,10 +1383,52 @@ window.onload = () => {
     }
   };
 //para horizontal izquierda y derecha
-  function scrollMenu(distancia) {
+function scrollMenu(distancia) {
     const contenedor = document.getElementById("menuScroll");
     contenedor.scrollLeft += distancia;
   }
+//PARA PIBLICIDAD
+document.addEventListener("DOMContentLoaded", () => {
+    const slides = document.querySelectorAll(".publicidad img");
+    const prevBtn = document.querySelector(".prev");
+    const nextBtn = document.querySelector(".next");
+  
+    let index = 0;
+    let interval = setInterval(showNext, 4000); // cambio automático cada 4s
+  
+    function showSlide(n) {
+      slides.forEach((img, i) => {
+        img.classList.remove("active");
+        if (i === n) img.classList.add("active");
+      });
+    }
+  
+    function showNext() {
+      index = (index + 1) % slides.length;
+      showSlide(index);
+    }
+  
+    function showPrev() {
+      index = (index - 1 + slides.length) % slides.length;
+      showSlide(index);
+    }
+  
+    nextBtn.addEventListener("click", () => {
+      showNext();
+      resetTimer();
+    });
+  
+    prevBtn.addEventListener("click", () => {
+      showPrev();
+      resetTimer();
+    });
+  
+    function resetTimer() {
+      clearInterval(interval);
+      interval = setInterval(showNext, 4000);
+    }
+  });
+  
 
 // Función para cerrar sesión location.replace()	El historial no permite volver a plataforma
 function logout() {
