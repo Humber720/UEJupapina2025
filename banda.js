@@ -1377,10 +1377,14 @@ const studentsData = {
             calificaciones: [
             ],
         },
+        //QUINTO DE SECUNDARIA
         "ALEXIS SANTIAGO": { //Usuario
             password: "13492936",  // Contraseña
-            curso: "5to de Secundaria", 
+            curso: "5to de Secundaria",
+            instrumento: "Es fusil Mauser",
+            codigo: "Ninguno",
             calificaciones: [
+                {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "", calificacion: "", observacion: "" },
             ],
         },
         "VIANCA ANALIA": { //Usuario
