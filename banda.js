@@ -154,6 +154,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "SEBASTIAN DAVIDE": { //Usuario
@@ -408,6 +410,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "LIZETH LUNA": { //Usuario
@@ -436,6 +440,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "DAVID": { //Usuario
@@ -463,6 +469,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "MATEO IVAR": { //Usuario
@@ -503,6 +511,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "JUAN FERNANDO": { //Usuario
@@ -514,6 +524,9 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Martes 4 de Noviembre", asistencia: "FALTA", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "CRISTIAN ELVIS": { //Usuario
@@ -540,6 +553,9 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "MIGUEL ANGEL": { //Usuario
@@ -557,12 +573,20 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+
             ],
         },
         "GABRIEL KEVIN": { //Usuario
             password: "15150735",  // Contraseña
-            curso: "2do de Secundaria", 
+            curso: "2do de Secundaria",
+            instrumento: "Es Gallardete",
+            codigo: "Ninguno", 
             calificaciones: [
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "RICARDO": { //Usuario
@@ -608,6 +632,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "JHENNY YOSELIN": { //Usuario
@@ -643,6 +669,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "JULIAN NEYMAR": { //Usuario
@@ -654,6 +682,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "ANA CELESTE": { //Usuario
@@ -694,6 +724,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "NEYMAR DIDYEL": { //Usuario
@@ -721,6 +753,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "ATRASADO", calificacion: "70", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "PAOLA REYNA": { //Usuario
@@ -780,6 +814,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
     //TERCERO DE SECUNDARIA
@@ -792,6 +828,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "ROY DAVID": { //Usuario
@@ -803,6 +841,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "PRISCILA": { //Usuario
@@ -849,6 +889,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "DINA VALERIA": { //Usuario
@@ -888,6 +930,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "JOSE MIGUEL": { //Usuario
@@ -905,12 +949,14 @@ const studentsData = {
         "ALAN STYBEN": { //Usuario
             password: "12541664",  // Contraseña
             curso: "3ro de Secundaria", 
-            instrumento: "Es Gallardete",
+            instrumento: "Es Danza",
             codigo: "Ninguno", 
             calificaciones: [
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "FALTA", calificacion: "0", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },   
+                {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },   
             ],
         },
         "GUADALUPE": { //Usuario
@@ -945,6 +991,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "JHOVANA": { //Usuario
@@ -956,6 +1004,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "JAQUELINE VALERY": { //Usuario
@@ -1007,6 +1057,9 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "ALEJANDRA": { //Usuario
@@ -1035,6 +1088,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "GENESIS CAMILA": { //Usuario
@@ -1068,6 +1123,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "MELANI PILAR": { //Usuario
@@ -1095,6 +1152,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "SONIA": { //Usuario
@@ -1129,6 +1188,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "EMILI CLARA": { //Usuario
@@ -1146,6 +1207,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "ZEYLA JHANELA": { //Usuario
@@ -1156,7 +1219,9 @@ const studentsData = {
             calificaciones: [
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },  
+                {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },  
             ],
         },
         "VICTOR FERNANDO": { //Usuario
@@ -1185,6 +1250,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
     //CUARTO DE SECUNDARIA
@@ -1220,6 +1287,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "LAURA NOELIA": { //Usuario
@@ -1230,7 +1299,10 @@ const studentsData = {
             calificaciones: [
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
-                {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" }, 
+                {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" }, 
             ],
         },
         "CAMILA EDURNE": { //Usuario
@@ -1282,6 +1354,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "ANDREA": { //Usuario
@@ -1309,6 +1383,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "CLARA": { //Usuario
@@ -1349,6 +1425,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "DIETMAR RAYNARD": { //Usuario
@@ -1401,6 +1479,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "YERKO": { //Usuario
@@ -1428,6 +1508,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "CRISTIAN LEONEL": { //Usuario
@@ -1461,6 +1543,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "ARTURO ANDRES": { //Usuario
@@ -1489,6 +1573,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "EDDY": { //Usuario
@@ -1513,6 +1599,9 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "VIANCA ANALIA": { //Usuario
@@ -1556,6 +1645,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "MAYRA DANETZA": { //Usuario
@@ -1615,12 +1706,14 @@ const studentsData = {
         "ISRAEL": { //Usuario
             password: "10921323",  // Contraseña
             curso: "5to de Secundaria",
-            instrumento: "Es Soldado Escolta",
+            instrumento: "Es Bandera",
             codigo: "Ninguno", 
             calificaciones: [
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "ELVIS PABLO": { //Usuario
@@ -1665,6 +1758,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "ATRASADO", calificacion: "70", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "DANNA MARICELA": { //Usuario
@@ -1767,6 +1862,9 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Martes 4 de Noviembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "ANTHONY JIMMY": { //Usuario
@@ -1778,6 +1876,9 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Martes 4 de Noviembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "ADRIAN DAVID": { //Usuario
@@ -1822,6 +1923,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "KIMBERLY YESENIA": { //Usuario
@@ -1833,6 +1936,9 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "CRISTIAN ANGEL": { //Usuario
@@ -1844,6 +1950,9 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "JULIO CESAR": { //Usuario
@@ -1871,6 +1980,9 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Martes 4 de Noviembre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "ARSENIO SEBASTIAN": { //Usuario
@@ -1899,6 +2011,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "SIOMARA LIZ": { //Usuario
@@ -1943,6 +2057,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "SHAELY POLET": { //Usuario
@@ -1978,6 +2094,9 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "CIELO ANAHI": { //Usuario
@@ -1989,17 +2108,23 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Martes 4 de Noviembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "PAOLA NICOL": { //Usuario
             password: "13421950",  // Contraseña
             curso: "6to de Secundaria",
-            instrumento: "Es Soldado Escolta",
+            instrumento: "Es Apoyo",
             codigo: "Ninguno",
             calificaciones: [
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "EDSON DIEGO": { //Usuario
@@ -2011,6 +2136,8 @@ const studentsData = {
                 {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
                 {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         // Agregar más estudiantes aquí siguiendo el mismo formato
