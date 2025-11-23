@@ -6,7 +6,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "94", estado: "APROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "92", estado: "APROBADO(A)", observacion: "" },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: "" },
+            { trimestre: "3er Trim.", calificacion: "95", estado: "APROBADO(A)", observacion: "" },
         ],
     },
     "AIRAN JUAN": { //Usuario
@@ -14,8 +14,8 @@ const studentsData = {
         curso: "1ro de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "73", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "93", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "94", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "97", estado: "APROBADO(A)", observacion: "3 faltas ensayo  de Banda " },
         ],
     },
     "VALENTINA": { //Usuario
@@ -32,8 +32,8 @@ const studentsData = {
         curso: "1ro de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "81", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "84", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "85", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "98", estado: "APROBADO(A)", observacion: "No presento hoja de sello " },
         ],
     },
     "SEBASTIAN DAVIDE": { //Usuario
@@ -42,7 +42,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "43", estado: "REPROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "90", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "95", estado: "APROBADO(A)", observacion: "5 faltas ensayo de Banda" },
         ],
     },
     "GIORGIO MORIS": { //Usuario
@@ -51,7 +51,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "39", estado: "REPROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "83", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "97", estado: "APROBADO(A)", observacion: "3 faltas, ensayo de Banda" },
         ],
     },
     "FABIAN": { //Usuario
@@ -59,8 +59,8 @@ const studentsData = {
         curso: "1ro de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: "" },
-            { trimestre: "2do Trim.", calificacion: "98", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "99", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "100", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "SARA SCARLETT": { //Usuario
@@ -69,7 +69,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "69", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "68", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "64", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "SALVADOR DEIVID": { //Usuario
@@ -78,7 +78,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "70", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "53", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "LEONEL ALEXANDER": { //Usuario
@@ -87,7 +87,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "93", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "66", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "100", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "NAIZETH AYLIN": { //Usuario
@@ -96,7 +96,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "89", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "95", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "94", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "YOSIMAR JHOEL": { //Usuario
@@ -105,7 +105,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "75", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "72", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "64", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "DENIS": { //Usuario
@@ -114,7 +114,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "62", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "66", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "57", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "JHAEMY MARBEL": { //Usuario
@@ -123,7 +123,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "85", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "83", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "44", estado: "REPROBADO(A)", observacion: " " },
         ],
     },
     "YERCO JHOEL": { //Usuario
@@ -132,7 +132,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "79", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "93", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "100", estado: "APROBADO(A)", observacion: "1 falta ensayo de Banda" },
         ],
     },
     "DANIEL": { //Usuario
@@ -140,7 +140,7 @@ const studentsData = {
         curso: "1ro de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "51", estado: "REPROBADO(A)", observacion: "" },
-            { trimestre: "2do Trim.", calificacion: "22", estado: "REPROBADO(A)", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "46", estado: "REPROBADO(A)", observacion: " " },
             { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
         ],
     },
@@ -149,8 +149,8 @@ const studentsData = {
         curso: "1ro de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "86", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "99", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "100", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "100", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "ARACELI BRIANCA": { //Usuario
@@ -158,8 +158,8 @@ const studentsData = {
         curso: "1ro de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "53", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "79", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "90", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "55", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "CRISTIAN KEVIN": { //Usuario
@@ -168,7 +168,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "90", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "96", estado: "APROBADO(A)", observacion: "4 faltas ensayo de Banda " },
         ],
     },
     "LIZETH LUNA": { //Usuario
@@ -176,8 +176,8 @@ const studentsData = {
         curso: "1ro de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "60", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "75", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "87", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "91", estado: "APROBADO(A)", observacion: "9 faltas, ensayo de Banda " },
         ],
     },
     "DAVID": { //Usuario
@@ -186,7 +186,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "89", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "100", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "99", estado: "APROBADO(A)", observacion: "1 falta, ensayo de Banda " },
         ],
 
     },
@@ -197,7 +197,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "52", estado: "REPROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "54", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "55", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "BRENDA MAYTE": { //Usuario
@@ -206,7 +206,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "84", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "85", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "67", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "GENESIS CECILIA": { //Usuario
@@ -215,7 +215,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "83", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "95", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "99", estado: "APROBADO(A)", observacion: "1 Falta, ensayo de Banda" },
         ],
     },
     "JUAN FERNANDO": { //Usuario
@@ -224,7 +224,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "54", estado: "APROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "28", estado: "REPROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "99", estado: "APROBADO(A)", observacion: "1 Falta ensayo de Banda " },
         ],
     },
     "CRISTIAN ELVIS": { //Usuario
@@ -232,8 +232,8 @@ const studentsData = {
         curso: "2do de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "66", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "35", estado: "REPROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "21", estado: "REPROBADO(A)", observacion: " " },
         ],
     },
     "MARIA DEL CIELO": { //Usuario
@@ -241,8 +241,8 @@ const studentsData = {
         curso: "2do de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "72", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "58", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "65", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "56", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "KEYLA ALEIDIS": { //Usuario
@@ -251,7 +251,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "70", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "53", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "100", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "MIGUEL ANGEL": { //Usuario
@@ -260,7 +260,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "59", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "53", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "49", estado: "REPROBADO(A)", observacion: " " },
         ],
     },
     "JASIEL NOEMI": { //Usuario
@@ -269,7 +269,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "84", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "92", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "99", estado: "APROBADO(A)", observacion: "1 Falta Ensayo de Banda " },
         ],
     },
     "GABRIEL KEVIN": { //Usuario
@@ -278,7 +278,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "77", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "71", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "99", estado: "APROBADO(A)", observacion: "1 Falta ensayo de Banda" },
         ],
     },
     "RICARDO": { //Usuario
@@ -286,8 +286,8 @@ const studentsData = {
         curso: "2do de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "42", estado: "REPROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "52", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "16", estado: "REPROBADO(A)", observacion: " " },
         ],
     },
     "FABRICIO DANIEL": { //Usuario
@@ -295,8 +295,8 @@ const studentsData = {
         curso: "2do de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "65", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "52", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "68", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "45", estado: "REPROBADO(A)", observacion: " " },
         ],
     },
     "ZOEY SUMAYA": { //Usuario
@@ -304,8 +304,8 @@ const studentsData = {
         curso: "2do de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "68", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "70", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "41", estado: "REPROBADO(A)", observacion: " " },
         ],
     },
     "KEVIN PATRICIO": { //Usuario
@@ -314,7 +314,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "86", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "97", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "99", estado: "APROBADO(A)", observacion: "1 Falta ensayo de Banda" },
         ],
     },
     "JHENNY YOSELIN": { //Usuario
@@ -323,7 +323,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "83", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "82", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "50", estado: "REPROBADO(A)", observacion: " " },
         ],
     },
     "JUAN RODRIGO": { //Usuario
@@ -332,7 +332,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "65", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "91", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "100", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "JULIAN NEYMAR": { //Usuario
@@ -341,7 +341,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "48", estado: "REPROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "57", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "98", estado: "APROBADO(A)", observacion: "2 Faltas ensayo de Banda " },
         ],
     },
     "ANA CELESTE": { //Usuario
@@ -349,8 +349,8 @@ const studentsData = {
         curso: "2do de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "40", estado: "REPROBADO(A)", observacion: "" },
-            { trimestre: "2do Trim.", calificacion: "35", estado: "REPROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "46", estado: "REPROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "17", estado: "REPROBADO(A)", observacion: " " },
         ],
     },
     "DRAKE NOLAND": { //Usuario
@@ -359,7 +359,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "78", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "62", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "72", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "HANNA JANDY": { //Usuario
@@ -368,7 +368,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "70", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "91", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "100", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "NEYMAR DIDYEL": { //Usuario
@@ -377,7 +377,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "37", estado: "REPROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "90", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "98", estado: "APROBADO(A)", observacion: "1 Falta y 1 atraso ensayo de Banda " },
         ],
     },
     "PAOLA REYNA": { //Usuario
@@ -385,8 +385,8 @@ const studentsData = {
         curso: "2do de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "78", estado: "APROBADO(A)", observacion: "" },
-            { trimestre: "2do Trim.", calificacion: "83", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "89", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "76", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "LEIDY FLORA": { //Usuario
@@ -395,7 +395,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "77", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "92", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "70", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "KEVIN": { //Usuario
@@ -404,7 +404,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "43", estado: "REPROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "42", estado: "REPROBADO(A)", observacion: " " },
         ],
     },
     "YUSARA GENESIS": { //Usuario
@@ -413,7 +413,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "93", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "91", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "69", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "AARON JUSTINIANO": { //Usuario
@@ -422,7 +422,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "87", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "92", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "80", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "ANGELA MASHIEL": { //Usuario
@@ -431,7 +431,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "55", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "70", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "24", estado: "REPROBADO(A)", observacion: " " },
         ],
     },
     "DELIA": { //Usuario
@@ -440,7 +440,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "91", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "96", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "76", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "LESLIE MAYLI": { //Usuario
@@ -448,8 +448,8 @@ const studentsData = {
         curso: "2do de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "81", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "50", estado: "REPROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "53", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "99", estado: "APROBADO(A)", observacion: "1 Falta ensayo de Banda " },
         ],
     },
     "JOSE ANTONIO": { //Usuario
@@ -457,8 +457,8 @@ const studentsData = {
         curso: "2do de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "41", estado: "REPROBADO(A)", observacion: "" },
-            { trimestre: "2do Trim.", calificacion: "18", estado: "REPROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "45", estado: "REPROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "98", estado: "APROBADO(A)", observacion: "2 Faltas, ensayo Banda" },
         ],
     },
 //TERCERO DE SECUNDARIA
@@ -468,7 +468,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "57", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "69", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "99", estado: "APROBADO(A)", observacion: "1 Falta ensayo de Banda " },
         ],
     },
     "ROY DAVID": { //Usuario
@@ -477,7 +477,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "56", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "35", estado: "REPROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "97", estado: "APROBADO(A)", observacion: "3 Faltas ensayo de Banda " },
         ],
     },
     "PRISCILA": { //Usuario
@@ -485,8 +485,8 @@ const studentsData = {
         curso: "3ro de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "63", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "45", estado: "REPROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "55", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "68", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "LUZ DAYANA": { //Usuario
@@ -494,8 +494,8 @@ const studentsData = {
         curso: "3ro de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "24", estado: "REPROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "64", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "ANGELA MILAGROS": { //Usuario
@@ -504,7 +504,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "62", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "66", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "JUAN DE DIOS": { //Usuario
@@ -513,7 +513,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "52", estado: "APROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "100", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "98", estado: "APROBADO(A)", observacion: "2 Faltas ensayo de Banda " },
         ],
     },
     "DINA VALERIA": { //Usuario
@@ -531,7 +531,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "85", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "90", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "88", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "JHONATAN DENNIS": { //Usuario
@@ -540,7 +540,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "58", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "100", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "99", estado: "APROBADO(A)", observacion: "1 Falta ensayo de Banda " },
         ],
     },
     "JOSE MIGUEL": { //Usuario
@@ -548,8 +548,8 @@ const studentsData = {
         curso: "3ro de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: "" },
-            { trimestre: "2do Trim.", calificacion: "50", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "54", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "44", estado: "REPROBADO(A)", observacion: " " },
         ],
     },
     "JHAN CARLA": { //Usuario
@@ -557,8 +557,8 @@ const studentsData = {
         curso: "3ro de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "57", estado: "APROBADO(A)", observacion: "" },
-            { trimestre: "2do Trim.", calificacion: "26", estado: "REPROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "56", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "ALAN STYBEN": { //Usuario
@@ -567,7 +567,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "52", estado: "APROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "33", estado: "REPROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "98", estado: "REPROBADO(A)", observacion: "2 Faltas ensayo de Banda " },
         ],
     },
     "GUADALUPE": { //Usuario
@@ -576,7 +576,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "79", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "83", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "55", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "FRANKLIN": { //Usuario
@@ -585,7 +585,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "95", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "93", estado: "APROBADO(A)", observacion: "7 Faltas ensayo de Música " },
         ],
     },
     "JHOVANA": { //Usuario
@@ -594,7 +594,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "64", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "38", estado: "REPROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "99", estado: "APROBADO(A)", observacion: "1 Falta ensayo de Banda " },
         ],
     },
     "JAQUELINE VALERY": { //Usuario
@@ -603,7 +603,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "64", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "92", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "46", estado: "REPROBADO(A)", observacion: " " },
         ],
     },
     "DUBAL SEBASTIAN": { //Usuario
@@ -621,7 +621,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "58", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "60", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "93", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "ERICK BEYMAR": { //Usuario
@@ -638,8 +638,8 @@ const studentsData = {
         curso: "3ro de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "74", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "78", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "83", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "100", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "ALEJANDRA": { //Usuario
@@ -648,7 +648,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "59", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "90", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "96", estado: "APROBADO(A)", observacion: "4 Faltas ensayo de Banda " },
         ],
     },
     "GENESIS CAMILA": { //Usuario
@@ -657,7 +657,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "56", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "55", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "45", estado: "REPROBADO(A)", observacion: " " },
         ],
     },
     "GUADALUPE TATIANA": { //Usuario
@@ -665,8 +665,8 @@ const studentsData = {
         curso: "3ro de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "44", estado: "REPROBADO(A)", observacion: "" },
-            { trimestre: "2do Trim.", calificacion: "30", estado: "REPROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "58", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "95", estado: "APROBADO(A)", observacion: "6 Faltas ensayo de Banda" },
         ],
     },
     "MELANI PILAR": { //Usuario
@@ -675,7 +675,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "42", estado: "REPROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "90", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "93", estado: "APROBADO(A)", observacion: "7 Faltas ensayo de Banda " },
         ],
     },
     "SONIA": { //Usuario
@@ -683,8 +683,8 @@ const studentsData = {
         curso: "3ro de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "79", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "67", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "71", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "19", estado: "REPROBADO(A)", observacion: " " },
         ],
     },
     "RAQUEL WARA": { //Usuario
@@ -693,7 +693,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "82", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "95", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "97", estado: "APROBADO(A)", observacion: "3 Faltas ensayo de Banda, no presente hoja de sellos" },
         ],
     },
     "EMILI CLARA": { //Usuario
@@ -701,8 +701,8 @@ const studentsData = {
         curso: "3ro de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "52", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "34", estado: "REPROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "57", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "SHODIN ALWA": { //Usuario
@@ -711,7 +711,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "74", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "71", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "97", estado: "APROBADO(A)", observacion: "3 Faltas ensayo de Banda " },
         ],
     },
     "ZEYLA JHANELA": { //Usuario
@@ -720,7 +720,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "94", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "85", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "99", estado: "APROBADO(A)", observacion: "1 Falta ensayo de Banda " },
         ],
     },
     "VICTOR FERNANDO": { //Usuario
@@ -729,7 +729,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "51", estado: "REPROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "90", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "97", estado: "APROBADO(A)", observacion: "3 Faltas ensayo de Banda" },
         ],
     },
 //CUARTO DE SECUNDARIA
@@ -738,8 +738,8 @@ const studentsData = {
         curso: "4to de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "67", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "78", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "80", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "30", estado: "REPROBADO(A)", observacion: " " },
         ],
     },
     "LISED": { //Usuario
@@ -748,7 +748,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "72", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "100", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "98", estado: "APROBADO(A)", observacion: "2 Faltas ensayo de Banda " },
         ],
     },
     "LAURA NOELIA": { //Usuario
@@ -757,7 +757,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "71", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "85", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "100", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "CAMILA EDURNE": { //Usuario
@@ -765,8 +765,8 @@ const studentsData = {
         curso: "4to de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "73", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "65", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "79", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "79", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "CRISTOPHER MANUEL": { //Usuario
@@ -774,8 +774,8 @@ const studentsData = {
         curso: "4to de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "43", estado: "REPROBADO(A)", observacion: "" },
-            { trimestre: "2do Trim.", calificacion: "47", estado: "REPROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "34", estado: "REPROBADO(A)", observacion: " " },
         ],
     },
     "WARA ESTER": { //Usuario
@@ -783,8 +783,8 @@ const studentsData = {
         curso: "4to de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "97", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "69", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "95", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "86", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "VAYOLETH KAEL": { //Usuario
@@ -792,8 +792,8 @@ const studentsData = {
         curso: "4to de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "97", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "85", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "93", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "84", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "JHAMIL EDGAR": { //Usuario
@@ -802,7 +802,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "71", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "100", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "100", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "ANDREA": { //Usuario
@@ -811,7 +811,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "86", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "98", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "98", estado: "APROBADO(A)", observacion: "2 Faltas ensayo de Banda " },
         ],
     },
     "CLARA": { //Usuario
@@ -819,8 +819,8 @@ const studentsData = {
         curso: "4to de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "58", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "36", estado: "REPROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "52", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "JHORDY MARVIN": { //Usuario
@@ -829,7 +829,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "69", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "63", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "42", estado: "REPROBADO(A)", observacion: " " },
         ],
     },
     "NOEL FIDEL": { //Usuario
@@ -838,7 +838,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "64", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "100", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "99", estado: "APROBADO(A)", observacion: "1 Falta ensayo de Banda  " },
         ],
     },
     "DIETMAR RAYNARD": { //Usuario
@@ -846,8 +846,8 @@ const studentsData = {
         curso: "4to de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "73", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "47", estado: "REPROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "56", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "36", estado: "REPROBADO(A)", observacion: " " },
         ],
     },
     "MAYA MAYRA": { //Usuario
@@ -855,8 +855,8 @@ const studentsData = {
         curso: "4to de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "96", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "89", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "95", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "86", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "MAYA ANGELA": { //Usuario
@@ -864,8 +864,8 @@ const studentsData = {
         curso: "4to de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "95", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "89", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "95", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "86", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "YAIR ROGER": { //Usuario
@@ -874,7 +874,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "70", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "67", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "55", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "RIVER CRISTIAN": { //Usuario
@@ -883,7 +883,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "70", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "98", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "97", estado: "APROBADO(A)", observacion: "3 Faltas ensayo de Banda " },
         ],
     },
     "YERKO": { //Usuario
@@ -892,7 +892,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "86", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "99", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "97", estado: "APROBADO(A)", observacion: "3 Faltas ensayo de Banda " },
         ],
     },
     "CRISTIAN LEONEL": { //Usuario
@@ -900,8 +900,8 @@ const studentsData = {
         curso: "4to de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "65", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "42", estado: "REPROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "34", estado: "REPROBADO(A)", observacion: " " },
         ],
     },
     "MARIANELA": { //Usuario
@@ -910,7 +910,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "73", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "97", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "98", estado: "APROBADO(A)", observacion: "2 Faltas ensayo de Banda " },
         ],
     },
     "ARTURO ANDRES": { //Usuario
@@ -919,7 +919,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "53", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "93", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "98", estado: "APROBADO(A)", observacion: "2 Faltas ensayo de Banda " },
         ],
     },
     "EDDY": { //Usuario
@@ -927,8 +927,8 @@ const studentsData = {
         curso: "4to de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "74", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "70", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "75", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "57", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "ANGELO WILLIAMS": { //Usuario
@@ -936,8 +936,8 @@ const studentsData = {
         curso: "4to de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "40", estado: "REPROBADO(A)", observacion: "" },
-            { trimestre: "2do Trim.", calificacion: "43", estado: "REPROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "53", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "46", estado: "REPROBADO(A)", observacion: " " },
         ],
     },
     //5TO SECUNDARIA
@@ -946,8 +946,8 @@ const studentsData = {
         curso: "5to de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "70", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "41", estado: "REPROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "99", estado: "APROBADO(A)", observacion: "1 Falta ensayo de Banda" },
         ],
     },
     "VIANCA ANALIA": { //Usuario
@@ -955,8 +955,8 @@ const studentsData = {
         curso: "5to de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "94", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "76", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "89", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "86", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "YAMIL DEYMAR": { //Usuario
@@ -964,8 +964,8 @@ const studentsData = {
         curso: "5to de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "40", estado: "REPROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "42", estado: "REPROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "58", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "42", estado: "REPROBADO(A)", observacion: " " },
         ],
     },
     "ANGEL": { //Usuario
@@ -974,7 +974,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "53", estado: "APROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "99", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "97", estado: "APROBADO(A)", observacion: "3 Faltas ensayo de Banda " },
         ],
     },
     "MAYRA DANETZA": { //Usuario
@@ -982,8 +982,8 @@ const studentsData = {
         curso: "5to de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "79", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "47", estado: "REPROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "64", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "56", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "YHENY KEILA": { //Usuario
@@ -992,7 +992,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "95", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "97", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "97", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "FERNANDO ISRAEL": { //Usuario
@@ -1001,7 +1001,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "86", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "72", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "89", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "ANELIZ": { //Usuario
@@ -1009,8 +1009,8 @@ const studentsData = {
         curso: "5to de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "85", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "70", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "75", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "67", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "DIEGO LEONEL": { //Usuario
@@ -1019,7 +1019,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "88", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "87", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "65", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "NATALIA LILIANA": { //Usuario
@@ -1028,7 +1028,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "97", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "83", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "52", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "ISRAEL": { //Usuario
@@ -1036,8 +1036,8 @@ const studentsData = {
         curso: "5to de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "70", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "47", estado: "REPROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "52", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "98", estado: "REPROBADO(A)", observacion: "2 Faltas ensayo de Banda " },
         ],
     },
     "ELVIS PABLO": { //Usuario
@@ -1045,8 +1045,8 @@ const studentsData = {
         curso: "5to de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "37", estado: "REPROBADO(A)", observacion: "" },
-            { trimestre: "2do Trim.", calificacion: "33", estado: "REPROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "52", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "40", estado: "REPROBADO(A)", observacion: " " },
         ],
     },
     "MARIANA": { //Usuario
@@ -1054,8 +1054,8 @@ const studentsData = {
         curso: "5to de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "93", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "91", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "96", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "87", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "DANER": { //Usuario
@@ -1064,7 +1064,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "71", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "97", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "97", estado: "APROBADO(A)", observacion: "6 Faltas ensayo de Banda " },
         ],
     },
     "DANNA MARICELA": { //Usuario
@@ -1072,8 +1072,8 @@ const studentsData = {
         curso: "5to de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "52", estado: "APROBADO(A)", observacion: "COMPLETAR LAS TAREAS HASTA LA SIGUIENTE SEMANA PARA TENER SU NOTA DE APROBACIÓN" },
-            { trimestre: "2do Trim.", calificacion: "48", estado: "REPROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "59", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "43", estado: "REPROBADO(A)", observacion: " " },
         ],
     },
     "CLIVER ADEMAR": { //Usuario
@@ -1081,8 +1081,8 @@ const studentsData = {
         curso: "5to de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "87", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "60", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "76", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "DELIA JHOSELIN": { //Usuario
@@ -1090,8 +1090,8 @@ const studentsData = {
         curso: "5to de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "93", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "78", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "83", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "65", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "MUKTI RAMIRO": { //Usuario
@@ -1099,8 +1099,8 @@ const studentsData = {
         curso: "5to de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "53", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "23", estado: "REPROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "34", estado: "REPROBADO(A)", observacion: " " },
         ],
     },
     "DEIVIS ALEXANDER": { //Usuario
@@ -1109,7 +1109,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "92", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "87", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "89", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "ANA CAROLINA": { //Usuario
@@ -1117,8 +1117,8 @@ const studentsData = {
         curso: "5to de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "95", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "75", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "90", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "89", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "NATALIA": { //Usuario
@@ -1127,7 +1127,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "99", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "97", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "98", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "SHARIE MILAGROS": { //Usuario
@@ -1136,7 +1136,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "98", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "93", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "98", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "JAZMINE ABIGAIL": { //Usuario
@@ -1144,8 +1144,8 @@ const studentsData = {
         curso: "5to de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "93", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "68", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "77", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "49", estado: "REPROBADO(A)", observacion: " " },
         ],
     },
     "ARIEL WILSON": { //Usuario
@@ -1153,8 +1153,17 @@ const studentsData = {
         curso: "5to de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "56", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "69", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "73", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "78", estado: "APROBADO(A)", observacion: " " },
+        ],
+    },
+    "EDSON DIEGO": { //Usuario
+        password: "13280044", 
+        curso: "5to de Secundaria", 
+        calificaciones: [
+            { trimestre: "1er Trim.", calificacion: "", estado: " ", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "53", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "98", estado: "APROBADO(A)", observacion: "2 Faltas ensayo de Banda " },
         ],
     },
 //QUINTO DE SECUNDARIA
@@ -1164,7 +1173,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "63", estado: "APROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "57", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "60", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "SEBASTIAN DANIEL": { //Usuario
@@ -1173,7 +1182,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "66", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "58", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "98", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "ANTHONY JIMMY": { //Usuario
@@ -1182,7 +1191,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "61", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "66", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "99", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "ADRIAN DAVID": { //Usuario
@@ -1191,7 +1200,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "91", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "95", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "98", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "MARINIA": { //Usuario
@@ -1200,7 +1209,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "97", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "100", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "99", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "JHEREMY RICKY": { //Usuario
@@ -1209,7 +1218,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "68", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "73", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "100", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "KIMBERLY YESENIA": { //Usuario
@@ -1218,7 +1227,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "76", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "85", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "100", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "CRISTIAN ANGEL": { //Usuario
@@ -1227,7 +1236,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "54", estado: "APROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "67", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "100", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "JULIO CESAR": { //Usuario
@@ -1236,7 +1245,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "57", estado: "APROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "66", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "CARMEN YAQUELINE": { //Usuario
@@ -1245,7 +1254,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "80", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "91", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "91", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "ZULEMA": { //Usuario
@@ -1254,7 +1263,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "97", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "97", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "100", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "ARSENIO SEBASTIAN": { //Usuario
@@ -1263,7 +1272,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "53", estado: "APROBADO(A)", observacion: "" },
             { trimestre: "2do Trim.", calificacion: "51", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "98", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "SIOMARA LIZ": { //Usuario
@@ -1272,7 +1281,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "88", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "96", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "100", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "MATIAS CAMERON": { //Usuario
@@ -1281,7 +1290,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "98", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "99", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "98", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "CRISTHIAN": { //Usuario
@@ -1290,7 +1299,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "55", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "59", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "100", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "SHAELY POLET": { //Usuario
@@ -1299,7 +1308,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "59", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "75", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "76", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "GUSTAVO GABRIEL": { //Usuario
@@ -1308,7 +1317,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "56", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "53", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "63", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "CLAUDIA FERNANDA": { //Usuario
@@ -1317,7 +1326,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "99", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "99", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "99", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "MARITZA NICOL": { //Usuario
@@ -1325,8 +1334,8 @@ const studentsData = {
         curso: "6to de Secundaria", 
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "98", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "2do Trim.", calificacion: "98", estado: "", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "2do Trim.", calificacion: "98", estado: "APROBADO(A)", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "100", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "CIELO ANAHI": { //Usuario
@@ -1335,7 +1344,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "70", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "71", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "99", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "PAOLA NICOL": { //Usuario
@@ -1344,7 +1353,7 @@ const studentsData = {
         calificaciones: [
             { trimestre: "1er Trim.", calificacion: "79", estado: "APROBADO(A)", observacion: " " },
             { trimestre: "2do Trim.", calificacion: "93", estado: "APROBADO(A)", observacion: " " },
-            { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
+            { trimestre: "3er Trim.", calificacion: "99", estado: "APROBADO(A)", observacion: " " },
         ],
     },
     "": { //Usuario
