@@ -1136,6 +1136,18 @@ function togglePasswordVisibility() {
           { trimestre: "3er Trim.", calificacion: "", estado: "", observacion: " " },
       ],
   },
+  "EDSON DIEGO": { //Usuario
+     apellido: "MAMANI MAMANI",
+    password: "13280044",  
+    curso: "5to de Secundaria", 
+    calificaciones: [
+        { trimestre: "1er Trim.", calificacion: "", estado: "", observacion: " " },
+        { trimestre: "2do Trim.", calificacion: "", estado: "APROBADO(A)", observacion: " " },
+        { trimestre: "3er Trim.", calificacion: "98", estado: "APROBADO(A)", observacion: "2 Faltas ensayo de Banda " },
+    ],
+},
+
+//6TO DE SECUNDARIA
   "FABRICIO": { //Usuario
       password: "15753400",  // Contraseña
       curso: "6to de Secundaria", 
