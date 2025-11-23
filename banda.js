@@ -585,7 +585,11 @@ const studentsData = {
             instrumento: "Es Gallardete",
             codigo: "Ninguno", 
             calificaciones: [
+                {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "NO CONFIRMO", calificacion: "NINGUNO", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "NO CONFIRMO", calificacion: "NINGUNO", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "NO CONFIRMO", calificacion: "NINGUNO", observacion: "" },
                 {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Martes 4 de Noviembre", asistencia: "FALTA", calificacion: "0", observacion: "" },
                 {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
@@ -801,8 +805,16 @@ const studentsData = {
         },
         "LESLIE MAYLI": { //Usuario
             password: "13393302",  // Contraseña
-            curso: "2do de Secundaria", 
+            curso: "2do de Secundaria",
+            instrumento: "Es Soldado Escolta",
+            codigo: "Ninguno",  
             calificaciones: [
+                {instrumento: "Ensayo tarde", ensayo: "Jueves 30 de Octubre", asistencia: "FALTA", calificacion: "0", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Viernes 31 de Octubre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Sabado 1 de Noviembre", asistencia: "PERMISO", calificacion: "NINGUNO", observacion: "" },
+                {instrumento: "Ensayo mañana", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Ensayo tarde", ensayo: "Martes 4 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
+                {instrumento: "Concurso Millocato", ensayo: "Miercoles 5 de Noviembre", asistencia: "PRESENTE", calificacion: "100", observacion: "" },
             ],
         },
         "JOSE ANTONIO": { //Usuario
