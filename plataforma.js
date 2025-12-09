@@ -1,15 +1,30 @@
+//PARA INDEX.THML PARA LOGIN OJITOS
 function togglePasswordVisibility() {
   const passwordInput = document.getElementById("password");
   const eyeIcon = document.getElementById("eyeIcon");
   
   if (passwordInput.type === "password") {
       passwordInput.type = "text";
-      eyeIcon.src = "ojo.png"; // Cambia a la imagen de ojo cerrado
+      eyeIcon.src = "ojo.png"; // ojo cerrado
   } else {
       passwordInput.type = "password";
-      eyeIcon.src = "ojo2.png"; // Cambia de nuevo a la imagen de ojo abierto
+      eyeIcon.src = "ojo2.png"; // ojo abierto
   }
 }
+
+function toggleUserVisibility() {
+  const userInput = document.getElementById("username");
+  const eyeUser = document.getElementById("eyeUser");
+  
+  if (userInput.type === "text") {
+      userInput.type = "password"; 
+      eyeUser.src = "ojo.png"; // ojo cerrado
+  } else {
+      userInput.type = "text";
+      eyeUser.src = "ojo2.png"; // ojo abierto
+  }
+}
+
 //datos del usuario 
   const estudiantes = {
 //QUINTO DE PRIMARIA 
