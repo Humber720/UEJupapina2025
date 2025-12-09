@@ -307,7 +307,7 @@ const studentsData = {
     "KEYLA ALEIDIS": { //Usuario
         password: "12735760",  // Contraseña
         curso: "2do de Secundaria",
-        descripcion: "Usted tiene 1 área reprobado(a)", 
+        descripcion: "Usted tiene 2 áreas reprobados(as)", 
         calificaciones: {
             "1er Trim.": [
             { area: "LENGUA EXTRANJERA", calificacion: "48", estado: "REPROBADO(A)", observacion: "" },
@@ -316,7 +316,7 @@ const studentsData = {
             { area: "", calificacion: "", estado: "", observacion: "" },
             ],
             "3er Trim.": [
-            { area: "", calificacion: "", estado: "", observacion: "" },
+            { area: "ARTES PLÁSTICAS Y VISUALES", calificacion: "47", estado: "REPROBADO(A)", observacion: "" },
             ]
         }
     },
@@ -371,7 +371,7 @@ const studentsData = {
     "RICARDO": { //Usuario
         password: "15377451",  // Contraseña
         curso: "2do de Secundaria", 
-        descripcion: "Usted tiene 4 área reprobado(a)",
+        descripcion: "Usted tiene 4 áreas reprobados(as)",
         calificaciones: {
             "1er Trim.": [
             { area: "ARTES PLÁSTICAS Y VISUALES", calificacion: "47", estado: "REPROBADO(A)", observacion: "" },
@@ -389,7 +389,7 @@ const studentsData = {
     "FABRICIO DANIEL": { //Usuario
         password: "15467033",  // Contraseña
         curso: "2do de Secundaria", 
-        descripcion: "Usted no tiene áreas reprobados(as)",
+        descripcion: "Usted tiene 1 área reprobados(a)",
         calificaciones: {
             "1er Trim.": [
             { area: "", calificacion: "", estado: "", observacion: "" },
@@ -398,7 +398,7 @@ const studentsData = {
             { area: "", calificacion: "", estado: "", observacion: "" },
             ],
             "3er Trim.": [
-            { area: "", calificacion: "", estado: "", observacion: "" },
+            { area: "ARTES PLÁSTICAS Y VISUALES", calificacion: "50", estado: "REPROBADO(A)", observacion: "" },
             ]
         }
     },
@@ -487,7 +487,7 @@ const studentsData = {
     "ANA CELESTE": { //Usuario
         password: "13378621",  // Contraseña
         curso: "2do de Secundaria",
-        descripcion: "Usted tiene 14 áreas reprobados(as)", 
+        descripcion: "Usted tiene 21 áreas reprobados(as)", 
         calificaciones: {
             "1er Trim.": [
             { area: "LENGUA EXTRENJERA", calificacion: "45", estado: "REPROBADO(A)", observacion: "" },
@@ -508,7 +508,13 @@ const studentsData = {
             { area: "COSMOVISIÓNES, FILOSOFÍA Y SICOLOGÍA", calificacion: "48", estado: "REPROBADO(A)", observacion: "" },
             ],
             "3er Trim.": [
-            { area: "", calificacion: "", estado: "", observacion: "" },
+            { area: "CIENCIAS SOCIALES", calificacion: "30", estado: "REPROBADO(A)", observacion: "" },
+            { area: "EDUCACIÓN FÍSICA Y DEPORTES", calificacion: "42", estado: "REPROBADO(A)", observacion: "" },
+            { area: "ARTES PLÁTICAS Y VISUALES", calificacion: "35", estado: "REPROBADO(A)", observacion: "" },
+            { area: "MATEMÁTICA", calificacion: "42", estado: "REPROBADO(A)", observacion: "" },
+            { area: "CIENCIAS NATURALES: BIOLOGÍA - GEOGRAFÍA", calificacion: "40", estado: "REPROBADO(A)", observacion: "" },
+            { area: "COSMOVISIÓNES, FILOSOFÍA Y SICOLOGÍA", calificacion: "30", estado: "REPROBADO(A)", observacion: "" },
+            { area: "VALORES, ESPIRITULIDAD Y RELIGIONES", calificacion: "45", estado: "REPROBADO(A)", observacion: "" },
             ]
         }
     },
@@ -549,7 +555,7 @@ const studentsData = {
     "NEYMAR DIDYEL": { //Usuario
         password: "15969914",  // Contraseña
         curso: "2do de Secundaria", 
-        descripcion: "Usted tiene 13 áreas reprobados(as)",
+        descripcion: "Usted tiene 18 áreas reprobados(as)",
         calificaciones: {
             "1er Trim.": [
             { area: "COMUNICACIÓN Y LENGUAJES: CASTELLANA Y ORIGINARIA", calificacion: "43", estado: "REPROBADO(A)", observacion: "" },
@@ -569,7 +575,11 @@ const studentsData = {
             { area: "COSMOVISIÓNES, FILOSOFÍA Y SICOLOGÍA", calificacion: "47", estado: "REPROBADO(A)", observacion: "" },
             ],
             "3er Trim.": [
-            { area: "", calificacion: "", estado: "", observacion: "" },
+            { area: "COMUNICACIÓN Y LENGUAJES: CASTELLANA Y ORIGINARIA", calificacion: "42", estado: "REPROBADO(A)", observacion: "" },
+            { area: "CIENCIAS SOCIALES", calificacion: "40", estado: "REPROBADO(A)", observacion: "" },
+            { area: "ARTES PLÁTICAS Y VISUALES", calificacion: "35", estado: "REPROBADO(A)", observacion: "" },
+            { area: "COSMOVISIÓNES, FILOSOFÍA Y SICOLOGÍA", calificacion: "40", estado: "REPROBADO(A)", observacion: "" },
+            { area: "VALORES ESPIRITUALIDADES Y RELIGIONES", calificacion: "45", estado: "REPROBADO(A)", observacion: "" },
             ]
         }
     },
