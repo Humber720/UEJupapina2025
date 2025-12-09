@@ -16,9 +16,16 @@
         <h3>INGRESO A NOTAS DE CALIFICACIÓN</h3>
         <h1>EDUCACIÓN MUSICAL</h1>
         <form id="loginForm" onsubmit="login(event)">
+    
             <label for="username">Usuario</label>
-            <input type="text" id="username" name="username" placeholder="Ingrese nombre(s): Ej. JUAN PABLO" required>
-
+            <div class="password-container">
+                <input type="text" id="username" name="username" placeholder="Ingrese nombre(s): Ej. JUAN PABLO" required>
+    
+                <span class="toggle-password" onclick="toggleUserVisibility()">
+                    <img src="ojo2.png" alt="Mostrar/Ocultar Usuario" id="eyeUser" width="20px" height="20px">
+                </span>
+            </div>
+    
             <label for="password">Contraseña</label>
             <div class="password-container">
                 <input type="password" id="password" name="password" placeholder="Ingrese C.I.: Ej. 15437780" required>
@@ -27,9 +34,11 @@
                     <img src="ojo2.png" alt="Mostrar/Ocultar Contraseña" id="eyeIcon" width="20px" height="20px">
                 </span>
             </div>
+    
             <button type="submit">Ingresar</button>
         </form>
     </div>
+    
     <!-- Pie de página con el nombre de la Unidad Educativa -->
     <footer>
         <p>&copy; Prof. Humberto Yupanqui C.</p>
@@ -38,4 +47,3 @@
     <script src="calificacion.js"></script>  
 </body>
 </html>
-
